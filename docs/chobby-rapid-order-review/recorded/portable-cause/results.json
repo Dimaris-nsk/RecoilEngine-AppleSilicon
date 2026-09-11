@@ -1,0 +1,517 @@
+{
+  "passed": true,
+  "scenarios": 6,
+  "elapsed_seconds": 0.03751116599960369,
+  "runtime": {
+    "python_version": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+    "lupa_version": "2.6",
+    "lua_version": [
+      5,
+      1
+    ],
+    "module_name": "lua51.cpython-312-darwin.so",
+    "module_sha256": "c016e4f545a1f108b74c06bfa3875b2fbb57fb88fedfb199ac8ad32fb763048a"
+  },
+  "evidence_kind": "New execution of the portable adaptation; not a replay of private results",
+  "probe_sha256": "5149e5049b143c8851abfb19572a666357512001073f3f62f0c7c6727de0b1bd",
+  "sources_sha256": "b6822ba124a5b9caa51baa75127b478798183a781d7c7987db874b26be36d1fc",
+  "path_block_lines": [
+    148,
+    154
+  ],
+  "path_block_sha256": "3f39bfa70ea4a78314204ca4739d39c7f1e2e035d2cf02e7cad8d8579f136944",
+  "official_order_from_included_config": "repos-cdn.beyondallreason.dev;repos.beyondallreason.dev",
+  "original_fixture_sha256": "b3e9af46e670049515689865c6e6457c06021c5cc20ad10a122c897d5f2977cd",
+  "changed_fixture_sha256": "167ba451db6addca3354247b6edbc717fffe4a96ab10ab743289c278a21924fb",
+  "scope": "Real extracted Chobby backup/restore functions and native Lua file writes; engine VFS and configuration inputs controlled. No product seeding implementation, game, network, signals, or child processes.",
+  "results": [
+    {
+      "name": "original-missing-setting",
+      "input_order": null,
+      "completion_route": "wrapper",
+      "passed": true,
+      "lua_log": [
+        "Failed to load versions.gz from\trapid/repos.springrts.com/byar-chobby/versions.gz",
+        "Unable to restore versions.gz from\trapid/repos.springrts.com/byar-chobby/versions.gz_cache.gz\tas it has not been loaded",
+        "Unable to restore versions.gz from\trapid/repos.springrts.com/byar-chobby/versions.gz\tas it has not been loaded"
+      ],
+      "vfs_reads": [
+        {
+          "path": "rapid/repos.springrts.com/byar-chobby/versions.gz",
+          "found": false,
+          "sha256": null
+        }
+      ],
+      "stages": {
+        "initialized": {
+          "rapid/repos-cdn.beyondallreason.dev/byar-chobby/versions.gz": {
+            "sha256": "b3e9af46e670049515689865c6e6457c06021c5cc20ad10a122c897d5f2977cd",
+            "bytes": 146201,
+            "current_tag": [
+              "byar-chobby:test,4e10d9c250bab70be5b47d706f535c4d,,BYAR Chobby test-4630-26b5200"
+            ]
+          }
+        },
+        "controlled_update": {
+          "rapid/repos-cdn.beyondallreason.dev/byar-chobby/versions.gz": {
+            "sha256": "167ba451db6addca3354247b6edbc717fffe4a96ab10ab743289c278a21924fb",
+            "bytes": 145974,
+            "current_tag": [
+              "byar-chobby:test,11111111111111111111111111111111,,BYAR Chobby controlled-not-downloaded"
+            ]
+          }
+        },
+        "completed": {
+          "rapid/repos-cdn.beyondallreason.dev/byar-chobby/versions.gz": {
+            "sha256": "167ba451db6addca3354247b6edbc717fffe4a96ab10ab743289c278a21924fb",
+            "bytes": 145974,
+            "current_tag": [
+              "byar-chobby:test,11111111111111111111111111111111,,BYAR Chobby controlled-not-downloaded"
+            ]
+          }
+        }
+      },
+      "selected_path": "rapid/repos.springrts.com/byar-chobby/versions.gz",
+      "outcome": "Original defect reproduced: no backup; changed lobby tag remains after completion."
+    },
+    {
+      "name": "original-explicit-empty",
+      "input_order": "",
+      "completion_route": "wrapper",
+      "passed": true,
+      "lua_log": [
+        "Failed to load versions.gz from\trapid/repos.springrts.com/byar-chobby/versions.gz",
+        "Unable to restore versions.gz from\trapid/repos.springrts.com/byar-chobby/versions.gz_cache.gz\tas it has not been loaded",
+        "Unable to restore versions.gz from\trapid/repos.springrts.com/byar-chobby/versions.gz\tas it has not been loaded"
+      ],
+      "vfs_reads": [
+        {
+          "path": "rapid/repos.springrts.com/byar-chobby/versions.gz",
+          "found": false,
+          "sha256": null
+        }
+      ],
+      "stages": {
+        "initialized": {
+          "rapid/repos-cdn.beyondallreason.dev/byar-chobby/versions.gz": {
+            "sha256": "b3e9af46e670049515689865c6e6457c06021c5cc20ad10a122c897d5f2977cd",
+            "bytes": 146201,
+            "current_tag": [
+              "byar-chobby:test,4e10d9c250bab70be5b47d706f535c4d,,BYAR Chobby test-4630-26b5200"
+            ]
+          }
+        },
+        "controlled_update": {
+          "rapid/repos-cdn.beyondallreason.dev/byar-chobby/versions.gz": {
+            "sha256": "167ba451db6addca3354247b6edbc717fffe4a96ab10ab743289c278a21924fb",
+            "bytes": 145974,
+            "current_tag": [
+              "byar-chobby:test,11111111111111111111111111111111,,BYAR Chobby controlled-not-downloaded"
+            ]
+          }
+        },
+        "completed": {
+          "rapid/repos-cdn.beyondallreason.dev/byar-chobby/versions.gz": {
+            "sha256": "167ba451db6addca3354247b6edbc717fffe4a96ab10ab743289c278a21924fb",
+            "bytes": 145974,
+            "current_tag": [
+              "byar-chobby:test,11111111111111111111111111111111,,BYAR Chobby controlled-not-downloaded"
+            ]
+          }
+        }
+      },
+      "selected_path": "rapid/repos.springrts.com/byar-chobby/versions.gz",
+      "outcome": "Original defect reproduced: no backup; changed lobby tag remains after completion."
+    },
+    {
+      "name": "official-wrapper-reinitialize",
+      "input_order": "repos-cdn.beyondallreason.dev;repos.beyondallreason.dev",
+      "completion_route": "wrapper",
+      "passed": true,
+      "lua_log": [
+        "Saved lobby versions.gz from\trapid/repos-cdn.beyondallreason.dev/byar-chobby/versions.gz\tsize = \t146201",
+        "Wrote \trapid/repos-cdn.beyondallreason.dev/byar-chobby/versions.gz_cache.gz\tsuccessfully",
+        "Lobby versions.gz already cached\trapid/repos-cdn.beyondallreason.dev/byar-chobby/versions.gz",
+        "Wrote \trapid/repos-cdn.beyondallreason.dev/byar-chobby/versions.gz_cache.gz\tsuccessfully",
+        "Wrote \trapid/repos-cdn.beyondallreason.dev/byar-chobby/versions.gz\tsuccessfully",
+        "Saved lobby versions.gz from\trapid/repos-cdn.beyondallreason.dev/byar-chobby/versions.gz\tsize = \t146201",
+        "Wrote \trapid/repos-cdn.beyondallreason.dev/byar-chobby/versions.gz_cache.gz\tsuccessfully"
+      ],
+      "vfs_reads": [
+        {
+          "path": "rapid/repos-cdn.beyondallreason.dev/byar-chobby/versions.gz",
+          "found": true,
+          "sha256": "b3e9af46e670049515689865c6e6457c06021c5cc20ad10a122c897d5f2977cd"
+        },
+        {
+          "path": "rapid/repos-cdn.beyondallreason.dev/byar-chobby/versions.gz",
+          "found": true,
+          "sha256": "b3e9af46e670049515689865c6e6457c06021c5cc20ad10a122c897d5f2977cd"
+        }
+      ],
+      "stages": {
+        "initialized": {
+          "rapid/repos-cdn.beyondallreason.dev/byar-chobby/versions.gz": {
+            "sha256": "b3e9af46e670049515689865c6e6457c06021c5cc20ad10a122c897d5f2977cd",
+            "bytes": 146201,
+            "current_tag": [
+              "byar-chobby:test,4e10d9c250bab70be5b47d706f535c4d,,BYAR Chobby test-4630-26b5200"
+            ]
+          },
+          "rapid/repos-cdn.beyondallreason.dev/byar-chobby/versions.gz_cache.gz": {
+            "sha256": "b3e9af46e670049515689865c6e6457c06021c5cc20ad10a122c897d5f2977cd",
+            "bytes": 146201,
+            "current_tag": [
+              "byar-chobby:test,4e10d9c250bab70be5b47d706f535c4d,,BYAR Chobby test-4630-26b5200"
+            ]
+          }
+        },
+        "controlled_update": {
+          "rapid/repos-cdn.beyondallreason.dev/byar-chobby/versions.gz": {
+            "sha256": "167ba451db6addca3354247b6edbc717fffe4a96ab10ab743289c278a21924fb",
+            "bytes": 145974,
+            "current_tag": [
+              "byar-chobby:test,11111111111111111111111111111111,,BYAR Chobby controlled-not-downloaded"
+            ]
+          },
+          "rapid/repos-cdn.beyondallreason.dev/byar-chobby/versions.gz_cache.gz": {
+            "sha256": "b3e9af46e670049515689865c6e6457c06021c5cc20ad10a122c897d5f2977cd",
+            "bytes": 146201,
+            "current_tag": [
+              "byar-chobby:test,4e10d9c250bab70be5b47d706f535c4d,,BYAR Chobby test-4630-26b5200"
+            ]
+          }
+        },
+        "same_instance_reinitialized": {
+          "rapid/repos-cdn.beyondallreason.dev/byar-chobby/versions.gz": {
+            "sha256": "167ba451db6addca3354247b6edbc717fffe4a96ab10ab743289c278a21924fb",
+            "bytes": 145974,
+            "current_tag": [
+              "byar-chobby:test,11111111111111111111111111111111,,BYAR Chobby controlled-not-downloaded"
+            ]
+          },
+          "rapid/repos-cdn.beyondallreason.dev/byar-chobby/versions.gz_cache.gz": {
+            "sha256": "b3e9af46e670049515689865c6e6457c06021c5cc20ad10a122c897d5f2977cd",
+            "bytes": 146201,
+            "current_tag": [
+              "byar-chobby:test,4e10d9c250bab70be5b47d706f535c4d,,BYAR Chobby test-4630-26b5200"
+            ]
+          }
+        },
+        "completed": {
+          "rapid/repos-cdn.beyondallreason.dev/byar-chobby/versions.gz": {
+            "sha256": "b3e9af46e670049515689865c6e6457c06021c5cc20ad10a122c897d5f2977cd",
+            "bytes": 146201,
+            "current_tag": [
+              "byar-chobby:test,4e10d9c250bab70be5b47d706f535c4d,,BYAR Chobby test-4630-26b5200"
+            ]
+          },
+          "rapid/repos-cdn.beyondallreason.dev/byar-chobby/versions.gz_cache.gz": {
+            "sha256": "b3e9af46e670049515689865c6e6457c06021c5cc20ad10a122c897d5f2977cd",
+            "bytes": 146201,
+            "current_tag": [
+              "byar-chobby:test,4e10d9c250bab70be5b47d706f535c4d,,BYAR Chobby test-4630-26b5200"
+            ]
+          }
+        },
+        "fresh_instance_after_completion": {
+          "rapid/repos-cdn.beyondallreason.dev/byar-chobby/versions.gz": {
+            "sha256": "b3e9af46e670049515689865c6e6457c06021c5cc20ad10a122c897d5f2977cd",
+            "bytes": 146201,
+            "current_tag": [
+              "byar-chobby:test,4e10d9c250bab70be5b47d706f535c4d,,BYAR Chobby test-4630-26b5200"
+            ]
+          },
+          "rapid/repos-cdn.beyondallreason.dev/byar-chobby/versions.gz_cache.gz": {
+            "sha256": "b3e9af46e670049515689865c6e6457c06021c5cc20ad10a122c897d5f2977cd",
+            "bytes": 146201,
+            "current_tag": [
+              "byar-chobby:test,4e10d9c250bab70be5b47d706f535c4d,,BYAR Chobby test-4630-26b5200"
+            ]
+          }
+        }
+      },
+      "selected_path": "rapid/repos-cdn.beyondallreason.dev/byar-chobby/versions.gz",
+      "outcome": "Original list and installed lobby tag restored byte-for-byte by unchanged Chobby code."
+    },
+    {
+      "name": "official-engine-completion",
+      "input_order": "repos-cdn.beyondallreason.dev;repos.beyondallreason.dev",
+      "completion_route": "engine",
+      "passed": true,
+      "lua_log": [
+        "Saved lobby versions.gz from\trapid/repos-cdn.beyondallreason.dev/byar-chobby/versions.gz\tsize = \t146201",
+        "Wrote \trapid/repos-cdn.beyondallreason.dev/byar-chobby/versions.gz_cache.gz\tsuccessfully",
+        "Wrote \trapid/repos-cdn.beyondallreason.dev/byar-chobby/versions.gz\tsuccessfully",
+        "Saved lobby versions.gz from\trapid/repos-cdn.beyondallreason.dev/byar-chobby/versions.gz\tsize = \t146201",
+        "Wrote \trapid/repos-cdn.beyondallreason.dev/byar-chobby/versions.gz_cache.gz\tsuccessfully"
+      ],
+      "vfs_reads": [
+        {
+          "path": "rapid/repos-cdn.beyondallreason.dev/byar-chobby/versions.gz",
+          "found": true,
+          "sha256": "b3e9af46e670049515689865c6e6457c06021c5cc20ad10a122c897d5f2977cd"
+        },
+        {
+          "path": "rapid/repos-cdn.beyondallreason.dev/byar-chobby/versions.gz",
+          "found": true,
+          "sha256": "b3e9af46e670049515689865c6e6457c06021c5cc20ad10a122c897d5f2977cd"
+        }
+      ],
+      "stages": {
+        "initialized": {
+          "rapid/repos-cdn.beyondallreason.dev/byar-chobby/versions.gz": {
+            "sha256": "b3e9af46e670049515689865c6e6457c06021c5cc20ad10a122c897d5f2977cd",
+            "bytes": 146201,
+            "current_tag": [
+              "byar-chobby:test,4e10d9c250bab70be5b47d706f535c4d,,BYAR Chobby test-4630-26b5200"
+            ]
+          },
+          "rapid/repos-cdn.beyondallreason.dev/byar-chobby/versions.gz_cache.gz": {
+            "sha256": "b3e9af46e670049515689865c6e6457c06021c5cc20ad10a122c897d5f2977cd",
+            "bytes": 146201,
+            "current_tag": [
+              "byar-chobby:test,4e10d9c250bab70be5b47d706f535c4d,,BYAR Chobby test-4630-26b5200"
+            ]
+          }
+        },
+        "controlled_update": {
+          "rapid/repos-cdn.beyondallreason.dev/byar-chobby/versions.gz": {
+            "sha256": "167ba451db6addca3354247b6edbc717fffe4a96ab10ab743289c278a21924fb",
+            "bytes": 145974,
+            "current_tag": [
+              "byar-chobby:test,11111111111111111111111111111111,,BYAR Chobby controlled-not-downloaded"
+            ]
+          },
+          "rapid/repos-cdn.beyondallreason.dev/byar-chobby/versions.gz_cache.gz": {
+            "sha256": "b3e9af46e670049515689865c6e6457c06021c5cc20ad10a122c897d5f2977cd",
+            "bytes": 146201,
+            "current_tag": [
+              "byar-chobby:test,4e10d9c250bab70be5b47d706f535c4d,,BYAR Chobby test-4630-26b5200"
+            ]
+          }
+        },
+        "completed": {
+          "rapid/repos-cdn.beyondallreason.dev/byar-chobby/versions.gz": {
+            "sha256": "b3e9af46e670049515689865c6e6457c06021c5cc20ad10a122c897d5f2977cd",
+            "bytes": 146201,
+            "current_tag": [
+              "byar-chobby:test,4e10d9c250bab70be5b47d706f535c4d,,BYAR Chobby test-4630-26b5200"
+            ]
+          },
+          "rapid/repos-cdn.beyondallreason.dev/byar-chobby/versions.gz_cache.gz": {
+            "sha256": "b3e9af46e670049515689865c6e6457c06021c5cc20ad10a122c897d5f2977cd",
+            "bytes": 146201,
+            "current_tag": [
+              "byar-chobby:test,4e10d9c250bab70be5b47d706f535c4d,,BYAR Chobby test-4630-26b5200"
+            ]
+          }
+        },
+        "fresh_instance_after_completion": {
+          "rapid/repos-cdn.beyondallreason.dev/byar-chobby/versions.gz": {
+            "sha256": "b3e9af46e670049515689865c6e6457c06021c5cc20ad10a122c897d5f2977cd",
+            "bytes": 146201,
+            "current_tag": [
+              "byar-chobby:test,4e10d9c250bab70be5b47d706f535c4d,,BYAR Chobby test-4630-26b5200"
+            ]
+          },
+          "rapid/repos-cdn.beyondallreason.dev/byar-chobby/versions.gz_cache.gz": {
+            "sha256": "b3e9af46e670049515689865c6e6457c06021c5cc20ad10a122c897d5f2977cd",
+            "bytes": 146201,
+            "current_tag": [
+              "byar-chobby:test,4e10d9c250bab70be5b47d706f535c4d,,BYAR Chobby test-4630-26b5200"
+            ]
+          }
+        }
+      },
+      "selected_path": "rapid/repos-cdn.beyondallreason.dev/byar-chobby/versions.gz",
+      "outcome": "Original list and installed lobby tag restored byte-for-byte by unchanged Chobby code."
+    },
+    {
+      "name": "explicit-custom-order",
+      "input_order": "custom.example;repos-cdn.beyondallreason.dev",
+      "completion_route": "wrapper",
+      "passed": true,
+      "lua_log": [
+        "Saved lobby versions.gz from\trapid/custom.example/byar-chobby/versions.gz\tsize = \t146201",
+        "Wrote \trapid/custom.example/byar-chobby/versions.gz_cache.gz\tsuccessfully",
+        "Wrote \trapid/custom.example/byar-chobby/versions.gz\tsuccessfully",
+        "Saved lobby versions.gz from\trapid/custom.example/byar-chobby/versions.gz\tsize = \t146201",
+        "Wrote \trapid/custom.example/byar-chobby/versions.gz_cache.gz\tsuccessfully"
+      ],
+      "vfs_reads": [
+        {
+          "path": "rapid/custom.example/byar-chobby/versions.gz",
+          "found": true,
+          "sha256": "b3e9af46e670049515689865c6e6457c06021c5cc20ad10a122c897d5f2977cd"
+        },
+        {
+          "path": "rapid/custom.example/byar-chobby/versions.gz",
+          "found": true,
+          "sha256": "b3e9af46e670049515689865c6e6457c06021c5cc20ad10a122c897d5f2977cd"
+        }
+      ],
+      "stages": {
+        "initialized": {
+          "rapid/custom.example/byar-chobby/versions.gz": {
+            "sha256": "b3e9af46e670049515689865c6e6457c06021c5cc20ad10a122c897d5f2977cd",
+            "bytes": 146201,
+            "current_tag": [
+              "byar-chobby:test,4e10d9c250bab70be5b47d706f535c4d,,BYAR Chobby test-4630-26b5200"
+            ]
+          },
+          "rapid/custom.example/byar-chobby/versions.gz_cache.gz": {
+            "sha256": "b3e9af46e670049515689865c6e6457c06021c5cc20ad10a122c897d5f2977cd",
+            "bytes": 146201,
+            "current_tag": [
+              "byar-chobby:test,4e10d9c250bab70be5b47d706f535c4d,,BYAR Chobby test-4630-26b5200"
+            ]
+          }
+        },
+        "controlled_update": {
+          "rapid/custom.example/byar-chobby/versions.gz": {
+            "sha256": "167ba451db6addca3354247b6edbc717fffe4a96ab10ab743289c278a21924fb",
+            "bytes": 145974,
+            "current_tag": [
+              "byar-chobby:test,11111111111111111111111111111111,,BYAR Chobby controlled-not-downloaded"
+            ]
+          },
+          "rapid/custom.example/byar-chobby/versions.gz_cache.gz": {
+            "sha256": "b3e9af46e670049515689865c6e6457c06021c5cc20ad10a122c897d5f2977cd",
+            "bytes": 146201,
+            "current_tag": [
+              "byar-chobby:test,4e10d9c250bab70be5b47d706f535c4d,,BYAR Chobby test-4630-26b5200"
+            ]
+          }
+        },
+        "completed": {
+          "rapid/custom.example/byar-chobby/versions.gz": {
+            "sha256": "b3e9af46e670049515689865c6e6457c06021c5cc20ad10a122c897d5f2977cd",
+            "bytes": 146201,
+            "current_tag": [
+              "byar-chobby:test,4e10d9c250bab70be5b47d706f535c4d,,BYAR Chobby test-4630-26b5200"
+            ]
+          },
+          "rapid/custom.example/byar-chobby/versions.gz_cache.gz": {
+            "sha256": "b3e9af46e670049515689865c6e6457c06021c5cc20ad10a122c897d5f2977cd",
+            "bytes": 146201,
+            "current_tag": [
+              "byar-chobby:test,4e10d9c250bab70be5b47d706f535c4d,,BYAR Chobby test-4630-26b5200"
+            ]
+          }
+        },
+        "fresh_instance_after_completion": {
+          "rapid/custom.example/byar-chobby/versions.gz": {
+            "sha256": "b3e9af46e670049515689865c6e6457c06021c5cc20ad10a122c897d5f2977cd",
+            "bytes": 146201,
+            "current_tag": [
+              "byar-chobby:test,4e10d9c250bab70be5b47d706f535c4d,,BYAR Chobby test-4630-26b5200"
+            ]
+          },
+          "rapid/custom.example/byar-chobby/versions.gz_cache.gz": {
+            "sha256": "b3e9af46e670049515689865c6e6457c06021c5cc20ad10a122c897d5f2977cd",
+            "bytes": 146201,
+            "current_tag": [
+              "byar-chobby:test,4e10d9c250bab70be5b47d706f535c4d,,BYAR Chobby test-4630-26b5200"
+            ]
+          }
+        }
+      },
+      "selected_path": "rapid/custom.example/byar-chobby/versions.gz",
+      "outcome": "Original list and installed lobby tag restored byte-for-byte by unchanged Chobby code."
+    },
+    {
+      "name": "fresh-instance-during-update-limit",
+      "input_order": "repos-cdn.beyondallreason.dev;repos.beyondallreason.dev",
+      "completion_route": "wrapper",
+      "passed": true,
+      "lua_log": [
+        "Saved lobby versions.gz from\trapid/repos-cdn.beyondallreason.dev/byar-chobby/versions.gz\tsize = \t146201",
+        "Wrote \trapid/repos-cdn.beyondallreason.dev/byar-chobby/versions.gz_cache.gz\tsuccessfully",
+        "Saved lobby versions.gz from\trapid/repos-cdn.beyondallreason.dev/byar-chobby/versions.gz\tsize = \t145974",
+        "Wrote \trapid/repos-cdn.beyondallreason.dev/byar-chobby/versions.gz_cache.gz\tsuccessfully",
+        "Wrote \trapid/repos-cdn.beyondallreason.dev/byar-chobby/versions.gz\tsuccessfully"
+      ],
+      "vfs_reads": [
+        {
+          "path": "rapid/repos-cdn.beyondallreason.dev/byar-chobby/versions.gz",
+          "found": true,
+          "sha256": "b3e9af46e670049515689865c6e6457c06021c5cc20ad10a122c897d5f2977cd"
+        },
+        {
+          "path": "rapid/repos-cdn.beyondallreason.dev/byar-chobby/versions.gz",
+          "found": true,
+          "sha256": "167ba451db6addca3354247b6edbc717fffe4a96ab10ab743289c278a21924fb"
+        }
+      ],
+      "stages": {
+        "initialized": {
+          "rapid/repos-cdn.beyondallreason.dev/byar-chobby/versions.gz": {
+            "sha256": "b3e9af46e670049515689865c6e6457c06021c5cc20ad10a122c897d5f2977cd",
+            "bytes": 146201,
+            "current_tag": [
+              "byar-chobby:test,4e10d9c250bab70be5b47d706f535c4d,,BYAR Chobby test-4630-26b5200"
+            ]
+          },
+          "rapid/repos-cdn.beyondallreason.dev/byar-chobby/versions.gz_cache.gz": {
+            "sha256": "b3e9af46e670049515689865c6e6457c06021c5cc20ad10a122c897d5f2977cd",
+            "bytes": 146201,
+            "current_tag": [
+              "byar-chobby:test,4e10d9c250bab70be5b47d706f535c4d,,BYAR Chobby test-4630-26b5200"
+            ]
+          }
+        },
+        "controlled_update": {
+          "rapid/repos-cdn.beyondallreason.dev/byar-chobby/versions.gz": {
+            "sha256": "167ba451db6addca3354247b6edbc717fffe4a96ab10ab743289c278a21924fb",
+            "bytes": 145974,
+            "current_tag": [
+              "byar-chobby:test,11111111111111111111111111111111,,BYAR Chobby controlled-not-downloaded"
+            ]
+          },
+          "rapid/repos-cdn.beyondallreason.dev/byar-chobby/versions.gz_cache.gz": {
+            "sha256": "b3e9af46e670049515689865c6e6457c06021c5cc20ad10a122c897d5f2977cd",
+            "bytes": 146201,
+            "current_tag": [
+              "byar-chobby:test,4e10d9c250bab70be5b47d706f535c4d,,BYAR Chobby test-4630-26b5200"
+            ]
+          }
+        },
+        "fresh_instance_during_update": {
+          "rapid/repos-cdn.beyondallreason.dev/byar-chobby/versions.gz": {
+            "sha256": "167ba451db6addca3354247b6edbc717fffe4a96ab10ab743289c278a21924fb",
+            "bytes": 145974,
+            "current_tag": [
+              "byar-chobby:test,11111111111111111111111111111111,,BYAR Chobby controlled-not-downloaded"
+            ]
+          },
+          "rapid/repos-cdn.beyondallreason.dev/byar-chobby/versions.gz_cache.gz": {
+            "sha256": "167ba451db6addca3354247b6edbc717fffe4a96ab10ab743289c278a21924fb",
+            "bytes": 145974,
+            "current_tag": [
+              "byar-chobby:test,11111111111111111111111111111111,,BYAR Chobby controlled-not-downloaded"
+            ]
+          }
+        },
+        "completed": {
+          "rapid/repos-cdn.beyondallreason.dev/byar-chobby/versions.gz": {
+            "sha256": "167ba451db6addca3354247b6edbc717fffe4a96ab10ab743289c278a21924fb",
+            "bytes": 145974,
+            "current_tag": [
+              "byar-chobby:test,11111111111111111111111111111111,,BYAR Chobby controlled-not-downloaded"
+            ]
+          },
+          "rapid/repos-cdn.beyondallreason.dev/byar-chobby/versions.gz_cache.gz": {
+            "sha256": "167ba451db6addca3354247b6edbc717fffe4a96ab10ab743289c278a21924fb",
+            "bytes": 145974,
+            "current_tag": [
+              "byar-chobby:test,11111111111111111111111111111111,,BYAR Chobby controlled-not-downloaded"
+            ]
+          }
+        }
+      },
+      "selected_path": "rapid/repos-cdn.beyondallreason.dev/byar-chobby/versions.gz",
+      "outcome": "Existing limitation: a new Lua instance caches the currently changed list; this does not provide recovery across interruption/restart."
+    }
+  ]
+}

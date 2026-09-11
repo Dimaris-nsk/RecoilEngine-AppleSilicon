@@ -1,0 +1,83 @@
+{
+  "engine_release": "v0.15.1",
+  "engine_commit": "8ab9474d95f64ee00ea817255d76105c066053ac",
+  "launcher_proposal_base": "562fe461f8b045f863089815edac7f2d6559e178",
+  "launcher_base_sha256": "261b5bc123d4a468a944f52de236010b4d285c307203e782f96fdc766142a133",
+  "chobby_version": "test-4630-26b5200",
+  "sdp_source": "inputs/packages/4e10d9c250bab70be5b47d706f535c4d.sdp",
+  "sdp_sha256": "3b2b839447fe87d69298866e2c4c552a6463ac098b85a9df809c07ee226cd39c",
+  "sdp_entries": 2739,
+  "extracted_files": [
+    {
+      "path": "inputs/luamenu/configs/gameconfig/byar/mainconfig.lua",
+      "archive_path": "luamenu/configs/gameconfig/byar/mainconfig.lua",
+      "pool_path": "pool/3d/66cfc7e4a7a2b07587d2a2a9769749.gz",
+      "pool_gzip_sha256": "0e54180b4a433362e198e65c92c728a9e7c6af27479b34d07cf165dc1b911fca",
+      "archive_md5": "3d66cfc7e4a7a2b07587d2a2a9769749",
+      "sha256": "a728e69f7638bc7bb9fbd2dc7e34f4bc57981a11d11590b40150087d3134ec76",
+      "bytes": 8543
+    },
+    {
+      "path": "inputs/luamenu/widgets/api_download_handler.lua",
+      "archive_path": "luamenu/widgets/api_download_handler.lua",
+      "pool_path": "pool/60/aa5b89c284080eab01e627475ce317.gz",
+      "pool_gzip_sha256": "6e36df2e85b65007494b74120ceafe0c61e2768ca5bb7d0cf82b69dfd5ead3f3",
+      "archive_md5": "60aa5b89c284080eab01e627475ce317",
+      "sha256": "eeed22c7ba4a2c50695b85a661597459d68d1227e1f8370d4f4eb69ac692b952",
+      "bytes": 17278
+    },
+    {
+      "path": "inputs/luamenu/utils.lua",
+      "archive_path": "luamenu/utils.lua",
+      "pool_path": "pool/07/2f273a16402eb83efa3e11aa771f3c.gz",
+      "pool_gzip_sha256": "372a45c8447fe95959986f3dfe9e0b926a7f0a1be189e3d072d2e7cb87c4d511",
+      "archive_md5": "072f273a16402eb83efa3e11aa771f3c",
+      "sha256": "5bbdbee4b0fb69e78be20e3d0f57b0292202e9482f86322d52940468b1662d6c",
+      "bytes": 373
+    },
+    {
+      "path": "inputs/dist_cfg/config.json",
+      "archive_path": "dist_cfg/config.json",
+      "pool_path": "pool/ce/0eab1a33f8c573eb42b17a701869c8.gz",
+      "pool_gzip_sha256": "8986fe8c48e173761ac905ffdc3f2c2b0ece0a668109783f4c5d1a9277b8338f",
+      "archive_md5": "ce0eab1a33f8c573eb42b17a701869c8",
+      "sha256": "d37bf2a8c5b5ce3e2728b9df8db2f04b46b0a4dc1ff1e34df4d0b8b495cbcfc1",
+      "bytes": 13347
+    },
+    {
+      "path": "inputs/modinfo.lua",
+      "archive_path": "modinfo.lua",
+      "pool_path": "pool/47/2a14100bd219b869a2d2e767dccabf.gz",
+      "pool_gzip_sha256": "e339a276081fa4848424ffe00b267bb9ea8d939a931284b3bd90f363cf65bda3",
+      "archive_md5": "472a14100bd219b869a2d2e767dccabf",
+      "sha256": "9bc89634d2ce1de63a56748c8396cc619204b0e086d63782ef39e2bbd3ede599",
+      "bytes": 418
+    }
+  ],
+  "versions_fixture": {
+    "source": "Public rapid metadata: rapid/repos-cdn.beyondallreason.dev/byar-chobby/versions.gz",
+    "sha256": "b3e9af46e670049515689865c6e6457c06021c5cc20ad10a122c897d5f2977cd",
+    "bytes": 146201,
+    "current_tag": "byar-chobby:test,4e10d9c250bab70be5b47d706f535c4d,,BYAR Chobby test-4630-26b5200"
+  },
+  "historical_warning": {
+    "source": "Private historical infolog.txt (not included); exact two-line excerpt is fixtures/historical-warning.log",
+    "source_sha256": "435af378c79d89134a85416b999ea7260b8210d175e485cd4d414939515f8ad0",
+    "lines": [
+      439,
+      440
+    ],
+    "excerpt_sha256": "5930de00827c4aaefe411cc5ea7a520fbaed893b073a171a5499803c907d9f0f"
+  },
+  "scope": "Pinned public Chobby Lua/config inputs, unchanged original/candidate launcher, and local-file tests. Full launcher and engine are not executed.",
+  "chobby_repository": "https://github.com/beyond-all-reason/BYAR-Chobby",
+  "chobby_reported_commit": "26b5200b6a3e38dd02355f3e11cbddf99e9f7b72",
+  "chobby_ref_evidence": "The included public versions.gz maps byar-chobby:git:26b5200b6a3e38dd02355f3e11cbddf99e9f7b72 to the included SDP. Extracted bytes are verified against the SDP, not claimed to be a separate Git checkout comparison.",
+  "launcher_repository": "https://github.com/Vandomas/RecoilEngine-AppleSilicon",
+  "pool_provenance": "Content-addressed objects from the public rapid package; decompressed bytes were matched to this SDP by archive MD5. Original compressed-object hashes are retained; pool gzip objects are not duplicated in this package.",
+  "runtime_requirements": {
+    "python": "Python 3.9 or newer; recorded execution uses 3.12.14",
+    "lupa": "Importable lupa.lua51 (recorded execution uses Lupa 2.6); Lua 5.1 required",
+    "shell": "/bin/bash and POSIX grep; run as a non-root user for real temporary-file permission failures"
+  }
+}

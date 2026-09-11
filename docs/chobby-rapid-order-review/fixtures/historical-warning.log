@@ -1,0 +1,2 @@
+[t=00:00:01.668911][f=-000001] Failed to load versions.gz from, rapid/repos.springrts.com/byar-chobby/versions.gz
+[t=00:00:01.668940][f=-000001] Unable to restore versions.gz from, rapid/repos.springrts.com/byar-chobby/versions.gz_cache.gz, as it has not been loaded

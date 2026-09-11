@@ -1,0 +1,928 @@
+{
+  "schema_version": 1,
+  "kind": "selected-field projection of two completed private native runs; not a full raw report",
+  "source_path_semantics": "All source paths are relative to the named private raw run. Raw files are retained locally; hashes identify omitted originals. No owner filesystem root is included.",
+  "pins": {
+    "launcher_base_commit": "562fe461f8b045f863089815edac7f2d6559e178",
+    "candidate_sha256": "18e9d459011fd295c35a2aa8b9b48cbc43dc6d4ba27ee3fe9d634f543880558d",
+    "engine_release": "v0.15.1",
+    "engine_commit": "8ab9474d95f64ee00ea817255d76105c066053ac",
+    "chobby": "test-4630-26b5200",
+    "chobby_package_id": "4e10d9c250bab70be5b47d706f535c4d",
+    "game": "Beyond All Reason test-31251-0ceadc7",
+    "game_package_id": "838abf2e964eeb261260c95f5a731e57",
+    "map": "All That Smolders v1.2",
+    "binary_inputs_sha256": {
+      "spring": "c4abfd6a016ebab6cfb2acd8aed8435d3c01c012587bf284c47c43ad1719040c",
+      "chobby_config.json": "df17f78c2aecc6bc07da41731ae768158b6ab2f9f8b6bfdfe3df775ca0491906",
+      "default_springsettings.cfg": "cb82c914dd290ed8545953d722a15cd1b3dcb03fefc12a01132a2eea09818d01",
+      "libEGL.1.dylib": "e3e50274920d4bd70fb7df92f55d942c037b8c37e4396f06ea882f5e54705df5",
+      "libgallium-26.2.2.dylib": "c9213cfdea31e55994be49137006e4d31ef4a2eb445713f6d74f3443eb8a7fb3",
+      "libvulkan.1.dylib": "15068bf4e691f79370823a4614987e71fcc89d991f5ca2492737e96f5dca43a1",
+      "libMoltenVK.dylib": "fbef815e8e746085c443c0d7a557b7d330964ff64b233f826a10f2a1bac8a4a0"
+    }
+  },
+  "method": "Exact default-merge and candidate seed blocks produced the configuration. Actual Chobby queue, cache writes, registered callback and native VFS checks ran in the real engine. A finite local Connector.Send adapter substituted only the incoming changed gzip and callback completion; no network transfer. Fixed then ran a real short game and returned via native Reload in the same process.",
+  "interpretation": "Original passed=true means the defect was reproduced. The observer/state root_visual_review=pending is an initial placeholder; the separate later root-visual-review.json supplies actual Codex-agent inspection.",
+  "sources": {
+    "original": {
+      "source_root": "private raw run retained locally (not included)",
+      "run_id": "run-2ff57de32c4742c8a1d5f2fd0297eedf",
+      "files": {
+        "chobby-state.json": {
+          "bytes": 4292,
+          "sha256": "2deea9e774d5345b49e51eff54a7bfa57ad45df833d079ab73df9691645841e1"
+        },
+        "result.json": {
+          "bytes": 291,
+          "sha256": "9054bf5dc09f09f6555469c26de36f59282940c9015084729019df3a261e83a3"
+        },
+        "report.json": {
+          "bytes": 18143,
+          "sha256": "6e6b84d67278348df47a1c3158348ff02dec048a34eb9102d70669f7a836b144"
+        },
+        "keeper.json": {
+          "bytes": 292,
+          "sha256": "1ea34353f31d47f727461cdcc50675507c220050ec66a0520632d8c37138c454"
+        },
+        "root-visual-review.json": {
+          "bytes": 779,
+          "sha256": "2f081ba26fb196ecec88913f1daf240ca7ca3d21e25f535e46996f94d2a68680"
+        },
+        "launch.json": {
+          "bytes": 4693,
+          "sha256": "5a47745a2604124c28326187242f71d5263c8a3513decd790c27d521b0df52a8"
+        },
+        "seed-result.json": {
+          "bytes": 261,
+          "sha256": "5abbc74a61403e504be70395af09ea5d44604650c6e81c38b42c4c2dc34bd325"
+        },
+        "run-config-adjustments.json": {
+          "bytes": 484,
+          "sha256": "9074857de3ffff1ce1602b89676957be38f44c0c8ff5851e18dab2e2fb7c9edf"
+        },
+        "infolog.txt": {
+          "bytes": 13252172,
+          "sha256": "72d0181a6d57a98f0572181f23138c7cb0255580602f6b4eb413fee5dc6da415"
+        },
+        "process.log": {
+          "bytes": 13254331,
+          "sha256": "f31fc2d0674378311c6ed152f8c435d06b395e8e6b85a5b0fb9fe75c71760c4c"
+        },
+        "rapid-original.gz": {
+          "bytes": 146201,
+          "sha256": "b3e9af46e670049515689865c6e6457c06021c5cc20ad10a122c897d5f2977cd"
+        },
+        "rapid-changed.gz": {
+          "bytes": 145974,
+          "sha256": "167ba451db6addca3354247b6edbc717fffe4a96ab10ab743289c278a21924fb"
+        },
+        "rapid/repos-cdn.beyondallreason.dev/byar-chobby/versions.gz": {
+          "bytes": 145974,
+          "sha256": "167ba451db6addca3354247b6edbc717fffe4a96ab10ab743289c278a21924fb"
+        },
+        "LuaMenu/Widgets/dbg_bar_chobby_rapid.lua": {
+          "bytes": 20151,
+          "sha256": "0e212fbf0dbc5243b9ffc8164522f0462861144c40f1528a467b89f74e42ec99"
+        },
+        "LuaUI/Widgets/dbg_bar_chobby_rapid.lua": {
+          "bytes": 3398,
+          "sha256": "f4830167a08df3336bc1f2a2cf75b66f7512478d418a7854ac063b33810dd6a0"
+        },
+        "screenshots/restore-complete.png": {
+          "bytes": 1753905,
+          "sha256": "3cfd2cdc89b978335dd822157ef9ee366f81eb903dd55be2297c79e96486b3de"
+        }
+      }
+    },
+    "fixed": {
+      "source_root": "private raw run retained locally (not included)",
+      "run_id": "run-378188297485482a825b417517dc32dc",
+      "files": {
+        "chobby-state.json": {
+          "bytes": 5541,
+          "sha256": "3d89f8fbf2addf430903fbf5084fde1ce836403a81d1197cf50e110a78a9fcba"
+        },
+        "result.json": {
+          "bytes": 287,
+          "sha256": "daf5ac4055efb452a38cad7c55301ac75df06309ea8c2e73842632f2f8a1bb23"
+        },
+        "report.json": {
+          "bytes": 18189,
+          "sha256": "e7f62ee7d1d431af69882fb1e7656fc9d27429a9af4bdb4b485fd4fb780ba46b"
+        },
+        "keeper.json": {
+          "bytes": 292,
+          "sha256": "29dfd17369f2bc248ee7fa3d2dc732f27a00b590c9672faea601f11a21c684c1"
+        },
+        "root-visual-review.json": {
+          "bytes": 1432,
+          "sha256": "2b8fcc723d0343a08a021c3340301b2cdeda18791f9d6f8f6f8a9aaadb85ea21"
+        },
+        "launch.json": {
+          "bytes": 4749,
+          "sha256": "016496ed50b43240fa1180fe495eeb2437626cd75c7e97f8da2ec3a592c180bf"
+        },
+        "seed-result.json": {
+          "bytes": 323,
+          "sha256": "831a77356cf66d17f78c45355d3fb935f15441005951ee17fdb97078fe158ce0"
+        },
+        "run-config-adjustments.json": {
+          "bytes": 484,
+          "sha256": "a85be68fa990f4814a15461a53bfefad5f97eaa3a94c6967edc49ad03f4b8d1e"
+        },
+        "infolog.txt": {
+          "bytes": 9625430,
+          "sha256": "48d91f3fb83dbe29d53d06358c8f2eb7da52cf67323f7f22cda5e4f4a1c983b1"
+        },
+        "process.log": {
+          "bytes": 9627912,
+          "sha256": "75cf25427ab07e573c107f874bd02584847da4250930967ace77b49806510523"
+        },
+        "rapid-original.gz": {
+          "bytes": 146201,
+          "sha256": "b3e9af46e670049515689865c6e6457c06021c5cc20ad10a122c897d5f2977cd"
+        },
+        "rapid-changed.gz": {
+          "bytes": 145974,
+          "sha256": "167ba451db6addca3354247b6edbc717fffe4a96ab10ab743289c278a21924fb"
+        },
+        "rapid/repos-cdn.beyondallreason.dev/byar-chobby/versions.gz": {
+          "bytes": 146201,
+          "sha256": "b3e9af46e670049515689865c6e6457c06021c5cc20ad10a122c897d5f2977cd"
+        },
+        "LuaMenu/Widgets/dbg_bar_chobby_rapid.lua": {
+          "bytes": 20148,
+          "sha256": "449795f7b0ab88664bd83623ad0c05467a0e5e58b9fcefe85fdc305e6c0d46d4"
+        },
+        "LuaUI/Widgets/dbg_bar_chobby_rapid.lua": {
+          "bytes": 3398,
+          "sha256": "5a5373b24d419c181b33f0a3a0da1798f6fcf62e4db24b7c7ed3cf3ea8825ac8"
+        },
+        "game-observation.json": {
+          "bytes": 203,
+          "sha256": "b0258ebc25dd004c0ddae9bff2daaf79001c47c305761de844dcd9aeb0a92adb"
+        },
+        "game-return-request.json": {
+          "bytes": 77,
+          "sha256": "6ae4cd70ab7a167f5d6e63d4d1cf74e2b055db5794f77046570809eff38ce1ff"
+        },
+        "rapid/repos-cdn.beyondallreason.dev/byar-chobby/versions.gz_cache.gz": {
+          "bytes": 146201,
+          "sha256": "b3e9af46e670049515689865c6e6457c06021c5cc20ad10a122c897d5f2977cd"
+        },
+        "screenshots/restore-complete.png": {
+          "bytes": 1167616,
+          "sha256": "1e17defaa7b9efd0a785818147dc984ee51acacb4ced0d623fa878b786d1844b"
+        },
+        "screenshots/game.png": {
+          "bytes": 4735553,
+          "sha256": "ce005da74b1e939661e15d7eef45d1d07562bd32d23033b3a376db4ea3465e14"
+        },
+        "screenshots/returned-menu.png": {
+          "bytes": 1167572,
+          "sha256": "c1a216fbc4d564337ee2d47df335c7e188576a7600398748d2ee6516bd6bf99a"
+        }
+      }
+    }
+  },
+  "runs": {
+    "original": {
+      "run_id": "run-2ff57de32c4742c8a1d5f2fd0297eedf",
+      "verdict": "original missing-backup defect reproduced",
+      "native_result": {
+        "reproduced_original_failure": true,
+        "restore_verified": false,
+        "game_to_menu_verified": false,
+        "phase": "original",
+        "passed": true,
+        "transport": "controlled completion; no network transfer tested"
+      },
+      "initial_cache_bytes": 0,
+      "during_update": {
+        "bytes": 145974,
+        "resolved_name": "BYAR Chobby controlled-not-downloaded",
+        "archive_present": false
+      },
+      "final_gzip": {
+        "bytes": 145974,
+        "equals_original": false,
+        "resolved_name": "BYAR Chobby controlled-not-downloaded",
+        "sha256": "167ba451db6addca3354247b6edbc717fffe4a96ab10ab743289c278a21924fb"
+      },
+      "snapshots": {
+        "menu-before": {
+          "rapid_order": "",
+          "selected_backup_path": "rapid/repos.springrts.com/byar-chobby/versions.gz",
+          "resolved_name": "BYAR Chobby test-4630-26b5200",
+          "archive_present": true,
+          "analytics_api_present": true,
+          "lua_socket_enabled": 1,
+          "tcp_allow_connect": "",
+          "holder_visible": true,
+          "holder_width": 2000,
+          "holder_height": 1300,
+          "view": [
+            2000,
+            1300
+          ]
+        },
+        "restore-complete": {
+          "rapid_order": "",
+          "selected_backup_path": "rapid/repos.springrts.com/byar-chobby/versions.gz",
+          "resolved_name": "BYAR Chobby controlled-not-downloaded",
+          "archive_present": true,
+          "analytics_api_present": true,
+          "lua_socket_enabled": 1,
+          "tcp_allow_connect": "",
+          "holder_visible": true,
+          "holder_width": 2000,
+          "holder_height": 1300,
+          "view": [
+            2000,
+            1300
+          ]
+        }
+      },
+      "game_activations": 0,
+      "menu_returns": 0,
+      "exit": {
+        "kind": "normal",
+        "target_returncode": 0,
+        "elapsed_seconds": 173.127913,
+        "exit_confirmed": true,
+        "logs_final": true,
+        "lifetime_channel_closed": true,
+        "remaining_group": [],
+        "emergency_used": false,
+        "pauses": []
+      },
+      "agent_visual_review": {
+        "reviewer": "OpenAI Codex root agent; not human review",
+        "source": "root-visual-review.json",
+        "source_sha256": "2f081ba26fb196ecec88913f1daf240ca7ca3d21e25f535e46996f94d2a68680",
+        "verdict": "Physical window and native image personally viewed at both original checkpoints.",
+        "physical_menu_window_points": {
+          "width": 1000,
+          "height": 682,
+          "x": 80,
+          "y": 48,
+          "fully_inside_visible_screen": true,
+          "minimized": false
+        },
+        "additional_package_review": "All four published native PNG also personally viewed by the package-preparation Codex agent."
+      },
+      "seed_result": {
+        "returncode": 0,
+        "stdout": "",
+        "stderr": "",
+        "driver_sha256": "7b145ac801ad86baf0feb12ac9e388ade6430bb25430ca897f0de94770d5206d",
+        "merge_sha256": "1a22c9882b170e4771d00d665bef36dfebabfc1dad970a2b1946f1b0b0f80ba1",
+        "candidate_block_sha256": null
+      },
+      "observer_template_sha256": {
+        "bar_chobby_rapid.py": "06167d327370b2e1a6c1f9b3b04ea4c3e0ed6c12af05afbe165789623aba2983",
+        "bar_chobby_rapid_menu.lua": "32564e74bf660043d8d8a1378d3b7bdcf19fd618495f67f49b7ec9321ab1b9a9",
+        "bar_chobby_rapid_game.lua": "10b97faf464672e8a7bb068eeb378d073998284e8c8927dec3ba283448545899"
+      },
+      "excerpt": {
+        "path": "original/infolog-excerpt.log",
+        "source_line_ranges_1based": [
+          [
+            139,
+            139
+          ],
+          [
+            779,
+            782
+          ],
+          [
+            787,
+            787
+          ],
+          [
+            53011,
+            53014
+          ],
+          [
+            53016,
+            53021
+          ],
+          [
+            88010,
+            88010
+          ],
+          [
+            88017,
+            88017
+          ],
+          [
+            88026,
+            88026
+          ],
+          [
+            88072,
+            88072
+          ]
+        ],
+        "transformation": "Only selected verbatim source lines with added source/range headers. No line edits. Lines containing local runtime paths are omitted."
+      }
+    },
+    "fixed": {
+      "run_id": "run-378188297485482a825b417517dc32dc",
+      "verdict": "exact restore and real game-to-menu completed",
+      "native_result": {
+        "reproduced_original_failure": false,
+        "restore_verified": true,
+        "game_to_menu_verified": true,
+        "phase": "fixed",
+        "passed": true,
+        "transport": "controlled completion; no network transfer tested"
+      },
+      "initial_cache_bytes": 146201,
+      "during_update": {
+        "bytes": 145974,
+        "resolved_name": "BYAR Chobby controlled-not-downloaded",
+        "archive_present": false
+      },
+      "final_gzip": {
+        "bytes": 146201,
+        "equals_original": true,
+        "resolved_name": "BYAR Chobby test-4630-26b5200",
+        "sha256": "b3e9af46e670049515689865c6e6457c06021c5cc20ad10a122c897d5f2977cd"
+      },
+      "snapshots": {
+        "menu-before": {
+          "rapid_order": "repos-cdn.beyondallreason.dev;repos.beyondallreason.dev",
+          "selected_backup_path": "rapid/repos-cdn.beyondallreason.dev/byar-chobby/versions.gz",
+          "resolved_name": "BYAR Chobby test-4630-26b5200",
+          "archive_present": true,
+          "analytics_api_present": true,
+          "lua_socket_enabled": 1,
+          "tcp_allow_connect": "",
+          "holder_visible": true,
+          "holder_width": 2000,
+          "holder_height": 1300,
+          "view": [
+            2000,
+            1300
+          ]
+        },
+        "restore-complete": {
+          "rapid_order": "repos-cdn.beyondallreason.dev;repos.beyondallreason.dev",
+          "selected_backup_path": "rapid/repos-cdn.beyondallreason.dev/byar-chobby/versions.gz",
+          "resolved_name": "BYAR Chobby test-4630-26b5200",
+          "archive_present": true,
+          "analytics_api_present": true,
+          "lua_socket_enabled": 1,
+          "tcp_allow_connect": "",
+          "holder_visible": true,
+          "holder_width": 2000,
+          "holder_height": 1300,
+          "view": [
+            2000,
+            1300
+          ]
+        },
+        "returned-menu": {
+          "rapid_order": "repos-cdn.beyondallreason.dev;repos.beyondallreason.dev",
+          "selected_backup_path": "rapid/repos-cdn.beyondallreason.dev/byar-chobby/versions.gz",
+          "resolved_name": "BYAR Chobby test-4630-26b5200",
+          "archive_present": true,
+          "analytics_api_present": true,
+          "lua_socket_enabled": 1,
+          "tcp_allow_connect": "",
+          "holder_visible": true,
+          "holder_width": 2000,
+          "holder_height": 1300,
+          "view": [
+            2000,
+            1300
+          ]
+        }
+      },
+      "game_activations": 1,
+      "menu_returns": 1,
+      "exit": {
+        "kind": "normal",
+        "target_returncode": 0,
+        "elapsed_seconds": 148.108412,
+        "exit_confirmed": true,
+        "logs_final": true,
+        "lifetime_channel_closed": true,
+        "remaining_group": [],
+        "emergency_used": false,
+        "pauses": []
+      },
+      "agent_visual_review": {
+        "reviewer": "OpenAI Codex root agent; not human review",
+        "source": "root-visual-review.json",
+        "source_sha256": "2b8fcc723d0343a08a021c3340301b2cdeda18791f9d6f8f6f8a9aaadb85ea21",
+        "verdict": "Physical window and native PNG personally viewed at menu-before, restore-complete, game, returned-menu. Complete menus including Exit/footer; terrain, commander and HUD visible; returned menu complete.",
+        "physical_menu_window_points": {
+          "width": 1000,
+          "height": 682,
+          "x": 80,
+          "y": 48,
+          "fully_inside_visible_screen": true,
+          "minimized": false
+        },
+        "additional_package_review": "All four published native PNG also personally viewed by the package-preparation Codex agent."
+      },
+      "seed_result": {
+        "returncode": 0,
+        "stdout": "",
+        "stderr": "",
+        "driver_sha256": "a9713279ea23f900b87f58886b535c1718d2e85220cd6ca01222f94aa42346f8",
+        "merge_sha256": "1a22c9882b170e4771d00d665bef36dfebabfc1dad970a2b1946f1b0b0f80ba1",
+        "candidate_block_sha256": "a91d690e1551ee61efb87233391a975def257638dc967493aadafb9fa6cc8e68"
+      },
+      "observer_template_sha256": {
+        "bar_chobby_rapid.py": "161b8b0328ebb8615f9dd82dffa47f36c7cca6ae1bfd9bcc87f3a473ffd47068",
+        "bar_chobby_rapid_menu.lua": "32564e74bf660043d8d8a1378d3b7bdcf19fd618495f67f49b7ec9321ab1b9a9",
+        "bar_chobby_rapid_game.lua": "10b97faf464672e8a7bb068eeb378d073998284e8c8927dec3ba283448545899"
+      },
+      "game_observation": {
+        "stage": "game",
+        "frame": 90,
+        "world_draws": 539,
+        "view": [
+          2000,
+          1300
+        ],
+        "png": "screenshots/game.png",
+        "capture": "native framebuffer; root checks physical presentation"
+      },
+      "game_return_request": {
+        "frame": 832,
+        "world_draws": 10368
+      },
+      "cache_after_exit": {
+        "bytes": 146201,
+        "sha256": "b3e9af46e670049515689865c6e6457c06021c5cc20ad10a122c897d5f2977cd"
+      },
+      "excerpt": {
+        "path": "fixed/infolog-excerpt.log",
+        "source_line_ranges_1based": [
+          [
+            139,
+            139
+          ],
+          [
+            296,
+            296
+          ],
+          [
+            299,
+            299
+          ],
+          [
+            301,
+            301
+          ],
+          [
+            327,
+            327
+          ],
+          [
+            344,
+            345
+          ],
+          [
+            349,
+            351
+          ],
+          [
+            435,
+            436
+          ],
+          [
+            754,
+            757
+          ],
+          [
+            762,
+            763
+          ],
+          [
+            17120,
+            17123
+          ],
+          [
+            17125,
+            17131
+          ],
+          [
+            27145,
+            27145
+          ],
+          [
+            27214,
+            27214
+          ],
+          [
+            27260,
+            27260
+          ],
+          [
+            27264,
+            27264
+          ],
+          [
+            27273,
+            27273
+          ],
+          [
+            27286,
+            27289
+          ],
+          [
+            27296,
+            27297
+          ],
+          [
+            27322,
+            27328
+          ],
+          [
+            27332,
+            27336
+          ],
+          [
+            27347,
+            27348
+          ],
+          [
+            27376,
+            27376
+          ],
+          [
+            27781,
+            27787
+          ],
+          [
+            28130,
+            28138
+          ],
+          [
+            28375,
+            28379
+          ],
+          [
+            28431,
+            28431
+          ],
+          [
+            28474,
+            28486
+          ],
+          [
+            28497,
+            28499
+          ],
+          [
+            28513,
+            28513
+          ],
+          [
+            28519,
+            28519
+          ],
+          [
+            39020,
+            39028
+          ],
+          [
+            39038,
+            39039
+          ],
+          [
+            39043,
+            39043
+          ],
+          [
+            64405,
+            64405
+          ],
+          [
+            64408,
+            64408
+          ],
+          [
+            64417,
+            64417
+          ],
+          [
+            64481,
+            64484
+          ]
+        ],
+        "transformation": "Only selected verbatim source lines with added source/range headers. No line edits. Lines containing local runtime paths are omitted."
+      }
+    }
+  },
+  "remaining_diagnostics": {
+    "scope": "Grouping of remaining observed warning/error families, not root-cause proof for every warning or a clean-log claim.",
+    "independent_review_sha256": "9fab82c022a2aaacf9604fade7fd0a011aef1fca6aaf21a8ff7b3659a117d340",
+    "groups": [
+      {
+        "category": "Expected offline transport outcomes",
+        "assessment": "Native Analytics TCP deny occurs before DNS with empty TCPAllowConnect; API remains present. The precise plugin manifest is cancelled through the original registered resource callback (false, aborted); its download_failed notification is expected. Private-game loopback listener notice is expected. No real manifest download.",
+        "evidence": [
+          {
+            "phase": "fixed",
+            "source": "infolog.txt",
+            "source_sha256": "48d91f3fb83dbe29d53d06358c8f2eb7da52cf67323f7f22cda5e4f4a1c983b1",
+            "lines_1based": [
+              754,
+              27214
+            ]
+          }
+        ],
+        "manifest_state": {
+          "original": {
+            "reply": {
+              "isAborted": true,
+              "name": "LuaUI/Widgets/manifests.json",
+              "isSuccess": false
+            },
+            "rapid_and_cache_unchanged": true,
+            "command": {
+              "type": "resource",
+              "name": "LuaUI/Widgets/manifests.json",
+              "resource": {
+                "url": "https://widget-hub.beyondallreason.dev/manifests.json?t=1789098368",
+                "extract": false,
+                "destination": "LuaUI/Widgets/manifests.json"
+              }
+            },
+            "completion": "cancelled-offline",
+            "removal_type": "cancel",
+            "notification": "Native download_failed notification is expected; plugin catalogue not tested"
+          },
+          "fixed": {
+            "reply": {
+              "isAborted": true,
+              "name": "LuaUI/Widgets/manifests.json",
+              "isSuccess": false
+            },
+            "rapid_and_cache_unchanged": true,
+            "command": {
+              "type": "resource",
+              "name": "LuaUI/Widgets/manifests.json",
+              "resource": {
+                "url": "https://widget-hub.beyondallreason.dev/manifests.json?t=1789099008",
+                "extract": false,
+                "destination": "LuaUI/Widgets/manifests.json"
+              }
+            },
+            "completion": "cancelled-offline",
+            "removal_type": "cancel",
+            "notification": "Native download_failed notification is expected; plugin catalogue not tested"
+          }
+        }
+      },
+      {
+        "category": "Sound-disabled fixture log flood",
+        "assessment": "Sound=0 causes the pinned music widget to compare played >= total while NullAudio reports both as zero. Starting Track messages do not prove audio playback and are not repaired by this setting.",
+        "evidence": [
+          {
+            "phase": "fixed",
+            "source": "infolog.txt",
+            "source_sha256": "48d91f3fb83dbe29d53d06358c8f2eb7da52cf67323f7f22cda5e4f4a1c983b1",
+            "lines_1based": [
+              449
+            ]
+          }
+        ],
+        "counts": {
+          "original": 87319,
+          "fixed": 62323
+        }
+      },
+      {
+        "category": "Geometry shader rejection and partial fallback",
+        "assessment": "Shader error(s) explicitly report this driver links geometry shaders but does not rasterize them. Some effects log successful NoGS fallback, including UnitEnergyExplosionParticlesGL4. Success is not established for every effect, including MapExtensionShader2 and unitStencils. Not fixed by RapidTagResolutionOrder.",
+        "evidence": [
+          {
+            "phase": "fixed",
+            "source": "infolog.txt",
+            "source_sha256": "48d91f3fb83dbe29d53d06358c8f2eb7da52cf67323f7f22cda5e4f4a1c983b1",
+            "lines_1based": [
+              139,
+              27781,
+              27782,
+              27787,
+              27829,
+              27835,
+              28217,
+              28222,
+              28224,
+              28227,
+              28230,
+              28233,
+              28237,
+              28240,
+              28244,
+              28248,
+              28251,
+              28254,
+              28283,
+              28288,
+              28290,
+              28293,
+              28311,
+              28316,
+              28375,
+              28421,
+              28426,
+              28458,
+              28463,
+              28474,
+              28482,
+              28485
+            ]
+          }
+        ]
+      },
+      {
+        "category": "Missing game feature models",
+        "assessment": "corfast_dead/corhack_dead definitions are removed because Units/corfast_dead.s3o is absent; later GetFeatureDef errors name those features. Outside this launcher change.",
+        "evidence": [
+          {
+            "phase": "fixed",
+            "source": "infolog.txt",
+            "source_sha256": "48d91f3fb83dbe29d53d06358c8f2eb7da52cf67323f7f22cda5e4f4a1c983b1",
+            "lines_1based": [
+              27286,
+              27287,
+              27347,
+              27348
+            ]
+          }
+        ]
+      },
+      {
+        "category": "Widget selector load failure",
+        "assessment": "widget_selector.lua fails while including LuaUI/fonts.lua, which VFS does not see. This failure remains; selector behavior is not validated here.",
+        "evidence": [
+          {
+            "phase": "fixed",
+            "source": "infolog.txt",
+            "source_sha256": "48d91f3fb83dbe29d53d06358c8f2eb7da52cf67323f7f22cda5e4f4a1c983b1",
+            "lines_1based": [
+              28130
+            ]
+          }
+        ]
+      },
+      {
+        "category": "Deprecated configuration",
+        "assessment": "SetConfigInt AdvSky is deprecated. It is not changed or attributed to this setting.",
+        "evidence": [
+          {
+            "phase": "fixed",
+            "source": "infolog.txt",
+            "source_sha256": "48d91f3fb83dbe29d53d06358c8f2eb7da52cf67323f7f22cda5e4f4a1c983b1",
+            "lines_1based": [
+              27260
+            ]
+          }
+        ]
+      },
+      {
+        "category": "Other Lua and UI data diagnostics",
+        "assessment": "No-GetInfo helpers, Chili custom DrawControl, missing blueprint data and absent startposition suggestions remain. No broad repair or causal assignment is claimed.",
+        "evidence": [
+          {
+            "phase": "fixed",
+            "source": "infolog.txt",
+            "source_sha256": "48d91f3fb83dbe29d53d06358c8f2eb7da52cf67323f7f22cda5e4f4a1c983b1",
+            "lines_1based": [
+              344,
+              345,
+              349,
+              350,
+              351,
+              436,
+              28131,
+              28132,
+              28135,
+              28137,
+              28138,
+              28431,
+              28497
+            ]
+          }
+        ]
+      },
+      {
+        "category": "Map, definitions and asset diagnostics",
+        "assessment": "Map naming/mapfile hints, fallback splat texture, missing test-projectile model/icons, unknown weaponDef fields, YardMap extra characters, unknown CEG class and cursorareaattack with no frames remain. Their relation to this configuration change is not established.",
+        "evidence": [
+          {
+            "phase": "fixed",
+            "source": "infolog.txt",
+            "source_sha256": "48d91f3fb83dbe29d53d06358c8f2eb7da52cf67323f7f22cda5e4f4a1c983b1",
+            "lines_1based": [
+              296,
+              299,
+              301,
+              303,
+              27273,
+              27289,
+              27296,
+              27297,
+              27322,
+              27323,
+              27324,
+              27325,
+              27326,
+              27327,
+              27328,
+              27332,
+              27333,
+              27334,
+              27335,
+              27336,
+              27376,
+              28499
+            ]
+          }
+        ]
+      },
+      {
+        "category": "Rapid duplicate-tag warnings",
+        "assessment": "Equal-preference duplicate tags are reported even in fixed; native selected-tag/archive checks still pass. The patch does not remove duplicate repository entries.",
+        "evidence": [
+          {
+            "phase": "fixed",
+            "source": "infolog.txt",
+            "source_sha256": "48d91f3fb83dbe29d53d06358c8f2eb7da52cf67323f7f22cda5e4f4a1c983b1",
+            "lines_1based": [
+              327,
+              435,
+              762,
+              17125,
+              39021,
+              39042
+            ]
+          }
+        ],
+        "original_evidence": [
+          {
+            "phase": "original",
+            "source": "infolog.txt",
+            "source_sha256": "72d0181a6d57a98f0572181f23138c7cb0255580602f6b4eb413fee5dc6da415",
+            "lines_1based": [
+              787,
+              53016
+            ]
+          }
+        ]
+      },
+      {
+        "category": "Runtime path, rendering and font diagnostics",
+        "assessment": "Mesa/runtime diagnostics, readlink ENOENT and Fontconfig initialization/cache messages remain. Fontconfig INFO lines alone do not prove a font failure. Draw-gap warnings and disabled VSync interval reports are retained; this is not a freeze diagnosis or performance guarantee. No relation to this setting is established.",
+        "evidence": [
+          {
+            "phase": "fixed",
+            "source": "infolog.txt",
+            "source_sha256": "48d91f3fb83dbe29d53d06358c8f2eb7da52cf67323f7f22cda5e4f4a1c983b1",
+            "lines_1based": [
+              202,
+              203,
+              204,
+              227,
+              329,
+              454,
+              766,
+              17133,
+              27267,
+              27277,
+              27303,
+              27321,
+              27362,
+              27380,
+              27405,
+              27954,
+              28513,
+              28527,
+              28544,
+              29089,
+              39038,
+              39039
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "limitations": [
+    "No full Finder/launcher update path or physical EPERM cause tested.",
+    "No live transfer, account login or public match.",
+    "Same-process return only; no recovery after fresh Lua instance/process during unfinished update.",
+    "Visual review by Codex agents; human review requested through PR.",
+    "Live adapter, binaries and full raw logs are not included; provided commands reproduce the portable offline checks."
+  ]
+}

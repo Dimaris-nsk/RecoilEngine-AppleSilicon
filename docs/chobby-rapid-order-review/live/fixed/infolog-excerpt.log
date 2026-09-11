@@ -1,0 +1,193 @@
+# Selected verbatim source lines; omissions are intentional.
+# Source: run-378188297485482a825b417517dc32dc/infolog.txt
+# Source SHA256: 48d91f3fb83dbe29d53d06358c8f2eb7da52cf67323f7f22cda5e4f4a1c983b1
+
+# Original lines 139-139
+[t=00:00:00.129336] Warning: [GR::SetGLSupportFlags] this driver links geometry shaders but does not run them; geometry-shader compilation will be refused so content falls back to its non-GS paths
+
+# Original lines 296-296
+[t=00:00:00.204311] Warning: [ArchiveData] version "1.2" included in name "All That Smolders v1.2"
+
+# Original lines 299-299
+[t=00:00:00.205377] Warning: [ArchiveData] version "2.2.3" included in name "All That Glitters v2.2.3"
+
+# Original lines 301-301
+[t=00:00:00.205835] Warning: [ArchiveData] version "1.2" included in name "Ravaged Remake v1.2"
+
+# Original lines 327-327
+[t=00:00:00.224140][f=-000001] Warning: Rapid tag byar-chobby:test resolves to multiple versions with the same preference, picking from rapid/repos-cdn.beyondallreason.dev/byar-chobby/versions.gz
+
+# Original lines 344-345
+[t=00:00:00.234515][f=-000001] [LuaMenu] Warning: Missing GetInfo() in: base64.lua
+[t=00:00:00.234745][f=-000001] [LuaMenu] Warning: Missing GetInfo() in: engineversion.lua
+
+# Original lines 349-351
+[t=00:00:00.235030][f=-000001] [LuaMenu] Warning: Missing GetInfo() in: function_override.lua
+[t=00:00:00.235628][f=-000001] [LuaMenu] Warning: Missing GetInfo() in: tablefunctions.lua
+[t=00:00:00.236273][f=-000001] [LuaMenu] Warning: Missing GetInfo() in: timefunctions.lua
+
+# Original lines 435-436
+[t=00:00:00.412978][f=-000001] Warning: Rapid tag byar:test resolves to multiple versions with the same preference, picking from rapid/repos-cdn.beyondallreason.dev/byar/versions.gz
+[t=00:00:00.441508][f=-000001] [Chili] Warning: You are using a custom emojitextbox0::DrawControl in widget "Chili lobby".
+
+# Original lines 754-757
+[t=00:00:01.003677][f=-000001] Error: Access to 'server4.beyondallreason.info:8200' denied
+[t=00:00:01.005068][f=-000001] Starting Track, luamenu/configs/gameconfig/byar/lobbyMusic/original/matteo dell'acqua - foobar (menu ver.) (intro).ogg, 0.30000001
+[t=00:00:01.006026][f=-000001] Saved lobby versions.gz from, rapid/repos-cdn.beyondallreason.dev/byar-chobby/versions.gz, size = , 146201
+[t=00:00:01.006099][f=-000001] Wrote , rapid/repos-cdn.beyondallreason.dev/byar-chobby/versions.gz_cache.gz, successfully
+
+# Original lines 762-763
+[t=00:00:01.024007][f=-000001] Warning: Rapid tag byar-chobby:test resolves to multiple versions with the same preference, picking from rapid/repos-cdn.beyondallreason.dev/byar-chobby/versions.gz
+[t=00:00:01.035149][f=-000001] [chobby-rapid], checkpoint, menu-before
+
+# Original lines 17120-17123
+[t=00:00:33.347492][f=-000001] [chobby-rapid], public-queue-request, Beyond All Reason test-31251-0ceadc7
+[t=00:00:33.347728][f=-000001] [chobby-rapid], connector-command-observed, Download
+[t=00:00:33.347902][f=-000001] [chobby-rapid], real-connector-send, Beyond All Reason test-31251-0ceadc7
+[t=00:00:33.348091][f=-000001] [chobby-rapid], real-download-started, Beyond All Reason test-31251-0ceadc7
+
+# Original lines 17125-17131
+[t=00:00:33.354863][f=-000001] Warning: Rapid tag byar-chobby:test resolves to multiple versions with the same preference, picking from rapid/repos-cdn.beyondallreason.dev/byar-chobby/versions.gz
+[t=00:00:33.358451][f=-000001] [chobby-rapid], gzip-mutated-while-active, BYAR Chobby controlled-not-downloaded
+[t=00:00:33.358502][f=-000001] Starting Track, luamenu/configs/gameconfig/byar/lobbyMusic/original/matteo dell'acqua - game of chicken.ogg, 0.30000001
+[t=00:00:33.359309][f=-000001] [MacPresent/sec] frames=490 gpu-behind=489 stale-slot=0
+[t=00:00:33.359487][f=-000001] Wrote , rapid/repos-cdn.beyondallreason.dev/byar-chobby/versions.gz, successfully
+[t=00:00:33.371419][f=-000001] [chobby-rapid], original-callback-completed, rapid/repos-cdn.beyondallreason.dev/byar-chobby/versions.gz
+[t=00:00:33.380238][f=-000001] [chobby-rapid], checkpoint, restore-complete
+
+# Original lines 27145-27145
+[t=00:00:53.432098][f=-000001] [chobby-rapid], reload-game-request, Beyond All Reason test-31251-0ceadc7
+
+# Original lines 27214-27214
+[t=00:00:57.984325][f=-000001] Warning: [UDPListener::TryBindSocket] opening socket on loopback address, other users will not be able to connect!
+
+# Original lines 27260-27260
+[t=00:00:58.120915][f=-000001] Error: [SetConfigInt] key "AdvSky" is deprecated
+
+# Original lines 27264-27264
+[t=00:00:58.137447][f=-000001] [Game::Load][1] globalQuit=0 threaded=0
+
+# Original lines 27273-27273
+[t=00:00:59.028993][f=-000001] Warning: [CSMFReadMap::CreateSplatDetailTextures] Invalid SMF splatDetailTex maps/iwantDNTS.tga. Creating fallback texture
+
+# Original lines 27286-27289
+[t=00:00:59.488488][f=-000001] [featuredefs_post.lua] Warning: Removing feature def, corhack_dead, for having invalid model that would crash the engine, Units/corfast_dead.s3o
+[t=00:00:59.488812][f=-000001] [featuredefs_post.lua] Warning: Removing feature def, corfast_dead, for having invalid model that would crash the engine, Units/corfast_dead.s3o
+[t=00:00:59.499311][f=-000001] WeaponVolumes, BeamLaser, 5500, 2.5, Experimental g2g Eradicator Heat Ray, 72.4157715, 72.4157715, 39.6637535
+[t=00:00:59.499650][f=-000001] [weapondefs.lua] Error: removed ceg_test_projectile_unit_ceg_test_projectile weaponDef, missing model
+
+# Original lines 27296-27297
+[t=00:00:59.712270][f=-000001] Warning: [CIconHandler::UpdateAtlasData] Failed to load icon=default, bitmap=
+[t=00:00:59.712310][f=-000001] Warning: [CIconHandler::UpdateAtlasData] Failed to load icon=default_scav, bitmap=
+
+# Original lines 27322-27328
+[t=00:01:00.509973][f=-000001] Warning: WeaponDefs: Unknown tag "shield.energyupkeep" in "armcomcon_repulsor1"
+[t=00:01:00.513912][f=-000001] Warning: WeaponDefs: Unknown tag "shield.energyupkeep" in "armfgate_sea_repulsor"
+[t=00:01:00.514192][f=-000001] Warning: WeaponDefs: Unknown tag "shield.energyupkeep" in "armgate_repulsor"
+[t=00:01:00.518464][f=-000001] Warning: WeaponDefs: Unknown tag "shield.energyupkeep" in "corcomcon_repulsor1"
+[t=00:01:00.522221][f=-000001] Warning: WeaponDefs: Unknown tag "shield.energyupkeep" in "corfgate_sea_repulsor"
+[t=00:01:00.522499][f=-000001] Warning: WeaponDefs: Unknown tag "shield.energyupkeep" in "corgate_repulsor"
+[t=00:01:00.522936][f=-000001] Warning: WeaponDefs: Unknown tag "comment" in "corjuno_juno_pulse_ghost"
+
+# Original lines 27332-27336
+[t=00:01:00.533043][f=-000001] Warning: [CreateYardMap] armanavaldefturret: given yardmap requires 13 extra char(s)!
+[t=00:01:00.535533][f=-000001] Warning: [CreateYardMap] armhaap: given yardmap requires 81 extra char(s)!
+[t=00:01:00.538889][f=-000001] Warning: [CreateYardMap] coranavaldefturret: given yardmap requires 13 extra char(s)!
+[t=00:01:00.541352][f=-000001] Warning: [CreateYardMap] corhasy: given yardmap requires 48 extra char(s)!
+[t=00:01:00.544504][f=-000001] Warning: [CreateYardMap] leghaap: given yardmap requires 36 extra char(s)!
+
+# Original lines 27347-27348
+[t=00:01:00.560431][f=-000001] Error: [GetFeatureDef] could not find FeatureDef "corfast_dead"
+[t=00:01:00.560471][f=-000001] Error: [GetFeatureDef] could not find FeatureDef "corhack_dead"
+
+# Original lines 27376-27376
+[t=00:01:01.913545][f=-000001] Warning: [CCEG::Load] genericshellexplosion-small-bomb: unknown class "groundflash_anim"
+
+# Original lines 27781-27787
+[t=00:01:03.165767][f=-000001] LuaShader: [UnitEnergyExplosionParticlesGL4] shader error(s):
+Geometry shaders are not executable on this driver (the stage links but does not rasterize); use a non-geometry-shader code path
+[t=00:01:03.166593][f=-000001] Geometry shaders are not executable on this driver (the stage links but does not rasterize); use a non-geometry-shader code path
+
+[t=00:01:03.166608][f=-000001] UnitEnergyExplosionParticlesGL4,  recompiled in , 2, ms at, 0, success, false
+[t=00:01:03.166612][f=-000001] Energy Explosion Particles GL4: geometry shader compile failed; trying no-GS fallback.
+[t=00:01:03.178691][f=-000001] UnitEnergyExplosionParticlesGL4_NoGS,  recompiled in , 12, ms at, 0, success, true
+
+# Original lines 28130-28138
+[t=00:01:04.059890][f=-000001] Failed to load: widget_selector.lua  ([LuaVFS::Include(synced=false)][loadvfs] file=LuaUI/fonts.lua status=-1 cenv=true vfsmode=rMmeb File not seen by VFS (missing or in different VFS mode))
+[t=00:01:04.061376][f=-000001] Failed to load: dp_preview_bake.lua  (no GetInfo() call)
+[t=00:01:04.064040][f=-000001] Failed to load: env_presets.lua  (no GetInfo() call)
+[t=00:01:04.074072][f=-000001] [Terraform Brush] Splat sets loaded: 0
+[t=00:01:04.074341][f=-000001] [Terraform Brush] Environment presets: 8
+[t=00:01:04.079181][f=-000001] Failed to load: newmap_archetypes.lua  (no GetInfo() call)
+[t=00:01:04.079322][f=-000001] [log] previous line repeated 4 more time(s) [section: ]
+[t=00:01:04.079327][f=-000001] Failed to load: tf_clone.lua  (no GetInfo() call)
+[t=00:01:04.079458][f=-000001] Failed to load: tf_decals.lua  (no GetInfo() call)
+
+# Original lines 28375-28379
+[t=00:01:04.645587][f=-000001] LuaShader: [Map Extension Shader2] shader error(s):
+Geometry shaders are not executable on this driver (the stage links but does not rasterize); use a non-geometry-shader code path
+[t=00:01:04.646513][f=-000001] Geometry shaders are not executable on this driver (the stage links but does not rasterize); use a non-geometry-shader code path
+
+[t=00:01:04.653047][f=-000001] Loading widget from mod:   Mapmark Ping        <snd_mapmark_ping.lua> ...
+
+# Original lines 28431-28431
+[t=00:01:04.713123][f=-000001] Failed to read blueprints file: LuaUI/Config/blueprints.json
+
+# Original lines 28474-28486
+[t=00:01:04.787647][f=-000001] LuaShader: [unitStencilsShader GL4] shader error(s):
+Geometry shaders are not executable on this driver (the stage links but does not rasterize); use a non-geometry-shader code path
+[t=00:01:04.788243][f=-000001] Geometry shaders are not executable on this driver (the stage links but does not rasterize); use a non-geometry-shader code path
+
+[t=00:01:04.790561][f=-000001] Loading widget from mod:   Show Builder Queue  <gfx_showbuilderqueue.lua> ...
+[t=00:01:04.790685][f=-000001] Loading widget from mod:   Commander Hurt Vignette  <gui_commanderhurt.lua> ...
+[t=00:01:04.790802][f=-000001] Loading widget from mod:   Mouse Buildspacing  <gui_buildspacing.lua> ...
+[t=00:01:04.790883][f=-000001] Loading widget from mod:   Decals GL4          <gfx_decals_gl4.lua> ...
+[t=00:01:04.792272][f=-000001] LuaShader: [Decals Gl4 Shader] shader error(s):
+Geometry shaders are not executable on this driver (the stage links but does not rasterize); use a non-geometry-shader code path
+[t=00:01:04.793219][f=-000001] Decals Gl4 Shader,  recompiled in , 2, ms at, 0, success, false
+[t=00:01:04.793244][f=-000001] Decals GL4: geometry shader compile failed, enabling NoGS fallback
+[t=00:01:04.798745][f=-000001] Decals Large Gl4 Shader,  recompiled in , 5, ms at, 0, success, true
+
+# Original lines 28497-28499
+[t=00:01:04.803562][f=-000001] [Start Position Suggestions] Warning: No modoption start position data found
+[t=00:01:04.803588][f=-000001] Loading widget from mod:   Cursor              <gui_cursor.lua> ...
+[t=00:01:04.807447][f=-000001] Warning: [MouseHandler::ReplaceMouseCursor] replacement "icexuick_75/cursorareaattack" for "cursorareaattack" has no frames, the cursor will draw nothing
+
+# Original lines 28513-28513
+[t=00:01:05.040839][f=-000001] Warning: [stall] draw gap 1563ms (drawFrame=26641, stalls=12)
+
+# Original lines 28519-28519
+[t=00:01:05.087460][f=-000001] [chobby-rapid], activate-game, 
+
+# Original lines 39020-39028
+[t=00:01:36.804500][f=-000001] [LuaMenuController::Reset] using menu archive "rapid://byar-chobby:test"
+[t=00:01:36.809846][f=-000001] Warning: Rapid tag byar-chobby:test resolves to multiple versions with the same preference, picking from rapid/repos-cdn.beyondallreason.dev/byar-chobby/versions.gz
+[t=00:01:36.813205][f=-000001] [VFS] [LuaMenuVFS::AddArchive<this=0x334550080>(arName="BYAR Chobby test-4630-26b5200", overwrite=false)] section=3 cached=1
+[t=00:01:36.813569][f=-000001] [VFS] [LuaMenuVFS::AddArchive<this=0x334550080>(arName="Spring content v1", overwrite=false)] section=2 cached=0
+[t=00:01:36.813614][f=-000001] [VFS] [LuaMenuVFS::AddArchive<this=0x334550080>(arName="Spring Bitmaps", overwrite=false)] section=2 cached=0
+[t=00:01:36.819296][f=-000001] [SpringApp::Reload][12] #script=0
+[t=00:01:36.819342][f=-000001] [LuaMenuController::Activate(msg="")] luaMenu=0x105a19000
+[t=00:01:36.819920][f=-000001] [log] previous line repeated 5 more time(s) [section: ]
+[t=00:01:36.819925][f=-000001] [chobby-rapid], activate-menu-after-game, 
+
+# Original lines 39038-39039
+[t=00:01:36.882401][f=-000001] Warning: [stall] draw gap 347ms (drawFrame=37011, stalls=17)
+[t=00:01:36.882463][f=-000001] [VSync::SetInterval] interval=3 (disabled)
+
+# Original lines 39043-39043
+[t=00:01:36.913567][f=-000001] [chobby-rapid], checkpoint, returned-menu
+
+# Original lines 64405-64405
+[t=00:02:26.700328][f=-000001] [chobby-rapid], result, restore and game-to-menu completed
+
+# Original lines 64408-64408
+[t=00:02:26.703754][f=-000001] [chobby-rapid] normal-quit-request, complete
+
+# Original lines 64417-64417
+[t=00:02:26.741258][f=-000001] [chobby-rapid] shutdown, quit_requested, true, result_written, true
+
+# Original lines 64481-64484
+[t=00:02:26.747334] [SpringApp::Kill][8]
+[t=00:02:26.747341] [WatchDog::DeregisterThread] deregistering controls for thread [main]
+[t=00:02:26.747344] [WatchDog::Uninstall][1] hangDetectorThread=0x101f4c4b8 (joinable=1)
+[t=00:02:26.747346] [WatchDog::Uninstall][2]

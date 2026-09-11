@@ -1,0 +1,73 @@
+{
+  "kind": "Compact projection of the newly executed portable checks; runtime locations and private cwd omitted",
+  "private_execution_receipt_sha256": "0cfbe838ef8fd22ebfa9b0576cd18fb9759fa060ec13d83a2f4dd5df79c94bf1",
+  "executions": [
+    {
+      "command": [
+        "python3",
+        "-B",
+        "probe.py",
+        "--label",
+        "portable-cause"
+      ],
+      "cwd": "copied package root",
+      "exit_code": 0,
+      "passed": true,
+      "counts": {
+        "scenarios": 6
+      },
+      "wall_seconds": 0.0750752919993829,
+      "result": "recorded/portable-cause/results.json",
+      "raw_result_sha256": "165c418195076fe70801c01ac10b599ad4112724d4f176bc8ef59eeac665d6f9",
+      "public_result_sha256": "165c418195076fe70801c01ac10b599ad4112724d4f176bc8ef59eeac665d6f9",
+      "stdout_identical_to_raw_result": true,
+      "stdout_sha256": "165c418195076fe70801c01ac10b599ad4112724d4f176bc8ef59eeac665d6f9",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_bytes": 0
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "test_seed.py",
+        "--label",
+        "portable-seed"
+      ],
+      "cwd": "copied package root",
+      "exit_code": 0,
+      "passed": true,
+      "counts": {
+        "configuration_cases": 12,
+        "block_process_invocations": 13,
+        "lua_integration_cases": 3
+      },
+      "wall_seconds": 0.11545079200004693,
+      "result": "recorded/portable-seed/results.json",
+      "raw_result_sha256": "80e7c888385ed6da6cddb1f1b3cd7c9c5e23d47f601e741186a249792514cba9",
+      "public_result_sha256": "79f0fa64d86467ba6064ca62ba7d27b104f5785a758f68dbd69e00e548dee4b5",
+      "stdout_identical_to_raw_result": true,
+      "stdout_sha256": "80e7c888385ed6da6cddb1f1b3cd7c9c5e23d47f601e741186a249792514cba9",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_bytes": 0
+    }
+  ],
+  "immutable_inputs_unchanged": true,
+  "input_hashes": {
+    "adaptation.json": "9cdd9554c378a830d75f3c4e0382aa38df1f8a6cf1a4e0d18590162f8c9b1441",
+    "candidate/packaging/launcher.sh": "18e9d459011fd295c35a2aa8b9b48cbc43dc6d4ba27ee3fe9d634f543880558d",
+    "candidate.patch": "d47b03df4c37dd46f354f348da0cae2227ffa59cd5eee38444eb7b7fa9659ad4",
+    "fixtures/historical-warning.log": "5930de00827c4aaefe411cc5ea7a520fbaed893b073a171a5499803c907d9f0f",
+    "fixtures/versions.gz": "b3e9af46e670049515689865c6e6457c06021c5cc20ad10a122c897d5f2977cd",
+    "inputs/dist_cfg/config.json": "d37bf2a8c5b5ce3e2728b9df8db2f04b46b0a4dc1ff1e34df4d0b8b495cbcfc1",
+    "inputs/luamenu/configs/gameconfig/byar/mainconfig.lua": "a728e69f7638bc7bb9fbd2dc7e34f4bc57981a11d11590b40150087d3134ec76",
+    "inputs/luamenu/utils.lua": "5bbdbee4b0fb69e78be20e3d0f57b0292202e9482f86322d52940468b1662d6c",
+    "inputs/luamenu/widgets/api_download_handler.lua": "eeed22c7ba4a2c50695b85a661597459d68d1227e1f8370d4f4eb69ac692b952",
+    "inputs/modinfo.lua": "9bc89634d2ce1de63a56748c8396cc619204b0e086d63782ef39e2bbd3ede599",
+    "inputs/packages/4e10d9c250bab70be5b47d706f535c4d.sdp": "3b2b839447fe87d69298866e2c4c552a6463ac098b85a9df809c07ee226cd39c",
+    "original/packaging/launcher.sh": "261b5bc123d4a468a944f52de236010b4d285c307203e782f96fdc766142a133",
+    "probe.py": "5149e5049b143c8851abfb19572a666357512001073f3f62f0c7c6727de0b1bd",
+    "sources.json": "b6822ba124a5b9caa51baa75127b478798183a781d7c7987db874b26be36d1fc",
+    "test_seed.py": "cb33b9f73c0072468586348f5449da7d243138879a2e1c43f4bde85afd3a24e0"
+  },
+  "scope": "One portable qualification cycle, cause then exact-block/consumer checks. Finite processes only; no full launcher, BAR, GUI, network, signals or installation."
+}

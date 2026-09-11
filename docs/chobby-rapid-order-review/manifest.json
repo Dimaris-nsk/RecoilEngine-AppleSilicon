@@ -1,0 +1,577 @@
+{
+  "schema_version": 1,
+  "scope": "Only this package directory is a future public artifact. Sibling private-consumer-check contains personal local paths and must not be published. Nothing has been published by this preparation.",
+  "file_path_root": "this package directory",
+  "source_path_semantics": "source_root declares a logical source area; source_path is relative to that area, never an owner filesystem location",
+  "candidate_sha256": "18e9d459011fd295c35a2aa8b9b48cbc43dc6d4ba27ee3fe9d634f543880558d",
+  "launcher_base_commit": "562fe461f8b045f863089815edac7f2d6559e178",
+  "chobby_version": "test-4630-26b5200",
+  "private_predecessor_files_unchanged": 102,
+  "live_BAR_validation": "Completed bounded native original/fixed comparison and fixed game-to-menu; controlled transport. See live/results.json.",
+  "human_review": "requested through PR; not represented as completed",
+  "file_count_excluding_manifest": 31,
+  "files": [
+    {
+      "path": "PR-DRAFT.en.md",
+      "bytes": 2410,
+      "sha256": "9b5ead4093ead564c2c15aef5f744f837073d71706b7d23f496398cfb0583aa0",
+      "provenance": {
+        "kind": "new review documentation or metadata"
+      }
+    },
+    {
+      "path": "README.md",
+      "bytes": 6426,
+      "sha256": "14ee80c392140aa039338c457520df1d0a01f42929b76726bb93ca93c5a39976",
+      "provenance": {
+        "kind": "new review documentation or metadata"
+      }
+    },
+    {
+      "path": "adaptation.json",
+      "bytes": 2523,
+      "sha256": "9cdd9554c378a830d75f3c4e0382aa38df1f8a6cf1a4e0d18590162f8c9b1441",
+      "provenance": {
+        "kind": "new review documentation or metadata"
+      }
+    },
+    {
+      "path": "candidate/packaging/launcher.sh",
+      "bytes": 29935,
+      "sha256": "18e9d459011fd295c35a2aa8b9b48cbc43dc6d4ba27ee3fe9d634f543880558d",
+      "provenance": {
+        "kind": "unchanged pinned source or fixture",
+        "source_root": "private predecessor package (not included)",
+        "source_path": "candidate/packaging/launcher.sh",
+        "source_sha256": "18e9d459011fd295c35a2aa8b9b48cbc43dc6d4ba27ee3fe9d634f543880558d"
+      }
+    },
+    {
+      "path": "candidate.patch",
+      "bytes": 1114,
+      "sha256": "d47b03df4c37dd46f354f348da0cae2227ffa59cd5eee38444eb7b7fa9659ad4",
+      "provenance": {
+        "kind": "unchanged pinned source or fixture",
+        "source_root": "private predecessor package (not included)",
+        "source_path": "candidate.patch",
+        "source_sha256": "d47b03df4c37dd46f354f348da0cae2227ffa59cd5eee38444eb7b7fa9659ad4"
+      }
+    },
+    {
+      "path": "fixtures/historical-warning.log",
+      "bytes": 267,
+      "sha256": "5930de00827c4aaefe411cc5ea7a520fbaed893b073a171a5499803c907d9f0f",
+      "provenance": {
+        "kind": "unchanged pinned source or fixture",
+        "source_root": "private predecessor package (not included)",
+        "source_path": "fixtures/historical-warning.log",
+        "source_sha256": "5930de00827c4aaefe411cc5ea7a520fbaed893b073a171a5499803c907d9f0f"
+      }
+    },
+    {
+      "path": "fixtures/versions.gz",
+      "bytes": 146201,
+      "sha256": "b3e9af46e670049515689865c6e6457c06021c5cc20ad10a122c897d5f2977cd",
+      "provenance": {
+        "kind": "unchanged pinned source or fixture",
+        "source_root": "private predecessor package (not included)",
+        "source_path": "fixtures/versions.gz",
+        "source_sha256": "b3e9af46e670049515689865c6e6457c06021c5cc20ad10a122c897d5f2977cd"
+      }
+    },
+    {
+      "path": "inputs/dist_cfg/config.json",
+      "bytes": 13347,
+      "sha256": "d37bf2a8c5b5ce3e2728b9df8db2f04b46b0a4dc1ff1e34df4d0b8b495cbcfc1",
+      "provenance": {
+        "kind": "unchanged pinned source or fixture",
+        "source_root": "private predecessor package (not included)",
+        "source_path": "inputs/dist_cfg/config.json",
+        "source_sha256": "d37bf2a8c5b5ce3e2728b9df8db2f04b46b0a4dc1ff1e34df4d0b8b495cbcfc1"
+      }
+    },
+    {
+      "path": "inputs/luamenu/configs/gameconfig/byar/mainconfig.lua",
+      "bytes": 8543,
+      "sha256": "a728e69f7638bc7bb9fbd2dc7e34f4bc57981a11d11590b40150087d3134ec76",
+      "provenance": {
+        "kind": "unchanged pinned source or fixture",
+        "source_root": "private predecessor package (not included)",
+        "source_path": "inputs/luamenu/configs/gameconfig/byar/mainconfig.lua",
+        "source_sha256": "a728e69f7638bc7bb9fbd2dc7e34f4bc57981a11d11590b40150087d3134ec76"
+      }
+    },
+    {
+      "path": "inputs/luamenu/utils.lua",
+      "bytes": 373,
+      "sha256": "5bbdbee4b0fb69e78be20e3d0f57b0292202e9482f86322d52940468b1662d6c",
+      "provenance": {
+        "kind": "unchanged pinned source or fixture",
+        "source_root": "private predecessor package (not included)",
+        "source_path": "inputs/luamenu/utils.lua",
+        "source_sha256": "5bbdbee4b0fb69e78be20e3d0f57b0292202e9482f86322d52940468b1662d6c"
+      }
+    },
+    {
+      "path": "inputs/luamenu/widgets/api_download_handler.lua",
+      "bytes": 17278,
+      "sha256": "eeed22c7ba4a2c50695b85a661597459d68d1227e1f8370d4f4eb69ac692b952",
+      "provenance": {
+        "kind": "unchanged pinned source or fixture",
+        "source_root": "private predecessor package (not included)",
+        "source_path": "inputs/luamenu/widgets/api_download_handler.lua",
+        "source_sha256": "eeed22c7ba4a2c50695b85a661597459d68d1227e1f8370d4f4eb69ac692b952"
+      }
+    },
+    {
+      "path": "inputs/modinfo.lua",
+      "bytes": 418,
+      "sha256": "9bc89634d2ce1de63a56748c8396cc619204b0e086d63782ef39e2bbd3ede599",
+      "provenance": {
+        "kind": "unchanged pinned source or fixture",
+        "source_root": "private predecessor package (not included)",
+        "source_path": "inputs/modinfo.lua",
+        "source_sha256": "9bc89634d2ce1de63a56748c8396cc619204b0e086d63782ef39e2bbd3ede599"
+      }
+    },
+    {
+      "path": "inputs/packages/4e10d9c250bab70be5b47d706f535c4d.sdp",
+      "bytes": 78564,
+      "sha256": "3b2b839447fe87d69298866e2c4c552a6463ac098b85a9df809c07ee226cd39c",
+      "provenance": {
+        "kind": "unchanged pinned source or fixture",
+        "source_root": "private predecessor package (not included)",
+        "source_path": "inputs/packages/4e10d9c250bab70be5b47d706f535c4d.sdp",
+        "source_sha256": "3b2b839447fe87d69298866e2c4c552a6463ac098b85a9df809c07ee226cd39c"
+      }
+    },
+    {
+      "path": "live/README.md",
+      "provenance": {
+        "kind": "new evidence explanation and exact deployed observer quotations",
+        "source_root": "private fixed raw run retained locally (not included)",
+        "source_path": "run-378188297485482a825b417517dc32dc",
+        "source_hashes": "individual quotations and live/results.json sources"
+      },
+      "bytes": 7988,
+      "sha256": "3da4240c99301946f46021941b8f8987042af7592ef25d829b9efb003659047a"
+    },
+    {
+      "path": "live/fixed/game.png",
+      "provenance": {
+        "kind": "unchanged native framebuffer PNG; personally viewed by Codex agents",
+        "source_root": "private raw runs retained locally (not included)",
+        "source_path": "run-378188297485482a825b417517dc32dc/screenshots/game.png",
+        "source_sha256": "ce005da74b1e939661e15d7eef45d1d07562bd32d23033b3a376db4ea3465e14"
+      },
+      "bytes": 4735553,
+      "sha256": "ce005da74b1e939661e15d7eef45d1d07562bd32d23033b3a376db4ea3465e14"
+    },
+    {
+      "path": "live/fixed/infolog-excerpt.log",
+      "provenance": {
+        "kind": "selected verbatim source lines with added headers; no line redaction",
+        "source_root": "private raw runs retained locally (not included)",
+        "source_path": "run-378188297485482a825b417517dc32dc/infolog.txt",
+        "source_sha256": "48d91f3fb83dbe29d53d06358c8f2eb7da52cf67323f7f22cda5e4f4a1c983b1",
+        "source_line_ranges_1based": [
+          [
+            139,
+            139
+          ],
+          [
+            296,
+            296
+          ],
+          [
+            299,
+            299
+          ],
+          [
+            301,
+            301
+          ],
+          [
+            327,
+            327
+          ],
+          [
+            344,
+            345
+          ],
+          [
+            349,
+            351
+          ],
+          [
+            435,
+            436
+          ],
+          [
+            754,
+            757
+          ],
+          [
+            762,
+            763
+          ],
+          [
+            17120,
+            17123
+          ],
+          [
+            17125,
+            17131
+          ],
+          [
+            27145,
+            27145
+          ],
+          [
+            27214,
+            27214
+          ],
+          [
+            27260,
+            27260
+          ],
+          [
+            27264,
+            27264
+          ],
+          [
+            27273,
+            27273
+          ],
+          [
+            27286,
+            27289
+          ],
+          [
+            27296,
+            27297
+          ],
+          [
+            27322,
+            27328
+          ],
+          [
+            27332,
+            27336
+          ],
+          [
+            27347,
+            27348
+          ],
+          [
+            27376,
+            27376
+          ],
+          [
+            27781,
+            27787
+          ],
+          [
+            28130,
+            28138
+          ],
+          [
+            28375,
+            28379
+          ],
+          [
+            28431,
+            28431
+          ],
+          [
+            28474,
+            28486
+          ],
+          [
+            28497,
+            28499
+          ],
+          [
+            28513,
+            28513
+          ],
+          [
+            28519,
+            28519
+          ],
+          [
+            39020,
+            39028
+          ],
+          [
+            39038,
+            39039
+          ],
+          [
+            39043,
+            39043
+          ],
+          [
+            64405,
+            64405
+          ],
+          [
+            64408,
+            64408
+          ],
+          [
+            64417,
+            64417
+          ],
+          [
+            64481,
+            64484
+          ]
+        ]
+      },
+      "bytes": 13680,
+      "sha256": "33d5db84a536782a47c921ef1a3fbe9db456c867e7aedf2c7be1da7b1072bf32"
+    },
+    {
+      "path": "live/fixed/restore-complete.png",
+      "provenance": {
+        "kind": "unchanged native framebuffer PNG; personally viewed by Codex agents",
+        "source_root": "private raw runs retained locally (not included)",
+        "source_path": "run-378188297485482a825b417517dc32dc/screenshots/restore-complete.png",
+        "source_sha256": "1e17defaa7b9efd0a785818147dc984ee51acacb4ced0d623fa878b786d1844b"
+      },
+      "bytes": 1167616,
+      "sha256": "1e17defaa7b9efd0a785818147dc984ee51acacb4ced0d623fa878b786d1844b"
+    },
+    {
+      "path": "live/fixed/returned-menu.png",
+      "provenance": {
+        "kind": "unchanged native framebuffer PNG; personally viewed by Codex agents",
+        "source_root": "private raw runs retained locally (not included)",
+        "source_path": "run-378188297485482a825b417517dc32dc/screenshots/returned-menu.png",
+        "source_sha256": "c1a216fbc4d564337ee2d47df335c7e188576a7600398748d2ee6516bd6bf99a"
+      },
+      "bytes": 1167572,
+      "sha256": "c1a216fbc4d564337ee2d47df335c7e188576a7600398748d2ee6516bd6bf99a"
+    },
+    {
+      "path": "live/original/infolog-excerpt.log",
+      "provenance": {
+        "kind": "selected verbatim source lines with added headers; no line redaction",
+        "source_root": "private raw runs retained locally (not included)",
+        "source_path": "run-2ff57de32c4742c8a1d5f2fd0297eedf/infolog.txt",
+        "source_sha256": "72d0181a6d57a98f0572181f23138c7cb0255580602f6b4eb413fee5dc6da415",
+        "source_line_ranges_1based": [
+          [
+            139,
+            139
+          ],
+          [
+            779,
+            782
+          ],
+          [
+            787,
+            787
+          ],
+          [
+            53011,
+            53014
+          ],
+          [
+            53016,
+            53021
+          ],
+          [
+            88010,
+            88010
+          ],
+          [
+            88017,
+            88017
+          ],
+          [
+            88026,
+            88026
+          ],
+          [
+            88072,
+            88072
+          ]
+        ]
+      },
+      "bytes": 2723,
+      "sha256": "2fd64997dd341e99863724ac9ab09991395ba4e9da5d10a097c2ab19894fdb8c"
+    },
+    {
+      "path": "live/original/menu.png",
+      "provenance": {
+        "kind": "unchanged native framebuffer PNG; personally viewed by Codex agents",
+        "source_root": "private raw runs retained locally (not included)",
+        "source_path": "run-2ff57de32c4742c8a1d5f2fd0297eedf/screenshots/restore-complete.png",
+        "source_sha256": "3cfd2cdc89b978335dd822157ef9ee366f81eb903dd55be2297c79e96486b3de"
+      },
+      "bytes": 1753905,
+      "sha256": "3cfd2cdc89b978335dd822157ef9ee366f81eb903dd55be2297c79e96486b3de"
+    },
+    {
+      "path": "live/results.json",
+      "provenance": {
+        "kind": "explicit selected-field projection of completed native runs and bounded diagnostic grouping",
+        "source_root": "private raw runs retained locally (not included)",
+        "source_path": [
+          "run-2ff57de32c4742c8a1d5f2fd0297eedf",
+          "run-378188297485482a825b417517dc32dc"
+        ],
+        "source_hashes": "sources field in live/results.json",
+        "independent_review_sha256": "9fab82c022a2aaacf9604fade7fd0a011aef1fca6aaf21a8ff7b3659a117d340"
+      },
+      "bytes": 31408,
+      "sha256": "9c1203feec0f095c713371b831d5ab4da40bde8ef528b29282e4f953ae43a032"
+    },
+    {
+      "path": "original/packaging/launcher.sh",
+      "bytes": 29215,
+      "sha256": "261b5bc123d4a468a944f52de236010b4d285c307203e782f96fdc766142a133",
+      "provenance": {
+        "kind": "unchanged pinned source or fixture",
+        "source_root": "private predecessor package (not included)",
+        "source_path": "original/packaging/launcher.sh",
+        "source_sha256": "261b5bc123d4a468a944f52de236010b4d285c307203e782f96fdc766142a133"
+      }
+    },
+    {
+      "path": "probe.py",
+      "bytes": 12526,
+      "sha256": "5149e5049b143c8851abfb19572a666357512001073f3f62f0c7c6727de0b1bd",
+      "provenance": {
+        "kind": "portable adaptation",
+        "source_root": "private predecessor package (not included)",
+        "source_path": "probe.py",
+        "source_sha256": "745e67f474fa44310bf2421ebb4c7d2d5a5e9dd388a7f95b1d479812c17d068f",
+        "adaptation_record": "adaptation.json"
+      }
+    },
+    {
+      "path": "recorded/execution.json",
+      "bytes": 3727,
+      "sha256": "9643ed3e244c30822fbf020ffff2e5134e126936df7d492628a59e6a225cb8ad",
+      "provenance": {
+        "kind": "explicit compact projection",
+        "source_root": "private-consumer-check (not included)",
+        "source_path": "execution.json",
+        "source_sha256": "0cfbe838ef8fd22ebfa9b0576cd18fb9759fa060ec13d83a2f4dd5df79c94bf1",
+        "transformation": "Selected command/result/count/hash fields; private executable, environment and cwd paths omitted. This is not a raw process receipt."
+      }
+    },
+    {
+      "path": "recorded/portable-cause/results.json",
+      "bytes": 23904,
+      "sha256": "165c418195076fe70801c01ac10b599ad4112724d4f176bc8ef59eeac665d6f9",
+      "provenance": {
+        "kind": "new_portable_execution",
+        "source_root": "private consumer copy (not included)",
+        "source_path": "results/portable-cause/results.json",
+        "source_sha256": "165c418195076fe70801c01ac10b599ad4112724d4f176bc8ef59eeac665d6f9",
+        "public_sha256": "165c418195076fe70801c01ac10b599ad4112724d4f176bc8ef59eeac665d6f9",
+        "exact_consumer_root_replacements": 0,
+        "replacement": "<EVIDENCE_ROOT>",
+        "embedded_raw_hashes": "unchanged; hashes identify raw original bytes, not the path-normalized strings"
+      }
+    },
+    {
+      "path": "recorded/portable-seed/missing-cfg.stderr.log",
+      "bytes": 111,
+      "sha256": "6d35c6b920ae3e0c8ac95e86508f0544adba83370e5b3c9d489610b76ffaecf3",
+      "provenance": {
+        "kind": "new_portable_execution",
+        "source_root": "private consumer copy (not included)",
+        "source_path": "results/portable-seed/missing-cfg-boundary/run-1.stderr.log",
+        "source_sha256": "71e027930e3525d194d9fc99492b7d2962a00425d0dd3b5b82c7846aa0fcf36b",
+        "public_sha256": "6d35c6b920ae3e0c8ac95e86508f0544adba83370e5b3c9d489610b76ffaecf3",
+        "exact_consumer_root_replacements": 1,
+        "replacement": "<EVIDENCE_ROOT>",
+        "embedded_raw_hashes": "unchanged; hashes identify raw original bytes, not the path-normalized strings"
+      }
+    },
+    {
+      "path": "recorded/portable-seed/results.json",
+      "bytes": 26980,
+      "sha256": "79f0fa64d86467ba6064ca62ba7d27b104f5785a758f68dbd69e00e548dee4b5",
+      "provenance": {
+        "kind": "new_portable_execution",
+        "source_root": "private consumer copy (not included)",
+        "source_path": "results/portable-seed/results.json",
+        "source_sha256": "80e7c888385ed6da6cddb1f1b3cd7c9c5e23d47f601e741186a249792514cba9",
+        "public_sha256": "79f0fa64d86467ba6064ca62ba7d27b104f5785a758f68dbd69e00e548dee4b5",
+        "exact_consumer_root_replacements": 4,
+        "replacement": "<EVIDENCE_ROOT>",
+        "embedded_raw_hashes": "unchanged; hashes identify raw original bytes, not the path-normalized strings"
+      }
+    },
+    {
+      "path": "recorded/portable-seed/unreadable.stderr.log",
+      "bytes": 100,
+      "sha256": "d871cd3cabe757995bf9ce1b8c0d571f83ae2c3e43fad35585a751176f854175",
+      "provenance": {
+        "kind": "new_portable_execution",
+        "source_root": "private consumer copy (not included)",
+        "source_path": "results/portable-seed/unreadable-\"-path/run-1.stderr.log",
+        "source_sha256": "386c9e5c3d8b20bcc278b376d0f33300edf36b80b20f62fe8f15c1a12b075a57",
+        "public_sha256": "d871cd3cabe757995bf9ce1b8c0d571f83ae2c3e43fad35585a751176f854175",
+        "exact_consumer_root_replacements": 1,
+        "replacement": "<EVIDENCE_ROOT>",
+        "embedded_raw_hashes": "unchanged; hashes identify raw original bytes, not the path-normalized strings"
+      }
+    },
+    {
+      "path": "recorded/portable-seed/unwritable.stderr.log",
+      "bytes": 162,
+      "sha256": "f5657d1d7d537cea7b121ea542c07b255bac8bd97c6203fd064b7f6b8d34f0e6",
+      "provenance": {
+        "kind": "new_portable_execution",
+        "source_root": "private consumer copy (not included)",
+        "source_path": "results/portable-seed/unwritable-\"-path/run-1.stderr.log",
+        "source_sha256": "11b9322f1ce27940573bfc496148c565d95b2ddb9d60a36c42d4bcfc016293e3",
+        "public_sha256": "f5657d1d7d537cea7b121ea542c07b255bac8bd97c6203fd064b7f6b8d34f0e6",
+        "exact_consumer_root_replacements": 2,
+        "replacement": "<EVIDENCE_ROOT>",
+        "embedded_raw_hashes": "unchanged; hashes identify raw original bytes, not the path-normalized strings"
+      }
+    },
+    {
+      "path": "sources.json",
+      "bytes": 4575,
+      "sha256": "b6822ba124a5b9caa51baa75127b478798183a781d7c7987db874b26be36d1fc",
+      "provenance": {
+        "kind": "portable adaptation",
+        "source_root": "private predecessor package (not included)",
+        "source_path": "sources.json",
+        "source_sha256": "d48c938fbc3df2ee23749ed3184308f7c883e88d74296a94250a77005a583fe2",
+        "adaptation_record": "adaptation.json"
+      }
+    },
+    {
+      "path": "test_seed.py",
+      "bytes": 10150,
+      "sha256": "cb33b9f73c0072468586348f5449da7d243138879a2e1c43f4bde85afd3a24e0",
+      "provenance": {
+        "kind": "portable adaptation",
+        "source_root": "private predecessor package (not included)",
+        "source_path": "test_seed.py",
+        "source_sha256": "3c7319622ea65a30614645c70989a942bdcfffa7df2db685e0d5a716f3a9b21f",
+        "adaptation_record": "adaptation.json"
+      }
+    }
+  ],
+  "live_evidence_files": [
+    "live/README.md",
+    "live/fixed/game.png",
+    "live/fixed/infolog-excerpt.log",
+    "live/fixed/restore-complete.png",
+    "live/fixed/returned-menu.png",
+    "live/original/infolog-excerpt.log",
+    "live/original/menu.png",
+    "live/results.json"
+  ]
+}

@@ -1,0 +1,41 @@
+# Selected verbatim source lines; omissions are intentional.
+# Source: run-2ff57de32c4742c8a1d5f2fd0297eedf/infolog.txt
+# Source SHA256: 72d0181a6d57a98f0572181f23138c7cb0255580602f6b4eb413fee5dc6da415
+
+# Original lines 139-139
+[t=00:00:00.121437] [GR::LogVersionInfo]
+
+# Original lines 779-782
+[t=00:00:01.004030][f=-000001] Error: Access to 'server4.beyondallreason.info:8200' denied
+[t=00:00:01.005645][f=-000001] Starting Track, luamenu/configs/gameconfig/byar/lobbyMusic/original/matteo dell'acqua - foobar (menu ver.) (intro).ogg, 0.30000001
+[t=00:00:01.006759][f=-000001] Failed to load versions.gz from, rapid/repos.springrts.com/byar-chobby/versions.gz
+[t=00:00:01.006788][f=-000001] Unable to restore versions.gz from, rapid/repos.springrts.com/byar-chobby/versions.gz_cache.gz, as it has not been loaded
+
+# Original lines 787-787
+[t=00:00:01.019090][f=-000001] Warning: Rapid tag byar-chobby:test resolves to multiple versions with the same preference, picking from rapid/repos-cdn.beyondallreason.dev/byar-chobby/versions.gz
+
+# Original lines 53011-53014
+[t=00:01:43.809463][f=-000001] [chobby-rapid], public-queue-request, Beyond All Reason test-31251-0ceadc7
+[t=00:01:43.809697][f=-000001] [chobby-rapid], connector-command-observed, Download
+[t=00:01:43.809883][f=-000001] [chobby-rapid], real-connector-send, Beyond All Reason test-31251-0ceadc7
+[t=00:01:43.810076][f=-000001] [chobby-rapid], real-download-started, Beyond All Reason test-31251-0ceadc7
+
+# Original lines 53016-53021
+[t=00:01:43.816700][f=-000001] Warning: Rapid tag byar-chobby:test resolves to multiple versions with the same preference, picking from rapid/repos-cdn.beyondallreason.dev/byar-chobby/versions.gz
+[t=00:01:43.820324][f=-000001] [chobby-rapid], gzip-mutated-while-active, BYAR Chobby controlled-not-downloaded
+[t=00:01:43.820382][f=-000001] Starting Track, luamenu/configs/gameconfig/byar/lobbyMusic/original/ryan krause - friend or foe (intro).ogg, 0.30000001
+[t=00:01:43.821332][f=-000001] Unable to restore versions.gz from, rapid/repos.springrts.com/byar-chobby/versions.gz, as it has not been loaded
+[t=00:01:43.839195][f=-000001] [chobby-rapid], original-callback-completed, rapid/repos.springrts.com/byar-chobby/versions.gz
+[t=00:01:43.847869][f=-000001] [chobby-rapid], checkpoint, restore-complete
+
+# Original lines 88010-88010
+[t=00:02:52.063376][f=-000001] [chobby-rapid], result, original failure reproduced
+
+# Original lines 88017-88017
+[t=00:02:52.074362][f=-000001] [chobby-rapid] normal-quit-request, complete
+
+# Original lines 88026-88026
+[t=00:02:52.103201][f=-000001] [chobby-rapid] shutdown, quit_requested, true, result_written, true
+
+# Original lines 88072-88072
+[t=00:02:52.108525] [SpringApp::Kill][8]
