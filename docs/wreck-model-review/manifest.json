@@ -1,0 +1,246 @@
+{
+  "schema": 1,
+  "scope": "Public evidence for the single historical wreck-model restoration. The manifest excludes itself.",
+  "transformation_policy": "Four exact native PNGs; verbatim selected log ranges with labelled headers; explicitly allowlisted game-state projection. Full raw source hashes are retained, but private paths and run tokens are omitted.",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 4285,
+      "sha256": "85162bd83dc070d2dc04db68896dcda11bdbbacf5d1f40e92a8bf371fd85be33",
+      "provenance": {
+        "kind": "English explanation of results.json and four images"
+      }
+    },
+    {
+      "path": "both-wrecks.png",
+      "bytes": 4869636,
+      "sha256": "a0229bf59a2b78b38e8d43e7b02bb009617f20fe17ebbd6e8944e4f69e29c720",
+      "provenance": {
+        "kind": "unchanged-native-PNG",
+        "source": "image-009",
+        "source_sha256": "a0229bf59a2b78b38e8d43e7b02bb009617f20fe17ebbd6e8944e4f69e29c720"
+      }
+    },
+    {
+      "path": "fixed-excerpt.log",
+      "bytes": 4138,
+      "sha256": "f39cc96b25ca6e0b88278e2fa30e0b4440c6d32bc76f77bbfd0c89bef20ca126",
+      "provenance": {
+        "kind": "verbatim-line-excerpts-with-added-headers",
+        "source": "fixed-infolog",
+        "source_sha256": "bb22a11daf22a99f740b090443e5d67c339b45123a39e67c4b60067527b8ef9d",
+        "source_ranges": [
+          {
+            "first": 56,
+            "last": 56
+          },
+          {
+            "first": 89,
+            "last": 89
+          },
+          {
+            "first": 264,
+            "last": 264
+          },
+          {
+            "first": 302,
+            "last": 302
+          },
+          {
+            "first": 325,
+            "last": 325
+          },
+          {
+            "first": 742,
+            "last": 742
+          },
+          {
+            "first": 790,
+            "last": 794
+          },
+          {
+            "first": 1120,
+            "last": 1120
+          },
+          {
+            "first": 1145,
+            "last": 1145
+          },
+          {
+            "first": 1876,
+            "last": 1877
+          },
+          {
+            "first": 1898,
+            "last": 1900
+          },
+          {
+            "first": 1902,
+            "last": 1918
+          },
+          {
+            "first": 1929,
+            "last": 1929
+          },
+          {
+            "first": 2026,
+            "last": 2026
+          }
+        ]
+      }
+    },
+    {
+      "path": "heap.png",
+      "bytes": 4837864,
+      "sha256": "f3f4881a9616a96f349a8a3865b88fd824f3ad23792e70157feed687c59d0daa",
+      "provenance": {
+        "kind": "unchanged-native-PNG",
+        "source": "image-015",
+        "source_sha256": "f3f4881a9616a96f349a8a3865b88fd824f3ad23792e70157feed687c59d0daa"
+      }
+    },
+    {
+      "path": "original-excerpt.log",
+      "bytes": 597,
+      "sha256": "6832c6f019b649693f4a04697e222a496adaf68c142eb28f9e7a41288aa95b11",
+      "provenance": {
+        "kind": "verbatim-line-excerpts-with-added-headers",
+        "source": "original-infolog",
+        "source_sha256": "435af378c79d89134a85416b999ea7260b8210d175e485cd4d414939515f8ad0",
+        "source_ranges": [
+          {
+            "first": 773,
+            "last": 774
+          }
+        ]
+      }
+    },
+    {
+      "path": "reclaimed.png",
+      "bytes": 4831377,
+      "sha256": "b32d701db1475ed6f4f7eb5d9fde41794d48462677ea7dd66764c3e243bfec7d",
+      "provenance": {
+        "kind": "unchanged-native-PNG",
+        "source": "image-017",
+        "source_sha256": "b32d701db1475ed6f4f7eb5d9fde41794d48462677ea7dd66764c3e243bfec7d"
+      }
+    },
+    {
+      "path": "results.json",
+      "bytes": 35809,
+      "sha256": "adb0116230534eae660261ee748d6de1c713d077b23d21dc847e526ae1db22ca",
+      "provenance": {
+        "kind": "allowlisted-derived-projection",
+        "raw_source_receipts": [
+          {
+            "source": "candidate-model",
+            "sha256": "3e3a743acccb6a7a976d25247d76220ac97a298da7e59a22eaf1ff0cfe71105d"
+          },
+          {
+            "source": "package-preparation",
+            "sha256": "48c7df14b09e8a244c87f98cb04c205643069476864cfcb1f15c630dd836aefe"
+          },
+          {
+            "source": "engine-preparation",
+            "sha256": "2eab8be39650eb262904afc4d8db17ea24377c181c07bb9a186348be86fc3d42"
+          },
+          {
+            "source": "export",
+            "sha256": "69848cec825b619eac631ac26bb70c7fbf5f51805c5981baacc3b5bcbe5b7d51"
+          },
+          {
+            "source": "snapshot-000",
+            "sha256": "4788a94c6d8da53ca1fab419f5668ed9db01ebd1c3530e635cf8226deea6c838"
+          },
+          {
+            "source": "snapshot-009",
+            "sha256": "d0d1c014c95f867b3876849d31c9187a4df4604bf0c9e4fcadfd684ba1c33990"
+          },
+          {
+            "source": "snapshot-011",
+            "sha256": "8a8923800600ebc6910df22661889393ea19d062b51b475425399cfbb861554a"
+          },
+          {
+            "source": "snapshot-012",
+            "sha256": "2af37fe4ff02b5816462bd5b6861eb0c9c782d0169c0c4d1fc58a1b062fe3e27"
+          },
+          {
+            "source": "snapshot-013",
+            "sha256": "d1f8447ca3c5cff5d9acacaa07e50fe3b80f8d683efc0204dff854cb8603c416"
+          },
+          {
+            "source": "snapshot-014",
+            "sha256": "5d96ec2f2fd227319c0d93b317ff098b3790d780f0f34463f5fd68577c29c6fd"
+          },
+          {
+            "source": "snapshot-015",
+            "sha256": "ee421f0e8202f867bbc8964442f61b087264d7e2b20724dfcee7a763346cb124"
+          },
+          {
+            "source": "snapshot-016",
+            "sha256": "a5a95c74a89f9356b28370c93e462813c9ae6be84dc7901261d1ae88c4764d0d"
+          },
+          {
+            "source": "snapshot-017",
+            "sha256": "af6a4c92b2633dafd3d112100a7564476288b96e4f9cc771d40be5c61f1053fb"
+          },
+          {
+            "source": "snapshot-018",
+            "sha256": "5cc991bb1b4f2579ee7d206e07900493a847b59df3d0510d928f74e2ea12e15a"
+          },
+          {
+            "source": "original-infolog",
+            "sha256": "435af378c79d89134a85416b999ea7260b8210d175e485cd4d414939515f8ad0"
+          },
+          {
+            "source": "fixed-infolog",
+            "sha256": "bb22a11daf22a99f740b090443e5d67c339b45123a39e67c4b60067527b8ef9d"
+          },
+          {
+            "source": "supervisor-report",
+            "sha256": "553de1b6acce45bd051bbdae3851967c7d31d0ee8a2db0eb8ec94d35c0d4da15"
+          },
+          {
+            "source": "root-visual-review",
+            "sha256": "b33fd61971e0ab07473991a9c96716c13131176fdaea72e0b9707535c9e17e09"
+          },
+          {
+            "source": "native-events",
+            "sha256": "4e258a9bdd2c677f0f14a4e21a926e81c21579a2ff20aeae38cfab940fe9172f"
+          },
+          {
+            "source": "muted-sound-source-review",
+            "sha256": "97e0a6427eae4d4fce4de47505d90235289b48f0aff2140c3b6a4faf73d0e9b3"
+          },
+          {
+            "source": "fixed-engine-stderr",
+            "sha256": "86e0f1386d38b4ac316108ef69d8bacd0f79900a57cd3fcd162a947c57a3a1f6"
+          }
+        ]
+      }
+    },
+    {
+      "path": "resurrected.png",
+      "bytes": 4846111,
+      "sha256": "68303a318d4d17322353185248993e066e1728a29a8c6db395f996b49b8046f0",
+      "provenance": {
+        "kind": "unchanged-native-PNG",
+        "source": "image-014",
+        "source_sha256": "68303a318d4d17322353185248993e066e1728a29a8c6db395f996b49b8046f0"
+      }
+    }
+  ],
+  "privacy_check": {
+    "text_files_scanned": 4,
+    "private_owner_paths_or_run_tokens_found": false,
+    "native_PNG_pixels_personally_viewed": 4,
+    "PNG_metadata": "DevIL generator; empty Author and Description; no EXIF or other text chunks."
+  },
+  "limits": [
+    "Unchanged historical BAR artwork; historical deletion intent remains unknown.",
+    "One added model in the pinned game package, not the whole current fork client.",
+    "No public multiplayer, cross-platform determinism, Sound=1 or complete game regression.",
+    "The sample proves corhack resurrection and corfast heap/reclaim; it is not exhaustive testing of both units through every path.",
+    "Raw observer success is delivery evidence, not a human review. Human artwork/gameplay review is requested via the PR."
+  ]
+}

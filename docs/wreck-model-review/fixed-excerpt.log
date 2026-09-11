@@ -1,0 +1,67 @@
+# Verbatim excerpts. Source: fixed-infolog; SHA256: bb22a11daf22a99f740b090443e5d67c339b45123a39e67c4b60067527b8ef9d
+# Line numbers refer to the complete original file. Headers are added; source lines are unchanged.
+
+# Original lines 56-56
+[t=00:00:00.001714]   Spring Engine Version: 2026.07.04
+
+# Original lines 89-89
+[t=00:00:00.425017] Warning: [GR::SetGLSupportFlags] this driver links geometry shaders but does not run them; geometry-shader compilation will be refused so content falls back to its non-GS paths
+
+# Original lines 264-264
+[t=00:00:04.992795][f=-000001] [PreGame::AddModArchivesToVFS][server=0x334e13000] using game "Beyond All Reason test-31251-0ceadc7" (loaded=0 cached=0)
+
+# Original lines 302-302
+[t=00:00:05.060218][f=-000001] Error: [SetConfigInt] key "AdvSky" is deprecated
+
+# Original lines 325-325
+[t=00:00:06.414385][f=-000001] [weapondefs.lua] Error: removed ceg_test_projectile_unit_ceg_test_projectile weaponDef, missing model
+
+# Original lines 742-742
+0:31045(19): warning: `fragColor' used uninitialized
+
+# Original lines 790-794
+Geometry shaders are not executable on this driver (the stage links but does not rasterize); use a non-geometry-shader code path
+[t=00:00:09.953641][f=-000001] Geometry shaders are not executable on this driver (the stage links but does not rasterize); use a non-geometry-shader code path
+
+[t=00:00:09.953664][f=-000001] UnitEnergyExplosionParticlesGL4,  recompiled in , 3, ms at, 0, success, false
+[t=00:00:09.953668][f=-000001] Energy Explosion Particles GL4: geometry shader compile failed; trying no-GS fallback.
+
+# Original lines 1120-1120
+[t=00:00:10.710073][f=-000001] Failed to load: widget_selector.lua  ([LuaVFS::Include(synced=false)][loadvfs] file=LuaUI/fonts.lua status=-1 cenv=true vfsmode=rMmeb File not seen by VFS (missing or in different VFS mode))
+
+# Original lines 1145-1145
+[t=00:00:10.738719][f=-000001] [wreck-observer] initialized, 1
+
+# Original lines 1876-1877
+[t=00:09:19.353142][f=0016351] [i18n] "cmd.des._description" is not translated in en
+[t=00:09:19.353207][f=0016351] [i18n] No translation found for "cmd.des._description"
+
+# Original lines 1898-1900
+[t=00:11:37.548815][f=0020204] [Destroy] unitIDs: 2335
+[t=00:11:37.549580][f=0020204] Warning: [LoadSoundFile] could not load sound "xplomed2" from {Unit,Weapon}Def
+[t=00:11:39.584312][f=0020250] [wreck-observer] snapshot, 7, corhack-destroyed, 20250
+
+# Original lines 1902-1918
+[t=00:13:06.901036][f=0022870] [wreck-observer] snapshot, 8, corfast-selected-confirmed, 22870
+[t=00:13:54.584221][f=0024300] [wreck-observer] snapshot, 9, both-dead, 24300
+[t=00:13:56.712972][f=0024364] [wreck-observer] snapshot, 10, builder-selected, 24364
+[t=00:14:15.738726][f=0024950] [log] previous line repeated 100 more time(s) [section: ]
+[t=00:15:10.771064][f=0026601] Deprecated: AutoShowMetal is deprecated. Please enable manually from lua instead (see https://github.com/beyond-all-reason/spring/issues/1092).
+[t=00:15:12.876069][f=0026649] [wreck-observer] snapshot, 11, resurrection-command, 26649
+[t=00:19:42.697005][f=0034744] [wreck-observer] snapshot, 12, resurrection-progress, 34744
+[t=00:20:50.655302][f=0036783] [log] previous line repeated 1 more time(s) [section: ]
+[t=00:20:50.655311][f=0036783] [wreck-observer] snapshot, 13, resurrection-completion-check, 36783
+[t=00:21:15.529988][f=0037529] [wreck-observer] snapshot, 14, resurrected-before-heap-guard, 37529
+[t=00:22:21.251464][f=0039515] Removed 1 wrecks and 0 heaps
+[t=00:22:22.110359][f=0039526] [wreck-observer] snapshot, 15, corfast-heap-created, 39526
+[t=00:23:00.772941][f=0040686] [wreck-observer] snapshot, 16, reclaim-command, 40686
+[t=00:23:12.512953][f=0041038] [wreck-observer] snapshot, 17, reclaim-progress, 41038
+[t=00:24:35.323833][f=0043523] [wreck-observer] snapshot, 18, final-world, 43523
+[t=00:25:06.219154][f=0044232] [wreck-observer] result, root-finished-observation, 44232, 0
+[t=00:25:14.455321][f=0044247] [wreck-observer] quit, 44247, 0
+
+# Original lines 1929-1929
+[t=00:25:22.713766][f=0044247] [wreck-observer] shutdown, 1, true
+
+# Original lines 2026-2026
+[t=00:25:24.826750] [SpringApp::Kill][8]

@@ -1,0 +1,1339 @@
+{
+  "schema": 1,
+  "scope": "Source-bound projection from one completed local component test. Not a full raw run or autonomous assertion of visual success.",
+  "product": {
+    "repository": "Vandomas/Beyond-All-Reason",
+    "base_commit": "fa05768ed652db1466490f36085dbca646e25341",
+    "path": "objects3d/Units/corfast_dead.s3o",
+    "historical_repository": "beyond-all-reason/Beyond-All-Reason",
+    "historical_commit": "165bb063ed5221ff630abab85cb297a74a6f65ae",
+    "historical_blob": "645778f5c54241d08b3969a1db0ca388effb890c",
+    "bytes": 65892,
+    "sha256": "3e3a743acccb6a7a976d25247d76220ac97a298da7e59a22eaf1ff0cfe71105d",
+    "change": "Add the unmodified historical model; no definition or balance changes.",
+    "historical_removal_intent": "unknown",
+    "proposed_commit": "c56d45b24962b393c28473cd6064a59076aa1a35"
+  },
+  "fixture": {
+    "game": "Beyond All Reason test-31251-0ceadc7",
+    "engine_release": "Vandomas/RecoilEngine-AppleSilicon v0.15.1",
+    "engine_sha256": "c4abfd6a016ebab6cfb2acd8aed8435d3c01c012587bf284c47c43ad1719040c",
+    "map": "All That Smolders v1.2",
+    "sound": 0,
+    "control": "Local spectator, native debug spawning/destruction, real builder commands; one native ReduceWrecks invocation for heap transition.",
+    "base_package": {
+      "package_id": "838abf2e964eeb261260c95f5a731e57",
+      "entry_count": 18469,
+      "gzip_sha256": "326921c04a6736b9d55d59ee489398321ae31505528394c59f5e0e822bf7e06b"
+    },
+    "fixed_package": {
+      "package_id": "d80a7a88d1d8974b969878c80e5beb1d",
+      "entry_count": 18470,
+      "gzip_sha256": "42fcf1f19bd5d56ce5a56671716c4a36616568c3ffed8c4a89dcbbb5c44ba329"
+    },
+    "archive_delta": {
+      "actual_output_reparsed": true,
+      "old_records_preserved_byte_for_byte": 18469,
+      "old_relative_order_preserved": true,
+      "added_entries": 1,
+      "removed_entries": 0,
+      "changed_old_entries": 0,
+      "pool_decodes_to_exact_model": true,
+      "original_inputs_unchanged": true
+    },
+    "preparation_source": {
+      "source": "package-preparation",
+      "sha256": "48c7df14b09e8a244c87f98cb04c205643069476864cfcb1f15c630dd836aefe"
+    }
+  },
+  "original_failure": {
+    "log": {
+      "file": "original-excerpt.log",
+      "source": "original-infolog",
+      "sha256": "435af378c79d89134a85416b999ea7260b8210d175e485cd4d414939515f8ad0",
+      "ranges": [
+        {
+          "first": 773,
+          "last": 774
+        }
+      ]
+    },
+    "secondary_featuredef_error_lines": [
+      825,
+      826
+    ],
+    "game_identity_line": 711,
+    "live_original_death_screenshot_available": false
+  },
+  "loaded_source": {
+    "valid": true,
+    "model": "objects3d/units/corfast_dead.s3o",
+    "model_bytes": 65892,
+    "model_sha512": "3bcdce8d7bcf199a28f05e472ba392427040714767c1a706897de61568cbbb7985eab1f6bd1b2755cca8ca4631dbdfef091f8e281628000ae00c0aa7ee47d11e",
+    "textures": {
+      "cor_color_wreck": true,
+      "cor_other_wreck": true
+    },
+    "raw_shadow": false,
+    "archive": "Beyond All Reason test-31251-0ceadc7",
+    "game_version": "test-31251-0ceadc7",
+    "engine": "2026.07.04",
+    "map": "All That Smolders v1.2",
+    "archive_package_id": "d80a7a88d1d8974b969878c80e5beb1d"
+  },
+  "runtime_definitions": {
+    "features": {
+      "corfast_heap": {
+        "reclaim_time": 312,
+        "model_path": "objects3d/Units/cor2X2D.s3o",
+        "id": 517,
+        "death_feature_id": -1,
+        "resurrectable": 0,
+        "reclaimable": true,
+        "destructable": true,
+        "name": "corfast_heap",
+        "blocking": false,
+        "model_name": "Units/cor2X2D.s3o",
+        "max_health": 830,
+        "energy": 0,
+        "metal": 52
+      },
+      "corhack_heap": {
+        "reclaim_time": 1890,
+        "model_path": "objects3d/Units/cor2X2D.s3o",
+        "id": 560,
+        "death_feature_id": -1,
+        "resurrectable": 0,
+        "reclaimable": true,
+        "destructable": true,
+        "name": "corhack_heap",
+        "blocking": false,
+        "model_name": "Units/cor2X2D.s3o",
+        "max_health": 1830,
+        "energy": 0,
+        "metal": 315
+      },
+      "corhack_dead": {
+        "reclaim_time": 4536,
+        "model_path": "objects3d/Units/corfast_dead.s3o",
+        "id": 559,
+        "death_feature_id": 560,
+        "resurrectable": -1,
+        "reclaimable": true,
+        "destructable": true,
+        "name": "corhack_dead",
+        "blocking": true,
+        "model_name": "Units/corfast_dead.s3o",
+        "max_health": 1830,
+        "energy": 0,
+        "metal": 756
+      },
+      "corfast_dead": {
+        "reclaim_time": 756,
+        "model_path": "objects3d/Units/corfast_dead.s3o",
+        "id": 516,
+        "death_feature_id": 517,
+        "resurrectable": -1,
+        "reclaimable": true,
+        "destructable": true,
+        "name": "corfast_dead",
+        "blocking": true,
+        "model_name": "Units/corfast_dead.s3o",
+        "max_health": 830,
+        "energy": 0,
+        "metal": 126
+      }
+    },
+    "units": {
+      "corfast": {
+        "corpse": "corfast_dead",
+        "metal_cost": 210,
+        "id": 345,
+        "resurrect_speed": 125,
+        "wreck_name": "corfast_dead",
+        "name": "corfast",
+        "reclaim_speed": 125,
+        "can_reclaim": true,
+        "can_resurrect": false,
+        "energy_cost": 3800,
+        "health": 830
+      },
+      "corhack": {
+        "corpse": "corhack_dead",
+        "metal_cost": 1260,
+        "id": 375,
+        "resurrect_speed": 550,
+        "wreck_name": "corhack_dead",
+        "name": "corhack",
+        "reclaim_speed": 550,
+        "can_reclaim": true,
+        "can_resurrect": false,
+        "energy_cost": 22800,
+        "health": 1830
+      },
+      "cornecro": {
+        "corpse": "cornecro_dead",
+        "metal_cost": 130,
+        "id": 425,
+        "resurrect_speed": 200,
+        "wreck_name": "cornecro_dead",
+        "name": "cornecro",
+        "reclaim_speed": 200,
+        "can_reclaim": true,
+        "can_resurrect": true,
+        "energy_cost": 1400,
+        "health": 220
+      }
+    }
+  },
+  "baseline_inventory": {
+    "count": 157,
+    "category": "rocks",
+    "canonical_sha256": "f69b8d65b220bb58fe804d191dce6c75de7946609622996c0f993cfcb713a4b3",
+    "hash_serialization": "Sorted by id, JSON with sort_keys=true and separators=(comma,colon), UTF-8. Source is snapshot-000 feature_inventory.",
+    "final_exact_baseline_match": true
+  },
+  "observations": [
+    {
+      "sequence": 0,
+      "frame": 93,
+      "generation": 1,
+      "source": "snapshot-000",
+      "sha256": "4788a94c6d8da53ca1fab419f5668ed9db01ebd1c3530e635cf8226deea6c838",
+      "inventory": {
+        "complete": true,
+        "total": 157,
+        "baseline_157_unchanged": true,
+        "additional_features": []
+      }
+    },
+    {
+      "sequence": 9,
+      "frame": 24300,
+      "generation": 1,
+      "source": "snapshot-009",
+      "sha256": "d0d1c014c95f867b3876849d31c9187a4df4604bf0c9e4fcadfd684ba1c33990",
+      "inventory": {
+        "complete": true,
+        "total": 159,
+        "baseline_157_unchanged": true,
+        "additional_features": [
+          {
+            "id": 11361,
+            "def_id": 516,
+            "name": "corfast_dead"
+          },
+          {
+            "id": 12935,
+            "def_id": 559,
+            "name": "corhack_dead"
+          }
+        ]
+      },
+      "units": [
+        {
+          "id": 26653,
+          "def_id": 425,
+          "name": "cornecro",
+          "readable": true,
+          "is_dead": false,
+          "build_progress": 1,
+          "health": 220,
+          "max_health": 220,
+          "position": [
+            3350,
+            174.511719,
+            5200
+          ],
+          "current_command": {
+            "options": false,
+            "available": false,
+            "id": false,
+            "params": [],
+            "tag": false
+          }
+        }
+      ],
+      "features": [
+        {
+          "id": 11361,
+          "def_id": 516,
+          "name": "corfast_dead",
+          "readable": true,
+          "health": 830,
+          "max_health": 830,
+          "metal": 126,
+          "max_metal": 126,
+          "reclaim_left": 1,
+          "reclaim_time": 756,
+          "resurrect_progress": 0,
+          "resurrect_unit": "corfast",
+          "blocking": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "position": [
+            2600,
+            166.586304,
+            5000
+          ]
+        },
+        {
+          "id": 12935,
+          "def_id": 559,
+          "name": "corhack_dead",
+          "readable": true,
+          "health": 1830,
+          "max_health": 1830,
+          "metal": 756,
+          "max_metal": 756,
+          "reclaim_left": 1,
+          "reclaim_time": 4536,
+          "resurrect_progress": 0,
+          "resurrect_unit": "corhack",
+          "blocking": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "position": [
+            3400,
+            175.227356,
+            5000
+          ]
+        }
+      ],
+      "camera": {
+        "dist": 840.079224,
+        "px": 3074.82788,
+        "py": 189.209808,
+        "pz": 5011.5874,
+        "dx": 0,
+        "dy": -0.8568887,
+        "dz": -0.5155014,
+        "mode": 2,
+        "rz": 0,
+        "name": "spring",
+        "fov": 45,
+        "ry": 0,
+        "rx": 2.5999999
+      },
+      "visibility": {
+        "read_ally_team": -2,
+        "spectating": true,
+        "full_read": true,
+        "spectating_full_select": true,
+        "spectating_full_view": true
+      }
+    },
+    {
+      "sequence": 11,
+      "frame": 26649,
+      "generation": 1,
+      "source": "snapshot-011",
+      "sha256": "8a8923800600ebc6910df22661889393ea19d062b51b475425399cfbb861554a",
+      "inventory": {
+        "complete": true,
+        "total": 159,
+        "baseline_157_unchanged": true,
+        "additional_features": [
+          {
+            "id": 11361,
+            "def_id": 516,
+            "name": "corfast_dead"
+          },
+          {
+            "id": 12935,
+            "def_id": 559,
+            "name": "corhack_dead"
+          }
+        ]
+      },
+      "units": [
+        {
+          "id": 26653,
+          "name": "cornecro",
+          "readable": true,
+          "current_command": {
+            "options": 0,
+            "available": true,
+            "id": 125,
+            "params": [
+              44935
+            ],
+            "tag": 1
+          }
+        }
+      ],
+      "features": [
+        {
+          "id": 12935,
+          "name": "corhack_dead",
+          "readable": true,
+          "resurrect_progress": 0,
+          "resurrect_unit": "corhack",
+          "metal": 756,
+          "reclaim_left": 1
+        }
+      ]
+    },
+    {
+      "sequence": 12,
+      "frame": 34744,
+      "generation": 1,
+      "source": "snapshot-012",
+      "sha256": "2af37fe4ff02b5816462bd5b6861eb0c9c782d0169c0c4d1fc58a1b062fe3e27",
+      "inventory": {
+        "complete": true,
+        "total": 159,
+        "baseline_157_unchanged": true,
+        "additional_features": [
+          {
+            "id": 11361,
+            "def_id": 516,
+            "name": "corfast_dead"
+          },
+          {
+            "id": 12935,
+            "def_id": 559,
+            "name": "corhack_dead"
+          }
+        ]
+      },
+      "units": [
+        {
+          "id": 26653,
+          "name": "cornecro",
+          "readable": true,
+          "current_command": {
+            "options": 0,
+            "available": true,
+            "id": 125,
+            "params": [
+              44935
+            ],
+            "tag": 1
+          }
+        }
+      ],
+      "features": [
+        {
+          "id": 12935,
+          "name": "corhack_dead",
+          "readable": true,
+          "resurrect_progress": 0.79347855,
+          "resurrect_unit": "corhack",
+          "metal": 756,
+          "reclaim_left": 1
+        }
+      ]
+    },
+    {
+      "sequence": 13,
+      "frame": 36783,
+      "generation": 1,
+      "source": "snapshot-013",
+      "sha256": "d1f8447ca3c5cff5d9acacaa07e50fe3b80f8d683efc0204dff854cb8603c416",
+      "inventory": {
+        "complete": true,
+        "total": 159,
+        "baseline_157_unchanged": true,
+        "additional_features": [
+          {
+            "id": 11361,
+            "def_id": 516,
+            "name": "corfast_dead"
+          },
+          {
+            "id": 12935,
+            "def_id": 559,
+            "name": "corhack_dead"
+          }
+        ]
+      },
+      "units": [
+        {
+          "id": 26653,
+          "name": "cornecro",
+          "readable": true,
+          "current_command": {
+            "options": 0,
+            "available": true,
+            "id": 125,
+            "params": [
+              44935
+            ],
+            "tag": 1
+          }
+        }
+      ],
+      "features": [
+        {
+          "id": 12935,
+          "name": "corhack_dead",
+          "readable": true,
+          "resurrect_progress": 0.97236407,
+          "resurrect_unit": "corhack",
+          "metal": 756,
+          "reclaim_left": 1
+        }
+      ]
+    },
+    {
+      "sequence": 14,
+      "frame": 37529,
+      "generation": 1,
+      "source": "snapshot-014",
+      "sha256": "5d96ec2f2fd227319c0d93b317ff098b3790d780f0f34463f5fd68577c29c6fd",
+      "inventory": {
+        "complete": true,
+        "total": 158,
+        "baseline_157_unchanged": true,
+        "additional_features": [
+          {
+            "id": 11361,
+            "def_id": 516,
+            "name": "corfast_dead"
+          }
+        ]
+      },
+      "units": [
+        {
+          "id": 12042,
+          "def_id": 375,
+          "name": "corhack",
+          "readable": true,
+          "is_dead": false,
+          "build_progress": 1,
+          "health": 212.920334,
+          "max_health": 1830,
+          "position": [
+            3400,
+            175.227356,
+            5000
+          ],
+          "current_command": {
+            "options": false,
+            "available": false,
+            "id": false,
+            "params": [],
+            "tag": false
+          }
+        },
+        {
+          "id": 26653,
+          "def_id": 425,
+          "name": "cornecro",
+          "readable": true,
+          "is_dead": false,
+          "build_progress": 1,
+          "health": 220,
+          "max_health": 220,
+          "position": [
+            3371.72974,
+            174.964798,
+            5104.58301
+          ],
+          "current_command": {
+            "options": 8,
+            "available": true,
+            "id": 40,
+            "params": [
+              12042
+            ],
+            "tag": 0
+          }
+        }
+      ],
+      "features": [
+        {
+          "id": 11361,
+          "def_id": 516,
+          "name": "corfast_dead",
+          "readable": true,
+          "health": 830,
+          "max_health": 830,
+          "metal": 126,
+          "max_metal": 126,
+          "reclaim_left": 1,
+          "reclaim_time": 756,
+          "resurrect_progress": 0,
+          "resurrect_unit": "corfast",
+          "blocking": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "position": [
+            2600,
+            166.586304,
+            5000
+          ]
+        },
+        {
+          "id": 12935,
+          "readable": false
+        }
+      ],
+      "camera": {
+        "dist": 840.079224,
+        "px": 3074.82788,
+        "py": 189.209808,
+        "pz": 5011.5874,
+        "dx": 0,
+        "dy": -0.8568887,
+        "dz": -0.5155014,
+        "mode": 2,
+        "rz": 0,
+        "name": "spring",
+        "fov": 45,
+        "ry": 0,
+        "rx": 2.5999999
+      },
+      "visibility": {
+        "read_ally_team": -2,
+        "spectating": true,
+        "full_read": true,
+        "spectating_full_select": true,
+        "spectating_full_view": true
+      }
+    },
+    {
+      "sequence": 15,
+      "frame": 39526,
+      "generation": 1,
+      "source": "snapshot-015",
+      "sha256": "ee421f0e8202f867bbc8964442f61b087264d7e2b20724dfcee7a763346cb124",
+      "inventory": {
+        "complete": true,
+        "total": 158,
+        "baseline_157_unchanged": true,
+        "additional_features": [
+          {
+            "id": 23415,
+            "def_id": 517,
+            "name": "corfast_heap"
+          }
+        ]
+      },
+      "units": [
+        {
+          "id": 12042,
+          "def_id": 375,
+          "name": "corhack",
+          "readable": true,
+          "is_dead": false,
+          "build_progress": 1,
+          "health": 895.483826,
+          "max_health": 1830,
+          "position": [
+            3400,
+            175.227356,
+            5000
+          ],
+          "current_command": {
+            "options": false,
+            "available": false,
+            "id": false,
+            "params": [],
+            "tag": false
+          }
+        },
+        {
+          "id": 26653,
+          "def_id": 425,
+          "name": "cornecro",
+          "readable": true,
+          "is_dead": false,
+          "build_progress": 1,
+          "health": 220,
+          "max_health": 220,
+          "position": [
+            3371.72974,
+            174.964798,
+            5104.58301
+          ],
+          "current_command": {
+            "options": 8,
+            "available": true,
+            "id": 40,
+            "params": [
+              12042
+            ],
+            "tag": 0
+          }
+        }
+      ],
+      "features": [
+        {
+          "id": 11361,
+          "readable": false
+        },
+        {
+          "id": 23415,
+          "def_id": 517,
+          "name": "corfast_heap",
+          "readable": true,
+          "health": 830,
+          "max_health": 830,
+          "metal": 52,
+          "max_metal": 52,
+          "reclaim_left": 1,
+          "reclaim_time": 312,
+          "resurrect_progress": 0,
+          "resurrect_unit": "",
+          "blocking": [
+            false,
+            false,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "position": [
+            2600,
+            166.586304,
+            5000
+          ]
+        }
+      ],
+      "camera": {
+        "dist": 840.079224,
+        "px": 3074.82788,
+        "py": 189.209808,
+        "pz": 5011.5874,
+        "dx": 0,
+        "dy": -0.8568887,
+        "dz": -0.5155014,
+        "mode": 2,
+        "rz": 0,
+        "name": "spring",
+        "fov": 45,
+        "ry": 0,
+        "rx": 2.5999999
+      },
+      "visibility": {
+        "read_ally_team": -2,
+        "spectating": true,
+        "full_read": true,
+        "spectating_full_select": true,
+        "spectating_full_view": true
+      }
+    },
+    {
+      "sequence": 16,
+      "frame": 40686,
+      "generation": 1,
+      "source": "snapshot-016",
+      "sha256": "a5a95c74a89f9356b28370c93e462813c9ae6be84dc7901261d1ae88c4764d0d",
+      "inventory": {
+        "complete": true,
+        "total": 158,
+        "baseline_157_unchanged": true,
+        "additional_features": [
+          {
+            "id": 23415,
+            "def_id": 517,
+            "name": "corfast_heap"
+          }
+        ]
+      },
+      "units": [
+        {
+          "id": 12042,
+          "def_id": 375,
+          "name": "corhack",
+          "readable": true,
+          "is_dead": false,
+          "build_progress": 1,
+          "health": 1425.44482,
+          "max_health": 1830,
+          "position": [
+            3400,
+            175.227356,
+            5000
+          ],
+          "current_command": {
+            "options": false,
+            "available": false,
+            "id": false,
+            "params": [],
+            "tag": false
+          }
+        },
+        {
+          "id": 26653,
+          "def_id": 425,
+          "name": "cornecro",
+          "readable": true,
+          "is_dead": false,
+          "build_progress": 1,
+          "health": 220,
+          "max_health": 220,
+          "position": [
+            3370.99316,
+            175.0168,
+            5101.64746
+          ],
+          "current_command": {
+            "options": 0,
+            "available": true,
+            "id": 90,
+            "params": [
+              55415
+            ],
+            "tag": 2
+          }
+        }
+      ],
+      "features": [
+        {
+          "id": 23415,
+          "def_id": 517,
+          "name": "corfast_heap",
+          "readable": true,
+          "health": 830,
+          "max_health": 830,
+          "metal": 52,
+          "max_metal": 52,
+          "reclaim_left": 1,
+          "reclaim_time": 312,
+          "resurrect_progress": 0,
+          "resurrect_unit": "",
+          "blocking": [
+            false,
+            false,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "position": [
+            2600,
+            166.586304,
+            5000
+          ]
+        }
+      ],
+      "metal": {
+        "readable": true,
+        "current": 1000,
+        "storage": 1000,
+        "income": 2,
+        "excess": 2,
+        "received": 0,
+        "sent": 0
+      }
+    },
+    {
+      "sequence": 17,
+      "frame": 41038,
+      "generation": 1,
+      "source": "snapshot-017",
+      "sha256": "af6a4c92b2633dafd3d112100a7564476288b96e4f9cc771d40be5c61f1053fb",
+      "inventory": {
+        "complete": true,
+        "total": 157,
+        "baseline_157_unchanged": true,
+        "additional_features": []
+      },
+      "units": [
+        {
+          "id": 12042,
+          "def_id": 375,
+          "name": "corhack",
+          "readable": true,
+          "is_dead": false,
+          "build_progress": 1,
+          "health": 1482.94482,
+          "max_health": 1830,
+          "position": [
+            3400,
+            175.227356,
+            5000
+          ],
+          "current_command": {
+            "options": false,
+            "available": false,
+            "id": false,
+            "params": [],
+            "tag": false
+          }
+        },
+        {
+          "id": 26653,
+          "def_id": 425,
+          "name": "cornecro",
+          "readable": true,
+          "is_dead": false,
+          "build_progress": 1,
+          "health": 220,
+          "max_health": 220,
+          "position": [
+            2698.02368,
+            167.70076,
+            4992.00684
+          ],
+          "current_command": {
+            "options": false,
+            "available": false,
+            "id": false,
+            "params": [],
+            "tag": false
+          }
+        }
+      ],
+      "features": [
+        {
+          "id": 23415,
+          "readable": false
+        }
+      ],
+      "camera": {
+        "dist": 840.079224,
+        "px": 3074.82788,
+        "py": 189.209808,
+        "pz": 5011.5874,
+        "dx": 0,
+        "dy": -0.8568887,
+        "dz": -0.5155014,
+        "mode": 2,
+        "rz": 0,
+        "name": "spring",
+        "fov": 45,
+        "ry": 0,
+        "rx": 2.5999999
+      },
+      "visibility": {
+        "read_ally_team": -2,
+        "spectating": true,
+        "full_read": true,
+        "spectating_full_select": true,
+        "spectating_full_view": true
+      },
+      "metal": {
+        "readable": true,
+        "current": 1000,
+        "storage": 1000,
+        "income": 27.1666546,
+        "excess": 27.1669922,
+        "received": 0,
+        "sent": 0
+      }
+    },
+    {
+      "sequence": 18,
+      "frame": 43523,
+      "generation": 1,
+      "source": "snapshot-018",
+      "sha256": "5cc991bb1b4f2579ee7d206e07900493a847b59df3d0510d928f74e2ea12e15a",
+      "inventory": {
+        "complete": true,
+        "total": 157,
+        "baseline_157_unchanged": true,
+        "additional_features": []
+      },
+      "units": [
+        {
+          "id": 12042,
+          "def_id": 375,
+          "name": "corhack",
+          "readable": true,
+          "is_dead": false,
+          "build_progress": 1,
+          "health": 1830,
+          "max_health": 1830,
+          "position": [
+            3400,
+            175.227356,
+            5000
+          ],
+          "current_command": {
+            "options": false,
+            "available": false,
+            "id": false,
+            "params": [],
+            "tag": false
+          }
+        },
+        {
+          "id": 26653,
+          "def_id": 425,
+          "name": "cornecro",
+          "readable": true,
+          "is_dead": false,
+          "build_progress": 1,
+          "health": 220,
+          "max_health": 220,
+          "position": [
+            2698.02368,
+            167.70076,
+            4992.00684
+          ],
+          "current_command": {
+            "options": false,
+            "available": false,
+            "id": false,
+            "params": [],
+            "tag": false
+          }
+        }
+      ],
+      "features": [
+        {
+          "id": 11361,
+          "readable": false
+        },
+        {
+          "id": 12935,
+          "readable": false
+        },
+        {
+          "id": 23415,
+          "readable": false
+        }
+      ],
+      "metal": {
+        "readable": true,
+        "current": 1000,
+        "storage": 1000,
+        "income": 2,
+        "excess": 2,
+        "received": 0,
+        "sent": 0
+      }
+    }
+  ],
+  "native_events": {
+    "source_receipt": {
+      "source": "native-events",
+      "sha256": "4e258a9bdd2c677f0f14a4e21a926e81c21579a2ff20aeae38cfab940fe9172f"
+    },
+    "events": [
+      {
+        "kind": "unit-created",
+        "frame": 9899,
+        "id": 18518,
+        "def_id": 345,
+        "unit_team": 0,
+        "generation": 1,
+        "full_read": true
+      },
+      {
+        "kind": "unit-created",
+        "frame": 12090,
+        "id": 2335,
+        "def_id": 375,
+        "unit_team": 0,
+        "generation": 1,
+        "full_read": true
+      },
+      {
+        "kind": "unit-created",
+        "frame": 14661,
+        "id": 26653,
+        "def_id": 425,
+        "unit_team": 0,
+        "generation": 1,
+        "full_read": true
+      },
+      {
+        "kind": "unit-destroyed",
+        "frame": 20204,
+        "id": 2335,
+        "def_id": 375,
+        "unit_team": 0,
+        "generation": 1,
+        "full_read": true
+      },
+      {
+        "kind": "feature-created",
+        "frame": 20206,
+        "id": 12935,
+        "def_id": 559,
+        "feature_ally_team": 0,
+        "generation": 1,
+        "full_read": true
+      },
+      {
+        "kind": "unit-destroyed",
+        "frame": 24288,
+        "id": 18518,
+        "def_id": 345,
+        "unit_team": 0,
+        "generation": 1,
+        "full_read": true
+      },
+      {
+        "kind": "feature-created",
+        "frame": 24290,
+        "id": 11361,
+        "def_id": 516,
+        "feature_ally_team": 0,
+        "generation": 1,
+        "full_read": true
+      },
+      {
+        "kind": "unit-created",
+        "frame": 37099,
+        "id": 12042,
+        "def_id": 375,
+        "unit_team": 0,
+        "generation": 1,
+        "full_read": true
+      },
+      {
+        "kind": "feature-destroyed",
+        "frame": 37099,
+        "id": 12935,
+        "def_id": 559,
+        "feature_ally_team": 0,
+        "generation": 1,
+        "full_read": true
+      },
+      {
+        "kind": "feature-created",
+        "frame": 39515,
+        "id": 23415,
+        "def_id": 517,
+        "feature_ally_team": 0,
+        "generation": 1,
+        "full_read": true
+      },
+      {
+        "kind": "feature-destroyed",
+        "frame": 39516,
+        "id": 11361,
+        "def_id": 516,
+        "feature_ally_team": 0,
+        "generation": 1,
+        "full_read": true
+      },
+      {
+        "kind": "feature-destroyed",
+        "frame": 40994,
+        "id": 23415,
+        "def_id": 517,
+        "feature_ally_team": 0,
+        "generation": 1,
+        "full_read": true
+      }
+    ]
+  },
+  "interpretation": {
+    "death": "Two native unit-destroyed events precede matching corpse creation. Snapshot 9 shows both textured wrecks.",
+    "resurrection": "Builder command 125 targets 44935 (=32000+12935); progress reaches 0.97236407 at snapshot 13, then unit 12042 is created and corpse 12935 destroyed at frame 37099. Snapshot 14 shows the completed unit.",
+    "heap": "Snapshot 14 has only corfast corpse 11361 beyond the unchanged 157 rocks. One native ReduceWrecks damages it to heap 23415; snapshot 15 records corfast_heap, metal 52.",
+    "reclaim": "Builder command 90 targets 55415 (=32000+23415); feature 23415 is destroyed at frame 40994. Snapshot 17 shows no heap, an idle builder and interval metal income/excess; snapshot 18 returns to the original 157-feature inventory.",
+    "not_accepted_as_completion": [
+      "Snapshot 5 was an empty selection click.",
+      "Snapshot 13 still has partial resurrection progress.",
+      "Snapshot 17 is labelled reclaim-progress by the observer, but the heap was already gone."
+    ],
+    "reclaim_limits": [
+      "No fractional intermediate reclaim_left was captured.",
+      "Storage was full: no exact net credit of 52 metal was measured."
+    ]
+  },
+  "normal_exit": {
+    "status": "succeeded",
+    "exit_confirmed": true,
+    "logs_final": true,
+    "emergency_used": false,
+    "lifetime_channel_closed": true,
+    "remaining_group": [],
+    "engine_exit_code": 0,
+    "group_quiescent": true,
+    "elapsed_seconds": 1527.278425,
+    "source": "supervisor-report",
+    "sha256": "553de1b6acce45bd051bbdae3851967c7d31d0ee8a2db0eb8ec94d35c0d4da15"
+  },
+  "images": [
+    {
+      "path": "both-wrecks.png",
+      "sequence": 9,
+      "frame": 24300,
+      "bytes": 4869636,
+      "width": 2000,
+      "height": 1300,
+      "source": "image-009",
+      "sha256": "a0229bf59a2b78b38e8d43e7b02bb009617f20fe17ebbd6e8944e4f69e29c720"
+    },
+    {
+      "path": "resurrected.png",
+      "sequence": 14,
+      "frame": 37529,
+      "bytes": 4846111,
+      "width": 2000,
+      "height": 1300,
+      "source": "image-014",
+      "sha256": "68303a318d4d17322353185248993e066e1728a29a8c6db395f996b49b8046f0"
+    },
+    {
+      "path": "heap.png",
+      "sequence": 15,
+      "frame": 39526,
+      "bytes": 4837864,
+      "width": 2000,
+      "height": 1300,
+      "source": "image-015",
+      "sha256": "f3f4881a9616a96f349a8a3865b88fd824f3ad23792e70157feed687c59d0daa"
+    },
+    {
+      "path": "reclaimed.png",
+      "sequence": 17,
+      "frame": 41038,
+      "bytes": 4831377,
+      "width": 2000,
+      "height": 1300,
+      "source": "image-017",
+      "sha256": "b32d701db1475ed6f4f7eb5d9fde41794d48462677ea7dd66764c3e243bfec7d"
+    }
+  ],
+  "visual_review": {
+    "reviewer": "root Codex, not human owner",
+    "verdict": "fixed scope accepted: both real deaths and textured wrecks; corhack resurrection through actual builder command; corfast damage-to-heap and actual builder reclaim; normal exit verified",
+    "reviewed_public_images": [
+      "both-wrecks.png",
+      "resurrected.png",
+      "heap.png",
+      "reclaimed.png"
+    ],
+    "source": "root-visual-review",
+    "sha256": "b33fd61971e0ab07473991a9c96716c13131176fdaea72e0b9707535c9e17e09",
+    "observer_manual_review_pending_raw": true,
+    "meaning": "The observer flag only tracks evidence delivery. The separate root Codex visual review is the acceptance record; human artwork/gameplay review is requested through the PR."
+  },
+  "log_excerpts": {
+    "original": {
+      "file": "original-excerpt.log",
+      "source": "original-infolog",
+      "sha256": "435af378c79d89134a85416b999ea7260b8210d175e485cd4d414939515f8ad0",
+      "ranges": [
+        {
+          "first": 773,
+          "last": 774
+        }
+      ]
+    },
+    "fixed": {
+      "file": "fixed-excerpt.log",
+      "source": "fixed-infolog",
+      "sha256": "bb22a11daf22a99f740b090443e5d67c339b45123a39e67c4b60067527b8ef9d",
+      "ranges": [
+        {
+          "first": 56,
+          "last": 56
+        },
+        {
+          "first": 89,
+          "last": 89
+        },
+        {
+          "first": 264,
+          "last": 264
+        },
+        {
+          "first": 302,
+          "last": 302
+        },
+        {
+          "first": 325,
+          "last": 325
+        },
+        {
+          "first": 742,
+          "last": 742
+        },
+        {
+          "first": 790,
+          "last": 794
+        },
+        {
+          "first": 1120,
+          "last": 1120
+        },
+        {
+          "first": 1145,
+          "last": 1145
+        },
+        {
+          "first": 1876,
+          "last": 1877
+        },
+        {
+          "first": 1898,
+          "last": 1900
+        },
+        {
+          "first": 1902,
+          "last": 1918
+        },
+        {
+          "first": 1929,
+          "last": 1929
+        },
+        {
+          "first": 2026,
+          "last": 2026
+        }
+      ]
+    }
+  },
+  "known_diagnostics": {
+    "sound_warning": {
+      "line": 1899,
+      "name": "xplomed2",
+      "explanation": "Sound=0 selects NullSound. The real sound file and alias exist; NullSound does not load sound definitions, so the fallback root-path sound lookup reports this warning. Sound=1 was not tested.",
+      "resource_path": "sounds/weapons/xplomed2.wav",
+      "resource_sha256": "64d8812936f0dda96ac0eb8e0511bd4858a8ec82ee836e2857b14718bbb05fd5",
+      "source_review": {
+        "source": "muted-sound-source-review",
+        "sha256": "97e0a6427eae4d4fce4de47505d90235289b48f0aff2140c3b6a4faf73d0e9b3"
+      }
+    },
+    "other": "The log is not clean: unrelated selector/fonts include failure, geometry-shader restrictions/fallback messages, fragColor warning, deprecated settings, command-completion translations and other content/driver warnings remain. This model-only test does not resolve or independently attribute all of them.",
+    "fixed_corfast_corhack_removal_or_missing_featuredef_lines": 0,
+    "rendering_limits": {
+      "largest_recorded_draw_gap_ms": 3355,
+      "draw_gap_source": {
+        "source": "fixed-infolog",
+        "sha256": "bb22a11daf22a99f740b090443e5d67c339b45123a39e67c4b60067527b8ef9d",
+        "line": 1508,
+        "verbatim": "[t=00:00:15.001197][f=-000001] Warning: [stall] draw gap 3355ms (drawFrame=35, stalls=10)"
+      },
+      "last_logged_dropped_present_counter": 524288,
+      "dropped_present_source": {
+        "source": "fixed-engine-stderr",
+        "sha256": "86e0f1386d38b4ac316108ef69d8bacd0f79900a57cd3fcd162a947c57a3a1f6",
+        "line": 27,
+        "verbatim": "[MetalPresent] dropped present (compositor 2 behind) x524288"
+      },
+      "interpretation": "The dropped-present value is the last logged counter, not an exact total of all dropped presentations. These rendering diagnostics remained during the run. The model restoration does not establish general performance or stability improvements."
+    }
+  },
+  "limits": [
+    "Unchanged historical BAR artwork; historical deletion intent remains unknown.",
+    "One added model in the pinned game package, not the whole current fork client.",
+    "No public multiplayer, cross-platform determinism, Sound=1 or complete game regression.",
+    "The sample proves corhack resurrection and corfast heap/reclaim; it is not exhaustive testing of both units through every path.",
+    "Raw observer success is delivery evidence, not a human review. Human artwork/gameplay review is requested via the PR."
+  ],
+  "privacy": "Allowlisted game state and source references only. Run tokens, process/account identifiers, full raw logs, profile paths and desktop captures are omitted. Four PNGs are copied unchanged; text metadata contains only DevIL generator and empty Author/Description.",
+  "ai_assistance": "OpenAI Codex performed analysis, restoration, test operation and evidence preparation. The historical artwork bytes were not generated or modified by AI."
+}

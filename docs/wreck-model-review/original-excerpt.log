@@ -1,0 +1,6 @@
+# Verbatim excerpts. Source: original-infolog; SHA256: 435af378c79d89134a85416b999ea7260b8210d175e485cd4d414939515f8ad0
+# Line numbers refer to the complete original file. Headers are added; source lines are unchanged.
+
+# Original lines 773-774
+[t=00:00:37.813937][f=-000001] [featuredefs_post.lua] Warning: Removing feature def, corhack_dead, for having invalid model that would crash the engine, Units/corfast_dead.s3o
+[t=00:00:37.814321][f=-000001] [featuredefs_post.lua] Warning: Removing feature def, corfast_dead, for having invalid model that would crash the engine, Units/corfast_dead.s3o
