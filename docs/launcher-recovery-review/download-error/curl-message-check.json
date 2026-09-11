@@ -1,0 +1,20 @@
+{
+  "library": "/usr/lib/libcurl.4.dylib",
+  "version": "libcurl/8.7.1 SecureTransport (LibreSSL/3.3.6) zlib/1.2.12 nghttp2/1.68.1",
+  "messages": {
+    "5": "Couldn't resolve proxy name",
+    "6": "Couldn't resolve host name",
+    "7": "Couldn't connect to server",
+    "23": "Failed writing received data to disk/application",
+    "28": "Timeout was reached",
+    "35": "SSL connect error",
+    "60": "SSL peer certificate or SSH remote key was not OK"
+  },
+  "network_calls": false,
+  "initial_fixture_difference": {
+    "23": {
+      "fixture": "Failed writing received data",
+      "actual": "Failed writing received data to disk/application"
+    }
+  }
+}

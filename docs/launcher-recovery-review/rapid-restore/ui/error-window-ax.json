@@ -1,0 +1,267 @@
+{
+  "axWindowCount" : 1,
+  "cgWindows" : [
+    {
+      "bounds" : {
+        "height" : 492,
+        "width" : 620,
+        "x" : 554,
+        "y" : 163
+      },
+      "id" : 807
+    }
+  ],
+  "complete" : true,
+  "elements" : [
+    {
+      "attributeErrors" : {
+        "description" : -25205,
+        "enabled" : -25205,
+        "value" : -25205
+      },
+      "description" : null,
+      "enabled" : null,
+      "index" : 0,
+      "parentIndex" : null,
+      "role" : "AXWindow",
+      "title" : "BAR Launcher",
+      "value" : null,
+      "windowIndex" : 0
+    },
+    {
+      "attributeErrors" : {
+        "description" : -25205,
+        "title" : -25205
+      },
+      "description" : null,
+      "enabled" : true,
+      "index" : 1,
+      "parentIndex" : 0,
+      "role" : "AXStaticText",
+      "title" : null,
+      "value" : "Beyond All Reason could not continue",
+      "windowIndex" : 0
+    },
+    {
+      "attributeErrors" : {
+        "description" : -25205,
+        "title" : -25205
+      },
+      "description" : null,
+      "enabled" : true,
+      "index" : 2,
+      "parentIndex" : 0,
+      "role" : "AXStaticText",
+      "title" : null,
+      "value" : "[filesystem] BAR could not restore its content metadata. The game was not started.\n\nrm: <EVIDENCE_ROOT>\/profile\/rapid: Operation not permitted (UI probe injection)",
+      "windowIndex" : 0
+    },
+    {
+      "attributeErrors" : {
+        "description" : -25205,
+        "title" : -25205
+      },
+      "description" : null,
+      "enabled" : true,
+      "index" : 3,
+      "parentIndex" : 0,
+      "role" : "AXStaticText",
+      "title" : null,
+      "value" : "Details from this session (paste this into a bug report):",
+      "windowIndex" : 0
+    },
+    {
+      "attributeErrors" : {
+        "description" : -25205,
+        "enabled" : -25205,
+        "title" : -25205,
+        "value" : -25205
+      },
+      "description" : null,
+      "enabled" : null,
+      "index" : 4,
+      "parentIndex" : 0,
+      "role" : "AXScrollArea",
+      "title" : null,
+      "value" : null,
+      "windowIndex" : 0
+    },
+    {
+      "attributeErrors" : {
+        "description" : -25200,
+        "enabled" : -25205,
+        "title" : -25205
+      },
+      "description" : null,
+      "enabled" : null,
+      "index" : 5,
+      "parentIndex" : 4,
+      "role" : "AXTextArea",
+      "title" : null,
+      "value" : "@S Controlled offline download attempt\n@D UI probe: no network client is present\n@E:unknown Deliberate finite download failure for restore UI probe\n@E:filesystem BAR could not restore its content metadata. The game was not started.\n\nrm: <EVIDENCE_ROOT>\/profile\/rapid: Operation not permitted (UI probe injection)\n",
+      "windowIndex" : 0
+    },
+    {
+      "attributeErrors" : {
+        "description" : -25205,
+        "title" : -25205
+      },
+      "description" : null,
+      "enabled" : false,
+      "index" : 6,
+      "parentIndex" : 4,
+      "role" : "AXScrollBar",
+      "title" : null,
+      "value" : 0,
+      "windowIndex" : 0
+    },
+    {
+      "attributeErrors" : {
+        "description" : -25205,
+        "value" : -25205
+      },
+      "description" : null,
+      "enabled" : true,
+      "index" : 7,
+      "parentIndex" : 0,
+      "role" : "AXButton",
+      "title" : "Copy Error",
+      "value" : null,
+      "windowIndex" : 0
+    },
+    {
+      "attributeErrors" : {
+        "description" : -25205,
+        "value" : -25205
+      },
+      "description" : null,
+      "enabled" : true,
+      "index" : 8,
+      "parentIndex" : 0,
+      "role" : "AXButton",
+      "title" : "Copy Full Log",
+      "value" : null,
+      "windowIndex" : 0
+    },
+    {
+      "attributeErrors" : {
+        "description" : -25205,
+        "value" : -25205
+      },
+      "description" : null,
+      "enabled" : true,
+      "index" : 9,
+      "parentIndex" : 0,
+      "role" : "AXButton",
+      "title" : "Quit",
+      "value" : null,
+      "windowIndex" : 0
+    },
+    {
+      "attributeErrors" : {
+        "description" : -25205,
+        "title" : -25212,
+        "value" : -25205
+      },
+      "description" : null,
+      "enabled" : true,
+      "index" : 10,
+      "parentIndex" : 0,
+      "role" : "AXButton",
+      "title" : null,
+      "value" : null,
+      "windowIndex" : 0
+    },
+    {
+      "attributeErrors" : {
+        "description" : -25205,
+        "title" : -25212,
+        "value" : -25205
+      },
+      "description" : null,
+      "enabled" : false,
+      "index" : 11,
+      "parentIndex" : 0,
+      "role" : "AXButton",
+      "title" : null,
+      "value" : null,
+      "windowIndex" : 0
+    },
+    {
+      "attributeErrors" : {
+        "description" : -25205,
+        "enabled" : -25205,
+        "title" : -25205,
+        "value" : -25205
+      },
+      "description" : null,
+      "enabled" : null,
+      "index" : 12,
+      "parentIndex" : 11,
+      "role" : "AXGroup",
+      "title" : null,
+      "value" : null,
+      "windowIndex" : 0
+    },
+    {
+      "attributeErrors" : {
+        "description" : -25205,
+        "enabled" : -25205,
+        "title" : -25205,
+        "value" : -25205
+      },
+      "description" : null,
+      "enabled" : null,
+      "index" : 13,
+      "parentIndex" : 12,
+      "role" : "AXGroup",
+      "title" : null,
+      "value" : null,
+      "windowIndex" : 0
+    },
+    {
+      "attributeErrors" : {
+        "description" : -25205,
+        "title" : -25212,
+        "value" : -25205
+      },
+      "description" : null,
+      "enabled" : false,
+      "index" : 14,
+      "parentIndex" : 0,
+      "role" : "AXButton",
+      "title" : null,
+      "value" : null,
+      "windowIndex" : 0
+    },
+    {
+      "attributeErrors" : {
+        "description" : -25205,
+        "title" : -25205
+      },
+      "description" : null,
+      "enabled" : true,
+      "index" : 15,
+      "parentIndex" : 0,
+      "role" : "AXStaticText",
+      "title" : null,
+      "value" : "BAR Launcher",
+      "windowIndex" : 0
+    }
+  ],
+  "enabledQuitCount" : 1,
+  "executablePathVerified" : true,
+  "mode" : "snapshot",
+  "ok" : true,
+  "pid" : 14220,
+  "pressAttempted" : false,
+  "problems" : [
+
+  ],
+  "scope" : "AX windows and descendants of the exact target; current observations, not an atomic snapshot",
+  "session" : {
+    "lockFlag" : "absent",
+    "loginDone" : true,
+    "onConsole" : true
+  }
+}

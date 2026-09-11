@@ -1,0 +1,13 @@
+@S Checking free disk space
+@S Contacting content servers…
+@D Server: repos-cdn.beyondallreason.dev
+@I
+@D Attempt 1 failed — retrying in 5s
+@S Retrying (attempt 2 of 3)…
+@D Server: repos-cdn.beyondallreason.dev
+@I
+@D Attempt 2 failed — retrying in 10s
+@S Retrying (attempt 3 of 3)…
+@D Server: repos-cdn.beyondallreason.dev
+@I
+@E:unknown The content update failed. The session log contains the downloader's error details.

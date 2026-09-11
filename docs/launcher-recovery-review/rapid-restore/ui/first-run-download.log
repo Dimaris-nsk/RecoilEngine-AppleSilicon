@@ -1,0 +1,6 @@
+@S Controlled offline download attempt
+@D UI probe: no network client is present
+@E:unknown Deliberate finite download failure for restore UI probe
+@E:filesystem BAR could not restore its content metadata. The game was not started.
+
+rm: <EVIDENCE_ROOT>/profile/rapid: Operation not permitted (UI probe injection)

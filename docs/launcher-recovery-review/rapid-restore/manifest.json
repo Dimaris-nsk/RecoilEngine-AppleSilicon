@@ -1,0 +1,248 @@
+{
+  "schema_version": 1,
+  "repository": "Vandomas/RecoilEngine-AppleSilicon",
+  "base_commit": "562fe461f8b045f863089815edac7f2d6559e178",
+  "candidate_path": "packaging/launcher.sh",
+  "candidate_sha256": "d8ceef426c8470f6677b8f3f5667c0d47446e690cc0adbf67ad9f9dede7c0f8b",
+  "ui_status": "Verified for the bounded restore-failure scenario with both original helper windows; human maintainer review pending.",
+  "source_roots": {
+    "verified_inputs": "source_path is relative to the previously reviewed input package; exact code, tests and fixtures were preserved",
+    "portable_consumer": "source_path is relative to the separate copy used for the latest portable-original and portable-fixed executions; its private absolute root is omitted",
+    "ui_probe": "source_path is relative to the completed private restore-failure UI-run directory; its exact absolute root is omitted"
+  },
+  "redaction": {
+    "scope": "Portable result derivatives replace only their exact consumer-package root; UI record derivatives replace only their exact UI-run root. Each file identifies its source_root. The UI review summary is a labelled synthesis.",
+    "replacement": "<EVIDENCE_ROOT>",
+    "original_evidence_unchanged": true,
+    "recorded_file_hashes": "Hashes inside results describe original files before path redaction and have not been rewritten."
+  },
+  "files": [
+    {
+      "path": "README.md",
+      "origin": "canonical English instructions with recorded bounded real-helper UI check",
+      "public_sha256": "da684f4e12f15c300951319381bb4cc2f80763411b10c1e745b3991799a341ac",
+      "bytes": 5294
+    },
+    {
+      "path": "test_rapid_restore.py",
+      "origin": "byte-identical verified input",
+      "source_root": "verified_inputs",
+      "source_path": "test_rapid_restore.py",
+      "source_sha256": "cd38422019dec87bef9c33443c09da8b5e6afc56f50958b12816d3a8e97b87cc",
+      "public_sha256": "cd38422019dec87bef9c33443c09da8b5e6afc56f50958b12816d3a8e97b87cc",
+      "bytes": 17790,
+      "private_root_replacements": 0
+    },
+    {
+      "path": "original/packaging/launcher.sh",
+      "origin": "byte-identical verified input",
+      "source_root": "verified_inputs",
+      "source_path": "original/packaging/launcher.sh",
+      "source_sha256": "261b5bc123d4a468a944f52de236010b4d285c307203e782f96fdc766142a133",
+      "public_sha256": "261b5bc123d4a468a944f52de236010b4d285c307203e782f96fdc766142a133",
+      "bytes": 29215,
+      "private_root_replacements": 0
+    },
+    {
+      "path": "packaging/launcher.sh",
+      "origin": "byte-identical verified input",
+      "source_root": "verified_inputs",
+      "source_path": "packaging/launcher.sh",
+      "source_sha256": "d8ceef426c8470f6677b8f3f5667c0d47446e690cc0adbf67ad9f9dede7c0f8b",
+      "public_sha256": "d8ceef426c8470f6677b8f3f5667c0d47446e690cc0adbf67ad9f9dede7c0f8b",
+      "bytes": 31765,
+      "private_root_replacements": 0
+    },
+    {
+      "path": "results/portable-original/results.json",
+      "origin": "derived public result",
+      "source_root": "portable_consumer",
+      "source_path": "results/portable-original/results.json",
+      "source_sha256": "3581bf0c67c242e04771c000ab688073f8b9572f8dfee8b24ac369a945beb22a",
+      "public_sha256": "8a6cedca1d1937b52e5862ea4ea95990f9207b8232495faf7c6d038ca49da2d1",
+      "bytes": 19844,
+      "private_root_replacements": 22
+    },
+    {
+      "path": "results/portable-fixed/results.json",
+      "origin": "derived public result",
+      "source_root": "portable_consumer",
+      "source_path": "results/portable-fixed/results.json",
+      "source_sha256": "28dc9fde9d46e4beca832180175986f684daf9be330c5d6fa0cc6a0c60c94ab3",
+      "public_sha256": "0a30a1e367c203a9a4fee279aa6b0d2041a8c81023fa9e08e32187100a991a70",
+      "bytes": 225668,
+      "private_root_replacements": 332
+    },
+    {
+      "path": "results/portable-original/rm-failure-false-success/run-1/stderr.txt",
+      "origin": "derived public result",
+      "source_root": "portable_consumer",
+      "source_path": "results/portable-original/rm-failure-false-success/run-1/stderr.txt",
+      "source_sha256": "11c4a491efc7aaffc65c06812c3eb3df8977fae667e5c8b9854d053c8b1cd7fa",
+      "public_sha256": "6175b219f9e9adc7a4f3293367735cd64970b9ce4fb40f5398711d197609b730",
+      "bytes": 119,
+      "private_root_replacements": 1
+    },
+    {
+      "path": "ui/progress-window.png",
+      "origin": "byte-identical recorded UI evidence",
+      "source_root": "ui_probe",
+      "source_path": "progress-window.png",
+      "source_sha256": "ff7888df88d14e92629d3efe1b185c80b2816ed35553b0f2868075d1d5f862b5",
+      "public_sha256": "ff7888df88d14e92629d3efe1b185c80b2816ed35553b0f2868075d1d5f862b5",
+      "bytes": 170440,
+      "private_root_replacements": 0
+    },
+    {
+      "path": "ui/first-run-download.log",
+      "origin": "derived public UI record; exact private run-root replacement only",
+      "source_root": "ui_probe",
+      "source_path": "profile/first-run-download.log",
+      "source_sha256": "f7cd4f9f2d8a2db146559e4e8868432cfea0ce9c2ee230eadebdf9925a750b6f",
+      "public_sha256": "841e818d6a6d6b8d163bba319d2d9b13a99447cac6c2fa8e080b0c46511256c4",
+      "bytes": 313,
+      "private_root_replacements": 1
+    },
+    {
+      "path": "ui/progress-window-receipt.json",
+      "origin": "derived public UI record; exact private run-root replacement only",
+      "source_root": "ui_probe",
+      "source_path": "progress-window-receipt.json",
+      "source_sha256": "75220a1490d5009415eb2921156bb503a25bbb58fb3c0ac9fffa91903237734a",
+      "public_sha256": "d05a7415b78f12272e1c7dd30e55f5d4dab5c9f4a6567994bf2aaa75027da45c",
+      "bytes": 348,
+      "private_root_replacements": 1
+    },
+    {
+      "path": "ui/error-dialog-receipt.json",
+      "origin": "derived public UI record; exact private run-root replacement only",
+      "source_root": "ui_probe",
+      "source_path": "error-dialog-receipt.json",
+      "source_sha256": "da8fecffb9f8d468bc400cd167881cb1eb44d8a5c6f019ef8ceab521ce0e7789",
+      "public_sha256": "db5cfa5589b354a18b27c9174c2c68602f60db4b843645b5f5e20d0f25ebce67",
+      "bytes": 894,
+      "private_root_replacements": 4
+    },
+    {
+      "path": "ui/error-window-ax.json",
+      "origin": "derived public UI record; exact JSON-slash-escaped private run-root replacement only",
+      "source_root": "ui_probe",
+      "source_path": "error-window-ax.json",
+      "source_sha256": "39b7cd92253871c92042c968a6a3b2f3367885f91972e9deeef3d53881207511",
+      "public_sha256": "81b34fd1c125cd24e805413a586a1a07c118ddc222874d541cc7013e11f6364d",
+      "bytes": 6314,
+      "private_root_replacements": 2,
+      "source_root_encoding": "JSON escaped forward slashes"
+    },
+    {
+      "path": "ui/quit-press.json",
+      "origin": "byte-identical recorded UI evidence",
+      "source_root": "ui_probe",
+      "source_path": "quit-press.json",
+      "source_sha256": "e18d76358472164901d7be0524ecac9f4b9fd656ed2b12228067977da7e3dbde",
+      "public_sha256": "e18d76358472164901d7be0524ecac9f4b9fd656ed2b12228067977da7e3dbde",
+      "bytes": 349,
+      "private_root_replacements": 0
+    },
+    {
+      "path": "ui/review-summary.json",
+      "origin": "new explicit synthesis of recorded UI evidence; not a raw source copy",
+      "sources": [
+        {
+          "source_root": "ui_probe",
+          "source_path": "result.json",
+          "source_sha256": "4b53e278379872571bae968da112c9b13b74b6c8f678ee2142979db14c67c8a6"
+        },
+        {
+          "source_root": "ui_probe",
+          "source_path": "root-window-review.json",
+          "source_sha256": "70000a3d83ee4905695c89c9239d9ff1ba76a2522c9a75b6688949bb40032e9b"
+        },
+        {
+          "source_root": "ui_probe",
+          "source_path": "root-progress-capture.json",
+          "source_sha256": "80c32c038103f71eda0202e66936346cd5e0720264921c2f5795b7a4d8c34388"
+        },
+        {
+          "source_root": "ui_probe",
+          "source_path": "progress-window-ax.json",
+          "source_sha256": "b5755be8a389c78507d6dd283b4c2f6bfa34d26d73f1ff34136aab88ee491ca2"
+        },
+        {
+          "source_root": "ui_probe",
+          "source_path": "error-window-ax.json",
+          "source_sha256": "39b7cd92253871c92042c968a6a3b2f3367885f91972e9deeef3d53881207511"
+        },
+        {
+          "source_root": "ui_probe",
+          "source_path": "quit-press.json",
+          "source_sha256": "e18d76358472164901d7be0524ecac9f4b9fd656ed2b12228067977da7e3dbde"
+        },
+        {
+          "source_root": "ui_probe",
+          "source_path": "progress-window-receipt.json",
+          "source_sha256": "75220a1490d5009415eb2921156bb503a25bbb58fb3c0ac9fffa91903237734a"
+        },
+        {
+          "source_root": "ui_probe",
+          "source_path": "error-dialog-receipt.json",
+          "source_sha256": "da8fecffb9f8d468bc400cd167881cb1eb44d8a5c6f019ef8ceab521ce0e7789"
+        },
+        {
+          "source_root": "ui_probe",
+          "source_path": "profile/first-run-download.log",
+          "source_sha256": "f7cd4f9f2d8a2db146559e4e8868432cfea0ce9c2ee230eadebdf9925a750b6f"
+        },
+        {
+          "source_root": "ui_probe",
+          "source_path": "profile/rapid.pre-update.ready/versions.gz",
+          "source_sha256": "4c17a9e029e6f764b335e03c4b8d19cca4d482c48a9ae5c0e01c47c84f9dc656"
+        },
+        {
+          "source_root": "ui_probe",
+          "source_path": "download-calls.log",
+          "source_sha256": "7cf8ba2041a6ccea3255e108fe82b845abf2285c3c1e5479428f7a3e14452f99"
+        },
+        {
+          "source_root": "ui_probe",
+          "source_path": "rm-failure",
+          "source_sha256": "607a7b980f81efba680d1fe6b1717587125a7e838ba66e819ca22a4c9de92393"
+        },
+        {
+          "source_root": "ui_probe",
+          "source_path": "content-block.sh",
+          "source_sha256": "d2117e8012fdb7d3e19fdeac602b9576eb758c5ff805acc125b3b78d2668376e"
+        },
+        {
+          "source_root": "ui_probe",
+          "source_path": "entry.sh",
+          "source_sha256": "760c48afa15dc1238691429c92364eae4b2bdfd4a9dd5220bd614da44eae6c30"
+        },
+        {
+          "source_root": "ui_probe",
+          "source_path": "resources/download-content.sh",
+          "source_sha256": "8f9ab1b9aca29e683c4a282f42de621c81ff4c79856874d61ddee24debc03303"
+        },
+        {
+          "source_root": "ui_probe",
+          "source_path": "probe-process.log",
+          "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "source_root": "ui_probe",
+          "source_path": "progress-window-stdio.log",
+          "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "source_root": "ui_probe",
+          "source_path": "error-dialog-stdio.log",
+          "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ],
+      "public_sha256": "47bc1be2a50845c0186bf4010339978610520ac0ed3d600886ba7c577b81e79c",
+      "bytes": 7328
+    }
+  ],
+  "self_hash": "manifest.json is excluded from its own file list; its hash is recorded in the private packaging checkpoint.",
+  "ui_summary": "ui/review-summary.json"
+}

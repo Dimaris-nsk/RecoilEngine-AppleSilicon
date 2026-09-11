@@ -1,0 +1,12 @@
+{
+  "name": "progress-window",
+  "argv": [
+    "<EVIDENCE_ROOT>/original-helpers/progress-window"
+  ],
+  "binary_sha256": "f7d90c3e2cecba8061cf0cb3f0f02c570ae5188e96bc4ebab9470cc2f7d6e344",
+  "before_start_unix_seconds": 1789084599.095401,
+  "stdin": "inherited FIFO",
+  "pid": 14186,
+  "returncode": 0,
+  "exited_unix_seconds": 1789084603.09727
+}

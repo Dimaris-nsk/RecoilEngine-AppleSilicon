@@ -1,0 +1,1 @@
+INJECTED rm: Operation not permitted: <EVIDENCE_ROOT>/results/portable-original/rm-failure-false-success/profile/rapid

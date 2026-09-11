@@ -1,0 +1,22 @@
+content_tags missing from bundle — using built-in tag list
+=== download attempt 1 rc=2 (server=0) ===
+[Info] tools/pr-downloader/src/Downloader/CurlWrapper.cpp:32:DumpVersion():libcurl 8.7.1 SecureTransport (LibreSSL/3.3.6)
+[Info] tools/pr-downloader/src/Downloader/CurlWrapper.cpp:81:ConfigureCertificates():CURLOPT_CAINFO is nullptr (can be overriden by PRD_SSL_CERT_FILE env variable)
+[Info] tools/pr-downloader/src/Downloader/CurlWrapper.cpp:83:ConfigureCertificates():CURLOPT_CAPATH is nullptr (can be overriden by PRD_SSL_CERT_DIR env variable)
+[Error] tools/pr-downloader/src/Downloader/Rapid/Sdp.cpp:287:WriteData():File is broken?!: /test/profile/pool/object
+[Error] tools/pr-downloader/src/Downloader/Rapid/Sdp.cpp:434:downloadStream():Curl error: Failed writing received data to disk/application
+[Error] tools/pr-downloader/src/main.cpp:187:main():Error occurred while downloading: 2
+=== download attempt 2 rc=2 (server=0) ===
+[Info] tools/pr-downloader/src/Downloader/CurlWrapper.cpp:32:DumpVersion():libcurl 8.7.1 SecureTransport (LibreSSL/3.3.6)
+[Info] tools/pr-downloader/src/Downloader/CurlWrapper.cpp:81:ConfigureCertificates():CURLOPT_CAINFO is nullptr (can be overriden by PRD_SSL_CERT_FILE env variable)
+[Info] tools/pr-downloader/src/Downloader/CurlWrapper.cpp:83:ConfigureCertificates():CURLOPT_CAPATH is nullptr (can be overriden by PRD_SSL_CERT_DIR env variable)
+[Error] tools/pr-downloader/src/Downloader/Rapid/Sdp.cpp:287:WriteData():File is broken?!: /test/profile/pool/object
+[Error] tools/pr-downloader/src/Downloader/Rapid/Sdp.cpp:434:downloadStream():Curl error: Failed writing received data to disk/application
+[Error] tools/pr-downloader/src/main.cpp:187:main():Error occurred while downloading: 2
+=== download attempt 3 rc=2 (server=0) ===
+[Info] tools/pr-downloader/src/Downloader/CurlWrapper.cpp:32:DumpVersion():libcurl 8.7.1 SecureTransport (LibreSSL/3.3.6)
+[Info] tools/pr-downloader/src/Downloader/CurlWrapper.cpp:81:ConfigureCertificates():CURLOPT_CAINFO is nullptr (can be overriden by PRD_SSL_CERT_FILE env variable)
+[Info] tools/pr-downloader/src/Downloader/CurlWrapper.cpp:83:ConfigureCertificates():CURLOPT_CAPATH is nullptr (can be overriden by PRD_SSL_CERT_DIR env variable)
+[Error] tools/pr-downloader/src/Downloader/Rapid/Sdp.cpp:287:WriteData():File is broken?!: /test/profile/pool/object
+[Error] tools/pr-downloader/src/Downloader/Rapid/Sdp.cpp:434:downloadStream():Curl error: Failed writing received data to disk/application
+[Error] tools/pr-downloader/src/main.cpp:187:main():Error occurred while downloading: 2

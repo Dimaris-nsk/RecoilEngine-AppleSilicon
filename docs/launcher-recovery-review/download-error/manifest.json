@@ -1,0 +1,267 @@
+{
+  "schema_version": 1,
+  "repository": "Vandomas/RecoilEngine-AppleSilicon",
+  "base_commit": "562fe461f8b045f863089815edac7f2d6559e178",
+  "candidate_path": "packaging/download-content.sh",
+  "candidate_sha256": "6d75cab0ce7dbfcc896451741249ca4c5828a80b5a1e108ca32e5183d46e8d3f",
+  "ui_status": "recorded original/fixed real error-dialog checks: message and complete session log verified; helper processes absent after Quit attempts; helper exit codes unrecorded; human maintainer review pending",
+  "source_roots": {
+    "verified_inputs": "source_path is relative to the previously reviewed input package; exact code, tests and fixtures were preserved",
+    "portable_consumer": "source_path is relative to the separate copy used for the latest portable-original and portable-fixed executions; its private absolute root is omitted",
+    "ui_original": "source_path and source_inputs paths are relative to the preserved original-mgs9g7i8 UI run; its private absolute root is omitted",
+    "ui_fixed": "source_path and source_inputs paths are relative to the preserved fixed-k6xukoyk UI run; its private absolute root is omitted"
+  },
+  "redaction": {
+    "scope": "Exact private consumer-package root in portable result JSON; exact private UI-run root in recorded process commands of compact UI results",
+    "replacement": {
+      "portable_results": "<EVIDENCE_ROOT>",
+      "ui_process_commands": "<UI_RUN_ROOT>"
+    },
+    "original_evidence_unchanged": true,
+    "recorded_file_hashes": "Hashes inside results describe original files before path redaction and have not been rewritten.",
+    "ui_derivatives": "Compact results select relevant recorded fields and omit unrelated machine/session metadata. Source receipt hashes are preserved; PNGs and session logs are byte-identical."
+  },
+  "files": [
+    {
+      "path": "README.md",
+      "origin": "new canonical English instructions",
+      "public_sha256": "696bbde1d798b418fe413fc1ee32f1336dbc0419653a071a71c9ab3fc765137f",
+      "bytes": 4917
+    },
+    {
+      "path": "test_download_errors.py",
+      "origin": "byte-identical verified input",
+      "source_root": "verified_inputs",
+      "source_path": "test_download_errors.py",
+      "source_sha256": "3559a829844365e514128c0a344745293e87b5256834f64d5fa61f4b9547a79c",
+      "public_sha256": "3559a829844365e514128c0a344745293e87b5256834f64d5fa61f4b9547a79c",
+      "bytes": 11572,
+      "private_root_replacements": 0
+    },
+    {
+      "path": "original/packaging/download-content.sh",
+      "origin": "byte-identical verified input",
+      "source_root": "verified_inputs",
+      "source_path": "original/packaging/download-content.sh",
+      "source_sha256": "74081944d53d128fa29693f5d6b6655b4fe5aee68e3f7b50ade3ac359b18598a",
+      "public_sha256": "74081944d53d128fa29693f5d6b6655b4fe5aee68e3f7b50ade3ac359b18598a",
+      "bytes": 15322,
+      "private_root_replacements": 0
+    },
+    {
+      "path": "packaging/download-content.sh",
+      "origin": "byte-identical verified input",
+      "source_root": "verified_inputs",
+      "source_path": "packaging/download-content.sh",
+      "source_sha256": "6d75cab0ce7dbfcc896451741249ca4c5828a80b5a1e108ca32e5183d46e8d3f",
+      "public_sha256": "6d75cab0ce7dbfcc896451741249ca4c5828a80b5a1e108ca32e5183d46e8d3f",
+      "bytes": 17864,
+      "private_root_replacements": 0
+    },
+    {
+      "path": "fixtures/eperm.log",
+      "origin": "byte-identical verified input",
+      "source_root": "verified_inputs",
+      "source_path": "fixtures/eperm.log",
+      "source_sha256": "71c8a0768c0623b3a01b3f66b4b202432edb08efe39826a53a293818d77d134b",
+      "public_sha256": "71c8a0768c0623b3a01b3f66b4b202432edb08efe39826a53a293818d77d134b",
+      "bytes": 949,
+      "private_root_replacements": 0
+    },
+    {
+      "path": "sources.json",
+      "origin": "byte-identical verified input",
+      "source_root": "verified_inputs",
+      "source_path": "sources.json",
+      "source_sha256": "a9f0a4ca834f3a79a28569142d1a5bd6689c5e277bc27b790706331ce7932ec1",
+      "public_sha256": "a9f0a4ca834f3a79a28569142d1a5bd6689c5e277bc27b790706331ce7932ec1",
+      "bytes": 2796,
+      "private_root_replacements": 0
+    },
+    {
+      "path": "curl-message-check.json",
+      "origin": "byte-identical verified input",
+      "source_root": "verified_inputs",
+      "source_path": "curl-message-check.json",
+      "source_sha256": "cbb5af9809af01edec7daff79a671c3639c340b6b01c5f6fa3723de2c970b0fa",
+      "public_sha256": "cbb5af9809af01edec7daff79a671c3639c340b6b01c5f6fa3723de2c970b0fa",
+      "bytes": 660,
+      "private_root_replacements": 0
+    },
+    {
+      "path": "results/portable-original/results.json",
+      "origin": "derived public result",
+      "source_root": "portable_consumer",
+      "source_path": "results/portable-original/results.json",
+      "source_sha256": "5f7740880062ca0c88be2bb8cab987aca6e47291dcd350c28f31c0ae7d2e0676",
+      "public_sha256": "e1f35d957fc5ef04b626e8287e0de02cf043d840144aab3d301c4dd00f7525fd",
+      "bytes": 1174,
+      "private_root_replacements": 3
+    },
+    {
+      "path": "results/portable-fixed/results.json",
+      "origin": "derived public result",
+      "source_root": "portable_consumer",
+      "source_path": "results/portable-fixed/results.json",
+      "source_sha256": "d5ee0033408659c93ae1c54aa6e6bc18688a521e80c762a10f4463601bd5cd76",
+      "public_sha256": "ae43e7efecb28d8dbbe8e4e1428b3f2815e8483c325c2ba0b177cda7a24fb21c",
+      "bytes": 26315,
+      "private_root_replacements": 59
+    },
+    {
+      "path": "results/portable-original/historical_eperm/stdout.log",
+      "origin": "byte-identical recorded log",
+      "source_root": "portable_consumer",
+      "source_path": "results/portable-original/historical_eperm/stdout.log",
+      "source_sha256": "9d482af2195ddff26ab3e16e6b664fe75ee63f13273db6117d7016f13a58ccbc",
+      "public_sha256": "9d482af2195ddff26ab3e16e6b664fe75ee63f13273db6117d7016f13a58ccbc",
+      "bytes": 527,
+      "private_root_replacements": 0
+    },
+    {
+      "path": "results/portable-original/historical_eperm/stderr.log",
+      "origin": "byte-identical recorded log",
+      "source_root": "portable_consumer",
+      "source_path": "results/portable-original/historical_eperm/stderr.log",
+      "source_sha256": "a4c061e6eea5db3457f5aa7cd108b133ddf690096cab406693dec422ab3ebaff",
+      "public_sha256": "a4c061e6eea5db3457f5aa7cd108b133ddf690096cab406693dec422ab3ebaff",
+      "bytes": 3037,
+      "private_root_replacements": 0
+    },
+    {
+      "path": "results/portable-fixed/historical_eperm/stdout.log",
+      "origin": "byte-identical recorded log",
+      "source_root": "portable_consumer",
+      "source_path": "results/portable-fixed/historical_eperm/stdout.log",
+      "source_sha256": "cf15e68cbf46d66b2439130fdfc273a0ffac77a8f56f8df28dc216c6294b79a0",
+      "public_sha256": "cf15e68cbf46d66b2439130fdfc273a0ffac77a8f56f8df28dc216c6294b79a0",
+      "bytes": 297,
+      "private_root_replacements": 0
+    },
+    {
+      "path": "results/portable-fixed/historical_eperm/stderr.log",
+      "origin": "byte-identical recorded log",
+      "source_root": "portable_consumer",
+      "source_path": "results/portable-fixed/historical_eperm/stderr.log",
+      "source_sha256": "fcbd71bb3e655bba26f95da3c38cb07688d85ec4b271f62291c27c3f04fbe7f0",
+      "public_sha256": "fcbd71bb3e655bba26f95da3c38cb07688d85ec4b271f62291c27c3f04fbe7f0",
+      "bytes": 1053,
+      "private_root_replacements": 0
+    },
+    {
+      "path": "results/portable-fixed/sdp_integrity_then_curl23/stdout.log",
+      "origin": "byte-identical recorded log",
+      "source_root": "portable_consumer",
+      "source_path": "results/portable-fixed/sdp_integrity_then_curl23/stdout.log",
+      "source_sha256": "31988d9f50a550ada58d43e44d1d7bb8cd23c67198267c43320195df504cb4fa",
+      "public_sha256": "31988d9f50a550ada58d43e44d1d7bb8cd23c67198267c43320195df504cb4fa",
+      "bytes": 431,
+      "private_root_replacements": 0
+    },
+    {
+      "path": "results/portable-fixed/sdp_integrity_then_curl23/stderr.log",
+      "origin": "byte-identical recorded log",
+      "source_root": "portable_consumer",
+      "source_path": "results/portable-fixed/sdp_integrity_then_curl23/stderr.log",
+      "source_sha256": "14be6223da43c2bf64c9463c429bb8429b1a7ff24ea4b4e212ee4c66dfe9300f",
+      "public_sha256": "14be6223da43c2bf64c9463c429bb8429b1a7ff24ea4b4e212ee4c66dfe9300f",
+      "bytes": 2569,
+      "private_root_replacements": 0
+    },
+    {
+      "path": "ui/original/window.png",
+      "origin": "byte-identical recorded UI artifact",
+      "source_root": "ui_original",
+      "source_path": "window.png",
+      "source_sha256": "dd7d796aec5c144569b803d0a3b04dacc04f24143801e8976ba14c1c3e553087",
+      "public_sha256": "dd7d796aec5c144569b803d0a3b04dacc04f24143801e8976ba14c1c3e553087",
+      "bytes": 340708,
+      "private_root_replacements": 0
+    },
+    {
+      "path": "ui/original/session.log",
+      "origin": "byte-identical recorded UI artifact",
+      "source_root": "ui_original",
+      "source_path": "profile/first-run-download.log",
+      "source_sha256": "053478065395f02ebc8ba0d1b97cda476b86f5f095ec07aeb10049c5dd434121",
+      "public_sha256": "053478065395f02ebc8ba0d1b97cda476b86f5f095ec07aeb10049c5dd434121",
+      "bytes": 3503,
+      "private_root_replacements": 0
+    },
+    {
+      "path": "ui/original/result.json",
+      "origin": "compact public derivative of recorded UI observations",
+      "source_root": "ui_original",
+      "source_inputs": [
+        {
+          "path": "result.json",
+          "sha256": "c9d550b4f61df0231bbf8bfd3599d35a51a333fb2c97b298e11d8b767bcc5b53"
+        },
+        {
+          "path": "root-window-review.json",
+          "sha256": "5176167325bf768341f04323197797acf4121b04008aee51a483704e688606cc"
+        },
+        {
+          "path": "window-ax-complete.json",
+          "sha256": "0313ce1ef4ac44e4496e276f3eaf8171b5f79603d4310ae22528eb8253b5a37b"
+        },
+        {
+          "path": "quit-press.json",
+          "sha256": "59b9c30e081bedcfae0bb35813c1ef871df7858fdb2d760af768dc2f02f61338"
+        }
+      ],
+      "public_sha256": "4c99b7762894b3e3c4bfdedb48bbe99f39bc7fa72592a441ab0074d073ca50d9",
+      "bytes": 7902,
+      "private_root_replacements": 2,
+      "raw_source_hashes_preserved": true
+    },
+    {
+      "path": "ui/fixed/window.png",
+      "origin": "byte-identical recorded UI artifact",
+      "source_root": "ui_fixed",
+      "source_path": "window.png",
+      "source_sha256": "770fee336038c4def5f77bb87155a7d9f289ce859737348565199dc8b7994260",
+      "public_sha256": "770fee336038c4def5f77bb87155a7d9f289ce859737348565199dc8b7994260",
+      "bytes": 456191,
+      "private_root_replacements": 0
+    },
+    {
+      "path": "ui/fixed/session.log",
+      "origin": "byte-identical recorded UI artifact",
+      "source_root": "ui_fixed",
+      "source_path": "profile/first-run-download.log",
+      "source_sha256": "9718ce58d50178dcd07d6985f8439e0f2d69befc44853fa491d9451e9da33f0e",
+      "public_sha256": "9718ce58d50178dcd07d6985f8439e0f2d69befc44853fa491d9451e9da33f0e",
+      "bytes": 1289,
+      "private_root_replacements": 0
+    },
+    {
+      "path": "ui/fixed/result.json",
+      "origin": "compact public derivative of recorded UI observations",
+      "source_root": "ui_fixed",
+      "source_inputs": [
+        {
+          "path": "result.json",
+          "sha256": "9366b98d2ad50ae3fd6567351c421732da8eab6bb8029755afd1f9dce0c47f8e"
+        },
+        {
+          "path": "root-window-review.json",
+          "sha256": "b313881caa8f4b464d3223489e95b19e818f964bc0fd95668db4e3cfa8139c1e"
+        },
+        {
+          "path": "window-ax.json",
+          "sha256": "cde8816facf5589531965d06cfe436e1dc92570305f7ea101e9ff56b179af076"
+        },
+        {
+          "path": "quit-press.json",
+          "sha256": "a3bb5bd11e38807e96f09267c2f71805fc29698487fba62d6efa880772cd8d37"
+        }
+      ],
+      "public_sha256": "57ab1efc6810eb63a21078c04287c363922f0b67590cc7a2c735f50a990fa64c",
+      "bytes": 5816,
+      "private_root_replacements": 2,
+      "raw_source_hashes_preserved": true
+    }
+  ],
+  "self_hash": "manifest.json is excluded from its own file list; its hash is recorded in the private UI evidence audit."
+}

@@ -1,0 +1,26 @@
+{
+  "name": "error-dialog",
+  "argv": [
+    "<EVIDENCE_ROOT>/original-helpers/error-dialog",
+    "--title",
+    "BAR Launcher",
+    "--message",
+    "[filesystem] BAR could not restore its content metadata. The game was not started.\n\nrm: <EVIDENCE_ROOT>/profile/rapid: Operation not permitted (UI probe injection)",
+    "--logfile",
+    "<EVIDENCE_ROOT>/profile/first-run-download.log"
+  ],
+  "binary_sha256": "2cd35cb2c924783b9e348fed80a336a587e2ce8685db3a9f3e8fc65c91b3534c",
+  "before_start_unix_seconds": 1789084600.2492318,
+  "stdin": "inherited /dev/null",
+  "log_before_start": {
+    "path": "<EVIDENCE_ROOT>/profile/first-run-download.log",
+    "sha256": "f7cd4f9f2d8a2db146559e4e8868432cfea0ce9c2ee230eadebdf9925a750b6f",
+    "size": 430,
+    "utf8_valid": true,
+    "lines": 6,
+    "empty": false
+  },
+  "pid": 14220,
+  "returncode": 0,
+  "exited_unix_seconds": 1789084677.003117
+}

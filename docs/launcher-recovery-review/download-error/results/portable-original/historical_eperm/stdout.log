@@ -1,0 +1,16 @@
+@S Checking free disk space
+@S Contacting content servers…
+@D Server: repos-cdn.beyondallreason.dev
+@I
+@D Package lists fetched: 1
+@D Attempt 1 failed — retrying in 5s
+@S Retrying (attempt 2 of 3)…
+@D Server: repos-cdn.beyondallreason.dev
+@I
+@D Package lists fetched: 1
+@D Attempt 2 failed — retrying in 10s
+@S Retrying (attempt 3 of 3)…
+@D Server: repos-cdn.beyondallreason.dev
+@I
+@D Package lists fetched: 1
+@E:network Could not reach the content servers. Check your internet connection, then start the game again.

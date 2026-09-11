@@ -1,0 +1,40 @@
+{
+  "phase": "original",
+  "script": "<EVIDENCE_ROOT>/original/packaging/download-content.sh",
+  "sha256": "74081944d53d128fa29693f5d6b6655b4fe5aee68e3f7b50ade3ac359b18598a",
+  "test_sha256": "3559a829844365e514128c0a344745293e87b5256834f64d5fa61f4b9547a79c",
+  "passed": true,
+  "scenarios": [
+    {
+      "name": "historical_eperm",
+      "command": [
+        "/bin/bash",
+        "<EVIDENCE_ROOT>/original/packaging/download-content.sh",
+        "--writedir",
+        "<EVIDENCE_ROOT>/results/portable-original/historical_eperm/profile"
+      ],
+      "prd_exit": 1,
+      "exit": 5,
+      "error": [
+        "@E:network Could not reach the content servers. Check your internet connection, then start the game again."
+      ],
+      "attempts": 3,
+      "sleeps": [
+        "5",
+        "10"
+      ],
+      "seconds": 0.8092598329999999,
+      "assertions": {
+        "exit": true,
+        "error_code": true,
+        "attempts": true,
+        "full_diagnostics_preserved": true,
+        "one_error_or_success": true,
+        "completion_only_on_success": true,
+        "backoff": true,
+        "temporary_capture_removed": true
+      },
+      "passed": true
+    }
+  ]
+}

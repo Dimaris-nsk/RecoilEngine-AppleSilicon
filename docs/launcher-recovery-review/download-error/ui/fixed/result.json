@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "variant": "fixed",
+  "record_type": "Public derivative of recorded UI observations; not a new run",
+  "source_run": "fixed-k6xukoyk",
+  "source_inputs": [
+    {
+      "path": "result.json",
+      "sha256": "9366b98d2ad50ae3fd6567351c421732da8eab6bb8029755afd1f9dce0c47f8e"
+    },
+    {
+      "path": "root-window-review.json",
+      "sha256": "b313881caa8f4b464d3223489e95b19e818f964bc0fd95668db4e3cfa8139c1e"
+    },
+    {
+      "path": "window-ax.json",
+      "sha256": "cde8816facf5589531965d06cfe436e1dc92570305f7ea101e9ff56b179af076"
+    },
+    {
+      "path": "quit-press.json",
+      "sha256": "a3bb5bd11e38807e96f09267c2f71805fc29698487fba62d6efa880772cd8d37"
+    }
+  ],
+  "scope": "Exact original launcher content block with original error-dialog and a controlled historical PRD reply; no Finder/TCC/full-launcher test and no reproduction of the physical EPERM cause.",
+  "started_unix_seconds": 1789084419.696461,
+  "finished_unix_seconds": 1789084509.2096791,
+  "review_completed_unix_seconds": 1789084509.290733,
+  "executed_inputs_sha256": {
+    "BAR Launcher.app/Contents/MacOS/error-dialog": "2cd35cb2c924783b9e348fed80a336a587e2ce8685db3a9f3e8fc65c91b3534c",
+    "BAR Launcher.app/Contents/MacOS/pr-downloader": "289abec57196c3a6f04b40501964c649be49dfb6bb4582ca6801dfc4434e6bf9",
+    "BAR Launcher.app/Contents/Resources/content_tags": "46d2af54045eab2c77ed24b4d21c7104174580574b34cff9f99a5845a71fb07c",
+    "BAR Launcher.app/Contents/Resources/download-content.sh": "6d75cab0ce7dbfcc896451741249ca4c5828a80b5a1e108ca32e5183d46e8d3f",
+    "BAR Launcher.app/Contents/Info.plist": "1fbb0165c6bf4c87df61a3f43f9c05baafa57cc2dbc11a0ee9e557f2ac0e8735",
+    "content-block.sh": "0b0be5e7ddbdc8d2861cdd2198f6e3d74bc2cea2cb07198aeb8abfb1e9e79d4d",
+    "prd-reply.log": "71c8a0768c0623b3a01b3f66b4b202432edb08efe39826a53a293818d77d134b"
+  },
+  "actual_process_command": "<UI_RUN_ROOT>/BAR Launcher.app/Contents/MacOS/error-dialog --title BAR Launcher --message [filesystem] Could not access or update local game files. Couldn't delete file /test/profile/rapid/repos-cdn.beyondallreason.dev/repos.gz: Operation not permitted --logfile <UI_RUN_ROOT>/profile/first-run-download.log",
+  "classification": {
+    "error_lines": [
+      "@E:filesystem Could not access or update local game files. Couldn't delete file /test/profile/rapid/repos-cdn.beyondallreason.dev/repos.gz: Operation not permitted"
+    ],
+    "prd_invocations": 1,
+    "protocol_matches_expected": true,
+    "launcher_content_block_exit": 1
+  },
+  "window": {
+    "helper_pid": 13914,
+    "window_id": 796,
+    "message": "[filesystem] Could not access or update local game files. Couldn't delete file /test/profile/rapid/repos-cdn.beyondallreason.dev/repos.gz: Operation not permitted",
+    "screenshot": "window.png",
+    "screenshot_sha256": "770fee336038c4def5f77bb87155a7d9f289ce859737348565199dc8b7994260",
+    "visual_review_by": "OpenAI Codex root agent",
+    "session_log_visible": true,
+    "no_log_available_visible": false,
+    "quit_button_visible": true,
+    "ax_complete": true,
+    "ax_executable_path_verified": true,
+    "ax_text_area_element_index": 5,
+    "ax_text_area_value": "@S Checking free disk space\n@S Contacting content servers…\n@D Server: repos-cdn.beyondallreason.dev\n@I\n@D Package lists fetched: 1\n=== download attempt 1 rc=1 (server=0) ===\npr-downloader v0.15.0-4-g8ab9474 (macos_arm64)\n[Info] tools/pr-downloader/src/FileSystem/FileSystem.cpp:203:setWritePath():Using filesystem-writepath: /test/profile\n[Info] tools/pr-downloader/src/pr-downloader.cpp:202:DownloadSetConfig():Free disk space: 5594851 MB\n[Info] tools/pr-downloader/src/Downloader/CurlWrapper.cpp:32:DumpVersion():libcurl 8.7.1 SecureTransport (LibreSSL/3.3.6)\n[Info] tools/pr-downloader/src/Downloader/CurlWrapper.cpp:81:ConfigureCertificates():CURLOPT_CAINFO is nullptr (can be overriden by PRD_SSL_CERT_FILE env variable)\n[Info] tools/pr-downloader/src/Downloader/CurlWrapper.cpp:83:ConfigureCertificates():CURLOPT_CAPATH is nullptr (can be overriden by PRD_SSL_CERT_DIR env variable)\n[Progress] 100% [==============================] 1/1 \n[Error] tools/pr-downloader/src/FileSystem/FileSystem.cpp:496:removeFile():Couldn't delete file /test/profile/rapid/repos-cdn.beyondallreason.dev/repos.gz: Operation not permitted\n@E:filesystem Could not access or update local game files. Couldn't delete file /test/profile/rapid/repos-cdn.beyondallreason.dev/repos.gz: Operation not permitted\n",
+    "ax_text_area_utf8_sha256": "9718ce58d50178dcd07d6985f8439e0f2d69befc44853fa491d9451e9da33f0e",
+    "session_log": "session.log",
+    "session_log_sha256": "9718ce58d50178dcd07d6985f8439e0f2d69befc44853fa491d9451e9da33f0e",
+    "session_log_bytes": 1289,
+    "displayed_log_equals_file": true
+  },
+  "quit": {
+    "ax_press_attempts": 1,
+    "ax_press_attempted": true,
+    "ax_press_accepted": false,
+    "ax_error": -25204,
+    "ax_receipt_ok": false,
+    "ax_receipt_needs_exit_verification": true,
+    "helper_pid_absent_after_press": true,
+    "completion_observed_by": "OpenAI Codex root agent; separate check after the AXPress attempt",
+    "helper_exit_code": null,
+    "helper_exit_code_note": "Not independently recorded; parent content block exit 1 does not establish helper exit 0."
+  },
+  "privacy": {
+    "omitted": "Private machine/session metadata and unused accessibility attributes",
+    "path_redaction": "Only the exact source-run root in actual_process_command was replaced by <UI_RUN_ROOT>.",
+    "private_root_replacements": 2,
+    "session_log_and_screenshot": "Copied byte-for-byte; no private absolute paths were present in the log or visible screenshot.",
+    "raw_source_hashes_preserved": true
+  },
+  "review_status": "UI observations recorded; human maintainer review pending"
+}

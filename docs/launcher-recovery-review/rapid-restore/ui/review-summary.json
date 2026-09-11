@@ -1,0 +1,172 @@
+{
+  "schema_version": 1,
+  "kind": "Codex-authored synthesis of recorded UI evidence; not a raw probe result",
+  "scope": "Exact candidate content block, finite offline download stub and one injected restore rm failure, with original v0.15.1 progress-window and error-dialog binaries.",
+  "sources": [
+    {
+      "source_root": "ui_probe",
+      "source_path": "result.json",
+      "source_sha256": "4b53e278379872571bae968da112c9b13b74b6c8f678ee2142979db14c67c8a6"
+    },
+    {
+      "source_root": "ui_probe",
+      "source_path": "root-window-review.json",
+      "source_sha256": "70000a3d83ee4905695c89c9239d9ff1ba76a2522c9a75b6688949bb40032e9b"
+    },
+    {
+      "source_root": "ui_probe",
+      "source_path": "root-progress-capture.json",
+      "source_sha256": "80c32c038103f71eda0202e66936346cd5e0720264921c2f5795b7a4d8c34388"
+    },
+    {
+      "source_root": "ui_probe",
+      "source_path": "progress-window-ax.json",
+      "source_sha256": "b5755be8a389c78507d6dd283b4c2f6bfa34d26d73f1ff34136aab88ee491ca2"
+    },
+    {
+      "source_root": "ui_probe",
+      "source_path": "error-window-ax.json",
+      "source_sha256": "39b7cd92253871c92042c968a6a3b2f3367885f91972e9deeef3d53881207511"
+    },
+    {
+      "source_root": "ui_probe",
+      "source_path": "quit-press.json",
+      "source_sha256": "e18d76358472164901d7be0524ecac9f4b9fd656ed2b12228067977da7e3dbde"
+    },
+    {
+      "source_root": "ui_probe",
+      "source_path": "progress-window-receipt.json",
+      "source_sha256": "75220a1490d5009415eb2921156bb503a25bbb58fb3c0ac9fffa91903237734a"
+    },
+    {
+      "source_root": "ui_probe",
+      "source_path": "error-dialog-receipt.json",
+      "source_sha256": "da8fecffb9f8d468bc400cd167881cb1eb44d8a5c6f019ef8ceab521ce0e7789"
+    },
+    {
+      "source_root": "ui_probe",
+      "source_path": "profile/first-run-download.log",
+      "source_sha256": "f7cd4f9f2d8a2db146559e4e8868432cfea0ce9c2ee230eadebdf9925a750b6f"
+    },
+    {
+      "source_root": "ui_probe",
+      "source_path": "profile/rapid.pre-update.ready/versions.gz",
+      "source_sha256": "4c17a9e029e6f764b335e03c4b8d19cca4d482c48a9ae5c0e01c47c84f9dc656"
+    },
+    {
+      "source_root": "ui_probe",
+      "source_path": "download-calls.log",
+      "source_sha256": "7cf8ba2041a6ccea3255e108fe82b845abf2285c3c1e5479428f7a3e14452f99"
+    },
+    {
+      "source_root": "ui_probe",
+      "source_path": "rm-failure",
+      "source_sha256": "607a7b980f81efba680d1fe6b1717587125a7e838ba66e819ca22a4c9de92393"
+    },
+    {
+      "source_root": "ui_probe",
+      "source_path": "content-block.sh",
+      "source_sha256": "d2117e8012fdb7d3e19fdeac602b9576eb758c5ff805acc125b3b78d2668376e"
+    },
+    {
+      "source_root": "ui_probe",
+      "source_path": "entry.sh",
+      "source_sha256": "760c48afa15dc1238691429c92364eae4b2bdfd4a9dd5220bd614da44eae6c30"
+    },
+    {
+      "source_root": "ui_probe",
+      "source_path": "resources/download-content.sh",
+      "source_sha256": "8f9ab1b9aca29e683c4a282f42de621c81ff4c79856874d61ddee24debc03303"
+    },
+    {
+      "source_root": "ui_probe",
+      "source_path": "probe-process.log",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source_root": "ui_probe",
+      "source_path": "progress-window-stdio.log",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source_root": "ui_probe",
+      "source_path": "error-dialog-stdio.log",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "candidate": {
+    "path": "packaging/launcher.sh",
+    "sha256": "d8ceef426c8470f6677b8f3f5667c0d47446e690cc0adbf67ad9f9dede7c0f8b",
+    "inclusive_lines": [
+      359,
+      598
+    ],
+    "block_sha256": "d2117e8012fdb7d3e19fdeac602b9576eb758c5ff805acc125b3b78d2668376e"
+  },
+  "started_unix_seconds": 1789084598.488394,
+  "finished_unix_seconds": 1789084677.007468,
+  "probe_process_returncode": 1,
+  "protocol_matches_expected": true,
+  "probe_result_visual_review_note": "The raw harness result predates the separate final root visual review and intentionally retains its visual-review-pending field. Visual findings below come from root-window-review.json.",
+  "progress_window": {
+    "visible_in_root_reviewed_capture": true,
+    "capture_sha256": "ff7888df88d14e92629d3efe1b185c80b2816ed35553b0f2868075d1d5f862b5",
+    "captured_unix_seconds": 1789084600.103504,
+    "closed_without_input_after_fifo_eof": true,
+    "returncode": 0,
+    "pid_absent_before_error_quit": true,
+    "original_binary_sha256": "f7d90c3e2cecba8061cf0cb3f0f02c570ae5188e96bc4ebab9470cc2f7d6e344"
+  },
+  "error_window": {
+    "filesystem_message_and_primary_rm_detail_visible": true,
+    "session_log_visible": true,
+    "displayed_ax_log_equals_original_file": true,
+    "original_log_bytes": 430,
+    "original_log_sha256": "f7cd4f9f2d8a2db146559e4e8868432cfea0ce9c2ee230eadebdf9925a750b6f",
+    "public_log_sha256": "841e818d6a6d6b8d163bba319d2d9b13a99447cac6c2fa8e080b0c46511256c4",
+    "no_log_available_visible": false,
+    "all_buttons_visible": true,
+    "text_not_clipped": true,
+    "screenshot": "Omitted because it contains a private local path; not edited or copied into this package.",
+    "quit_press_attempts": 1,
+    "quit_ax_error": -25204,
+    "quit_ax_acknowledged": false,
+    "quit_completion_evidence": "AXPress did not acknowledge completion (-25204); no retry was made. The final original-helper receipt records exit 0, and root recorded normal window closure.",
+    "normal_quit_observed_by_root": true,
+    "returncode": 0,
+    "original_binary_sha256": "2cd35cb2c924783b9e348fed80a336a587e2ce8685db3a9f3e8fc65c91b3534c"
+  },
+  "preserved_state": {
+    "complete_ready_backup_preserved": true,
+    "ready_backup_metadata_sha256": "4c17a9e029e6f764b335e03c4b8d19cca4d482c48a9ae5c0e01c47c84f9dc656",
+    "original_metadata_sha256": "4c17a9e029e6f764b335e03c4b8d19cca4d482c48a9ae5c0e01c47c84f9dc656",
+    "installation_marker_absent": true,
+    "one_download_stub_call": true,
+    "one_restore_rm_injection": true
+  },
+  "stdio": [
+    {
+      "path": "probe-process.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "progress-window-stdio.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "error-dialog-stdio.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "limitations": [
+    "Not a full launcher, Finder or LaunchServices launch; wrapper parenting and binary paths differ.",
+    "Does not qualify TCC access, a real network installation, the historical EPERM cause, Skip, or engine/game behavior.",
+    "The UI scenario covers this one restore failure. Other backup branches are covered by the separate 30-scenario file test.",
+    "Helper binaries have ad-hoc hardened-runtime signatures, without a TeamIdentifier; this is not Developer ID or notarization evidence.",
+    "Power-loss durability and concurrent writers are not qualified."
+  ],
+  "ai_disclosure": "OpenAI Codex performed and recorded the visual review and evidence synthesis. Human maintainer review is pending."
+}

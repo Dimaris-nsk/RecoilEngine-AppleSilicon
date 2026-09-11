@@ -1,0 +1,900 @@
+{
+  "phase": "fixed",
+  "script": "<EVIDENCE_ROOT>/packaging/download-content.sh",
+  "sha256": "6d75cab0ce7dbfcc896451741249ca4c5828a80b5a1e108ca32e5183d46e8d3f",
+  "test_sha256": "3559a829844365e514128c0a344745293e87b5256834f64d5fa61f4b9547a79c",
+  "passed": true,
+  "scenarios": [
+    {
+      "name": "historical_eperm",
+      "command": [
+        "/bin/bash",
+        "<EVIDENCE_ROOT>/packaging/download-content.sh",
+        "--writedir",
+        "<EVIDENCE_ROOT>/results/portable-fixed/historical_eperm/profile"
+      ],
+      "prd_exit": 1,
+      "exit": 9,
+      "error": [
+        "@E:filesystem Could not access or update local game files. Couldn't delete file /test/profile/rapid/repos-cdn.beyondallreason.dev/repos.gz: Operation not permitted"
+      ],
+      "attempts": 1,
+      "sleeps": [],
+      "seconds": 0.3920145,
+      "assertions": {
+        "exit": true,
+        "error_code": true,
+        "attempts": true,
+        "full_diagnostics_preserved": true,
+        "one_error_or_success": true,
+        "completion_only_on_success": true,
+        "backoff": true,
+        "temporary_capture_removed": true,
+        "message_keeps_primary_reason": true
+      },
+      "passed": true
+    },
+    {
+      "name": "eperm_after_repos",
+      "command": [
+        "/bin/bash",
+        "<EVIDENCE_ROOT>/packaging/download-content.sh",
+        "--writedir",
+        "<EVIDENCE_ROOT>/results/portable-fixed/eperm_after_repos/profile"
+      ],
+      "prd_exit": 1,
+      "exit": 9,
+      "error": [
+        "@E:filesystem Could not access or update local game files. Couldn't delete file /test/profile/rapid/repos-cdn.beyondallreason.dev/repos.gz: Operation not permitted"
+      ],
+      "attempts": 1,
+      "sleeps": [],
+      "seconds": 0.357933,
+      "assertions": {
+        "exit": true,
+        "error_code": true,
+        "attempts": true,
+        "full_diagnostics_preserved": true,
+        "one_error_or_success": true,
+        "completion_only_on_success": true,
+        "backoff": true,
+        "temporary_capture_removed": true,
+        "message_keeps_primary_reason": true
+      },
+      "passed": true
+    },
+    {
+      "name": "write_denied",
+      "command": [
+        "/bin/bash",
+        "<EVIDENCE_ROOT>/packaging/download-content.sh",
+        "--writedir",
+        "<EVIDENCE_ROOT>/results/portable-fixed/write_denied/profile"
+      ],
+      "prd_exit": 1,
+      "exit": 10,
+      "error": [
+        "@E:unknown The content update failed. The downloader reported: write error /test/file (0): Permission denied See the session log for details."
+      ],
+      "attempts": 3,
+      "sleeps": [
+        "5",
+        "10"
+      ],
+      "seconds": 0.645630834,
+      "assertions": {
+        "exit": true,
+        "error_code": true,
+        "attempts": true,
+        "full_diagnostics_preserved": true,
+        "one_error_or_success": true,
+        "completion_only_on_success": true,
+        "backoff": true,
+        "temporary_capture_removed": true,
+        "no_invented_connection_cause": true
+      },
+      "passed": true
+    },
+    {
+      "name": "open_denied",
+      "command": [
+        "/bin/bash",
+        "<EVIDENCE_ROOT>/packaging/download-content.sh",
+        "--writedir",
+        "<EVIDENCE_ROOT>/results/portable-fixed/open_denied/profile"
+      ],
+      "prd_exit": 1,
+      "exit": 10,
+      "error": [
+        "@E:unknown The content update failed. The downloader reported: Couldn't open /test/file.tmp: Permission denied See the session log for details."
+      ],
+      "attempts": 3,
+      "sleeps": [
+        "5",
+        "10"
+      ],
+      "seconds": 0.6074853339999999,
+      "assertions": {
+        "exit": true,
+        "error_code": true,
+        "attempts": true,
+        "full_diagnostics_preserved": true,
+        "one_error_or_success": true,
+        "completion_only_on_success": true,
+        "backoff": true,
+        "temporary_capture_removed": true,
+        "no_invented_connection_cause": true
+      },
+      "passed": true
+    },
+    {
+      "name": "rename_denied",
+      "command": [
+        "/bin/bash",
+        "<EVIDENCE_ROOT>/packaging/download-content.sh",
+        "--writedir",
+        "<EVIDENCE_ROOT>/results/portable-fixed/rename_denied/profile"
+      ],
+      "prd_exit": 1,
+      "exit": 10,
+      "error": [
+        "@E:unknown The content update failed. The downloader reported: Failed to rename /test/file.tmp to /test/file: Operation not permitted See the session log for details."
+      ],
+      "attempts": 3,
+      "sleeps": [
+        "5",
+        "10"
+      ],
+      "seconds": 0.7248865000000002,
+      "assertions": {
+        "exit": true,
+        "error_code": true,
+        "attempts": true,
+        "full_diagnostics_preserved": true,
+        "one_error_or_success": true,
+        "completion_only_on_success": true,
+        "backoff": true,
+        "temporary_capture_removed": true,
+        "no_invented_connection_cause": true
+      },
+      "passed": true
+    },
+    {
+      "name": "mkdir_denied",
+      "command": [
+        "/bin/bash",
+        "<EVIDENCE_ROOT>/packaging/download-content.sh",
+        "--writedir",
+        "<EVIDENCE_ROOT>/results/portable-fixed/mkdir_denied/profile"
+      ],
+      "prd_exit": 1,
+      "exit": 10,
+      "error": [
+        "@E:unknown The content update failed. The downloader reported: Error creating directory /test/profile: Permission denied See the session log for details."
+      ],
+      "attempts": 3,
+      "sleeps": [
+        "5",
+        "10"
+      ],
+      "seconds": 0.7140941250000004,
+      "assertions": {
+        "exit": true,
+        "error_code": true,
+        "attempts": true,
+        "full_diagnostics_preserved": true,
+        "one_error_or_success": true,
+        "completion_only_on_success": true,
+        "backoff": true,
+        "temporary_capture_removed": true,
+        "no_invented_connection_cause": true
+      },
+      "passed": true
+    },
+    {
+      "name": "explicit_enospc",
+      "command": [
+        "/bin/bash",
+        "<EVIDENCE_ROOT>/packaging/download-content.sh",
+        "--writedir",
+        "<EVIDENCE_ROOT>/results/portable-fixed/explicit_enospc/profile"
+      ],
+      "prd_exit": 1,
+      "exit": 10,
+      "error": [
+        "@E:unknown The content update failed. The downloader reported: write error /test/file (0): No space left on device See the session log for details."
+      ],
+      "attempts": 3,
+      "sleeps": [
+        "5",
+        "10"
+      ],
+      "seconds": 0.7099819590000003,
+      "assertions": {
+        "exit": true,
+        "error_code": true,
+        "attempts": true,
+        "full_diagnostics_preserved": true,
+        "one_error_or_success": true,
+        "completion_only_on_success": true,
+        "backoff": true,
+        "temporary_capture_removed": true,
+        "no_invented_connection_cause": true
+      },
+      "passed": true
+    },
+    {
+      "name": "disk_exit",
+      "command": [
+        "/bin/bash",
+        "<EVIDENCE_ROOT>/packaging/download-content.sh",
+        "--writedir",
+        "<EVIDENCE_ROOT>/results/portable-fixed/disk_exit/profile"
+      ],
+      "prd_exit": 5,
+      "exit": 3,
+      "error": [
+        "@E:disk The download stopped because the disk ran out of space. Free up about 4 GB, then start the game again \u2014 it will resume where it left off."
+      ],
+      "attempts": 1,
+      "sleeps": [],
+      "seconds": 0.3503243749999996,
+      "assertions": {
+        "exit": true,
+        "error_code": true,
+        "attempts": true,
+        "full_diagnostics_preserved": true,
+        "one_error_or_success": true,
+        "completion_only_on_success": true,
+        "backoff": true,
+        "temporary_capture_removed": true
+      },
+      "passed": true
+    },
+    {
+      "name": "disk_measure_failed",
+      "command": [
+        "/bin/bash",
+        "<EVIDENCE_ROOT>/packaging/download-content.sh",
+        "--writedir",
+        "<EVIDENCE_ROOT>/results/portable-fixed/disk_measure_failed/profile"
+      ],
+      "prd_exit": 5,
+      "exit": 9,
+      "error": [
+        "@E:filesystem Could not access or update local game files. Error getting free disk space on /test/profile: Permission denied"
+      ],
+      "attempts": 1,
+      "sleeps": [],
+      "seconds": 0.4903004169999994,
+      "assertions": {
+        "exit": true,
+        "error_code": true,
+        "attempts": true,
+        "full_diagnostics_preserved": true,
+        "one_error_or_success": true,
+        "completion_only_on_success": true,
+        "backoff": true,
+        "temporary_capture_removed": true,
+        "no_false_disk_full": true,
+        "message_keeps_primary_reason": true
+      },
+      "passed": true
+    },
+    {
+      "name": "unknown_with_ssl_info",
+      "command": [
+        "/bin/bash",
+        "<EVIDENCE_ROOT>/packaging/download-content.sh",
+        "--writedir",
+        "<EVIDENCE_ROOT>/results/portable-fixed/unknown_with_ssl_info/profile"
+      ],
+      "prd_exit": 1,
+      "exit": 10,
+      "error": [
+        "@E:unknown The content update failed. The session log contains the downloader's error details."
+      ],
+      "attempts": 3,
+      "sleeps": [
+        "5",
+        "10"
+      ],
+      "seconds": 0.5513131250000001,
+      "assertions": {
+        "exit": true,
+        "error_code": true,
+        "attempts": true,
+        "full_diagnostics_preserved": true,
+        "one_error_or_success": true,
+        "completion_only_on_success": true,
+        "backoff": true,
+        "temporary_capture_removed": true,
+        "no_invented_connection_cause": true
+      },
+      "passed": true
+    },
+    {
+      "name": "bare_curl23",
+      "command": [
+        "/bin/bash",
+        "<EVIDENCE_ROOT>/packaging/download-content.sh",
+        "--writedir",
+        "<EVIDENCE_ROOT>/results/portable-fixed/bare_curl23/profile"
+      ],
+      "prd_exit": 1,
+      "exit": 10,
+      "error": [
+        "@E:unknown The content update failed. The session log contains the downloader's error details."
+      ],
+      "attempts": 3,
+      "sleeps": [
+        "5",
+        "10"
+      ],
+      "seconds": 0.6083111249999993,
+      "assertions": {
+        "exit": true,
+        "error_code": true,
+        "attempts": true,
+        "full_diagnostics_preserved": true,
+        "one_error_or_success": true,
+        "completion_only_on_success": true,
+        "backoff": true,
+        "temporary_capture_removed": true,
+        "no_invented_connection_cause": true
+      },
+      "passed": true
+    },
+    {
+      "name": "sdp_integrity_then_curl23",
+      "command": [
+        "/bin/bash",
+        "<EVIDENCE_ROOT>/packaging/download-content.sh",
+        "--writedir",
+        "<EVIDENCE_ROOT>/results/portable-fixed/sdp_integrity_then_curl23/profile"
+      ],
+      "prd_exit": 2,
+      "exit": 10,
+      "error": [
+        "@E:unknown The content update failed. The session log contains the downloader's error details."
+      ],
+      "attempts": 3,
+      "sleeps": [
+        "5",
+        "10"
+      ],
+      "seconds": 0.6417362090000003,
+      "assertions": {
+        "exit": true,
+        "error_code": true,
+        "attempts": true,
+        "full_diagnostics_preserved": true,
+        "one_error_or_success": true,
+        "completion_only_on_success": true,
+        "backoff": true,
+        "temporary_capture_removed": true,
+        "no_invented_connection_cause": true
+      },
+      "passed": true
+    },
+    {
+      "name": "content_unknown",
+      "command": [
+        "/bin/bash",
+        "<EVIDENCE_ROOT>/packaging/download-content.sh",
+        "--writedir",
+        "<EVIDENCE_ROOT>/results/portable-fixed/content_unknown/profile"
+      ],
+      "prd_exit": 1,
+      "exit": 7,
+      "error": [
+        "@E:content The download of 'the game files' did not finish. The session log contains the downloader's error details. Please start the game again to resume."
+      ],
+      "attempts": 3,
+      "sleeps": [
+        "5",
+        "10"
+      ],
+      "seconds": 0.6473935419999997,
+      "assertions": {
+        "exit": true,
+        "error_code": true,
+        "attempts": true,
+        "full_diagnostics_preserved": true,
+        "one_error_or_success": true,
+        "completion_only_on_success": true,
+        "backoff": true,
+        "temporary_capture_removed": true,
+        "no_invented_connection_cause": true
+      },
+      "passed": true
+    },
+    {
+      "name": "http_dns",
+      "command": [
+        "/bin/bash",
+        "<EVIDENCE_ROOT>/packaging/download-content.sh",
+        "--writedir",
+        "<EVIDENCE_ROOT>/results/portable-fixed/http_dns/profile"
+      ],
+      "prd_exit": 1,
+      "exit": 5,
+      "error": [
+        "@E:network Could not reach the content servers. Check your internet connection, then start the game again."
+      ],
+      "attempts": 3,
+      "sleeps": [
+        "5",
+        "10"
+      ],
+      "seconds": 0.6145970830000005,
+      "assertions": {
+        "exit": true,
+        "error_code": true,
+        "attempts": true,
+        "full_diagnostics_preserved": true,
+        "one_error_or_success": true,
+        "completion_only_on_success": true,
+        "backoff": true,
+        "temporary_capture_removed": true
+      },
+      "passed": true
+    },
+    {
+      "name": "http_tls",
+      "command": [
+        "/bin/bash",
+        "<EVIDENCE_ROOT>/packaging/download-content.sh",
+        "--writedir",
+        "<EVIDENCE_ROOT>/results/portable-fixed/http_tls/profile"
+      ],
+      "prd_exit": 1,
+      "exit": 5,
+      "error": [
+        "@E:network Could not reach the content servers. Check your internet connection, then start the game again."
+      ],
+      "attempts": 3,
+      "sleeps": [
+        "5",
+        "10"
+      ],
+      "seconds": 0.5501227909999997,
+      "assertions": {
+        "exit": true,
+        "error_code": true,
+        "attempts": true,
+        "full_diagnostics_preserved": true,
+        "one_error_or_success": true,
+        "completion_only_on_success": true,
+        "backoff": true,
+        "temporary_capture_removed": true
+      },
+      "passed": true
+    },
+    {
+      "name": "http_tls_handshake",
+      "command": [
+        "/bin/bash",
+        "<EVIDENCE_ROOT>/packaging/download-content.sh",
+        "--writedir",
+        "<EVIDENCE_ROOT>/results/portable-fixed/http_tls_handshake/profile"
+      ],
+      "prd_exit": 1,
+      "exit": 5,
+      "error": [
+        "@E:network Could not reach the content servers. Check your internet connection, then start the game again."
+      ],
+      "attempts": 3,
+      "sleeps": [
+        "5",
+        "10"
+      ],
+      "seconds": 0.6358452499999991,
+      "assertions": {
+        "exit": true,
+        "error_code": true,
+        "attempts": true,
+        "full_diagnostics_preserved": true,
+        "one_error_or_success": true,
+        "completion_only_on_success": true,
+        "backoff": true,
+        "temporary_capture_removed": true
+      },
+      "passed": true
+    },
+    {
+      "name": "sdp_dns",
+      "command": [
+        "/bin/bash",
+        "<EVIDENCE_ROOT>/packaging/download-content.sh",
+        "--writedir",
+        "<EVIDENCE_ROOT>/results/portable-fixed/sdp_dns/profile"
+      ],
+      "prd_exit": 1,
+      "exit": 5,
+      "error": [
+        "@E:network Could not reach the content servers. Check your internet connection, then start the game again."
+      ],
+      "attempts": 3,
+      "sleeps": [
+        "5",
+        "10"
+      ],
+      "seconds": 0.6613012919999992,
+      "assertions": {
+        "exit": true,
+        "error_code": true,
+        "attempts": true,
+        "full_diagnostics_preserved": true,
+        "one_error_or_success": true,
+        "completion_only_on_success": true,
+        "backoff": true,
+        "temporary_capture_removed": true
+      },
+      "passed": true
+    },
+    {
+      "name": "sdp_tls",
+      "command": [
+        "/bin/bash",
+        "<EVIDENCE_ROOT>/packaging/download-content.sh",
+        "--writedir",
+        "<EVIDENCE_ROOT>/results/portable-fixed/sdp_tls/profile"
+      ],
+      "prd_exit": 1,
+      "exit": 5,
+      "error": [
+        "@E:network Could not reach the content servers. Check your internet connection, then start the game again."
+      ],
+      "attempts": 3,
+      "sleeps": [
+        "5",
+        "10"
+      ],
+      "seconds": 0.7100655830000004,
+      "assertions": {
+        "exit": true,
+        "error_code": true,
+        "attempts": true,
+        "full_diagnostics_preserved": true,
+        "one_error_or_success": true,
+        "completion_only_on_success": true,
+        "backoff": true,
+        "temporary_capture_removed": true
+      },
+      "passed": true
+    },
+    {
+      "name": "search_dns",
+      "command": [
+        "/bin/bash",
+        "<EVIDENCE_ROOT>/packaging/download-content.sh",
+        "--writedir",
+        "<EVIDENCE_ROOT>/results/portable-fixed/search_dns/profile"
+      ],
+      "prd_exit": 1,
+      "exit": 5,
+      "error": [
+        "@E:network Could not reach the content servers. Check your internet connection, then start the game again."
+      ],
+      "attempts": 3,
+      "sleeps": [
+        "5",
+        "10"
+      ],
+      "seconds": 0.6282493750000011,
+      "assertions": {
+        "exit": true,
+        "error_code": true,
+        "attempts": true,
+        "full_diagnostics_preserved": true,
+        "one_error_or_success": true,
+        "completion_only_on_success": true,
+        "backoff": true,
+        "temporary_capture_removed": true
+      },
+      "passed": true
+    },
+    {
+      "name": "optional_open_then_dns",
+      "command": [
+        "/bin/bash",
+        "<EVIDENCE_ROOT>/packaging/download-content.sh",
+        "--writedir",
+        "<EVIDENCE_ROOT>/results/portable-fixed/optional_open_then_dns/profile"
+      ],
+      "prd_exit": 1,
+      "exit": 10,
+      "error": [
+        "@E:unknown The content update failed. The session log contains both file and connection error details."
+      ],
+      "attempts": 3,
+      "sleeps": [
+        "5",
+        "10"
+      ],
+      "seconds": 0.7595828749999995,
+      "assertions": {
+        "exit": true,
+        "error_code": true,
+        "attempts": true,
+        "full_diagnostics_preserved": true,
+        "one_error_or_success": true,
+        "completion_only_on_success": true,
+        "backoff": true,
+        "temporary_capture_removed": true,
+        "no_invented_connection_cause": true
+      },
+      "passed": true
+    },
+    {
+      "name": "optional_write_then_dns",
+      "command": [
+        "/bin/bash",
+        "<EVIDENCE_ROOT>/packaging/download-content.sh",
+        "--writedir",
+        "<EVIDENCE_ROOT>/results/portable-fixed/optional_write_then_dns/profile"
+      ],
+      "prd_exit": 1,
+      "exit": 10,
+      "error": [
+        "@E:unknown The content update failed. The session log contains both file and connection error details."
+      ],
+      "attempts": 3,
+      "sleeps": [
+        "5",
+        "10"
+      ],
+      "seconds": 0.6830302499999998,
+      "assertions": {
+        "exit": true,
+        "error_code": true,
+        "attempts": true,
+        "full_diagnostics_preserved": true,
+        "one_error_or_success": true,
+        "completion_only_on_success": true,
+        "backoff": true,
+        "temporary_capture_removed": true,
+        "no_invented_connection_cause": true
+      },
+      "passed": true
+    },
+    {
+      "name": "dns_then_cleanup_failure",
+      "command": [
+        "/bin/bash",
+        "<EVIDENCE_ROOT>/packaging/download-content.sh",
+        "--writedir",
+        "<EVIDENCE_ROOT>/results/portable-fixed/dns_then_cleanup_failure/profile"
+      ],
+      "prd_exit": 1,
+      "exit": 10,
+      "error": [
+        "@E:unknown The content update failed. The session log contains both file and connection error details."
+      ],
+      "attempts": 3,
+      "sleeps": [
+        "5",
+        "10"
+      ],
+      "seconds": 0.4700731660000006,
+      "assertions": {
+        "exit": true,
+        "error_code": true,
+        "attempts": true,
+        "full_diagnostics_preserved": true,
+        "one_error_or_success": true,
+        "completion_only_on_success": true,
+        "backoff": true,
+        "temporary_capture_removed": true,
+        "no_invented_connection_cause": true
+      },
+      "passed": true
+    },
+    {
+      "name": "optional_open_then_unknown",
+      "command": [
+        "/bin/bash",
+        "<EVIDENCE_ROOT>/packaging/download-content.sh",
+        "--writedir",
+        "<EVIDENCE_ROOT>/results/portable-fixed/optional_open_then_unknown/profile"
+      ],
+      "prd_exit": 1,
+      "exit": 10,
+      "error": [
+        "@E:unknown The content update failed. The downloader reported: Couldn't open /test/profile/pool/object: Permission denied See the session log for details."
+      ],
+      "attempts": 3,
+      "sleeps": [
+        "5",
+        "10"
+      ],
+      "seconds": 0.4785508749999998,
+      "assertions": {
+        "exit": true,
+        "error_code": true,
+        "attempts": true,
+        "full_diagnostics_preserved": true,
+        "one_error_or_success": true,
+        "completion_only_on_success": true,
+        "backoff": true,
+        "temporary_capture_removed": true,
+        "no_invented_connection_cause": true
+      },
+      "passed": true
+    },
+    {
+      "name": "optional_write_then_unknown",
+      "command": [
+        "/bin/bash",
+        "<EVIDENCE_ROOT>/packaging/download-content.sh",
+        "--writedir",
+        "<EVIDENCE_ROOT>/results/portable-fixed/optional_write_then_unknown/profile"
+      ],
+      "prd_exit": 1,
+      "exit": 10,
+      "error": [
+        "@E:unknown The content update failed. The downloader reported: write error /test/profile/pool/object.etag (0): Permission denied See the session log for details."
+      ],
+      "attempts": 3,
+      "sleeps": [
+        "5",
+        "10"
+      ],
+      "seconds": 0.4785641250000001,
+      "assertions": {
+        "exit": true,
+        "error_code": true,
+        "attempts": true,
+        "full_diagnostics_preserved": true,
+        "one_error_or_success": true,
+        "completion_only_on_success": true,
+        "backoff": true,
+        "temporary_capture_removed": true,
+        "no_invented_connection_cause": true
+      },
+      "passed": true
+    },
+    {
+      "name": "repos_install_and_dns",
+      "command": [
+        "/bin/bash",
+        "<EVIDENCE_ROOT>/packaging/download-content.sh",
+        "--writedir",
+        "<EVIDENCE_ROOT>/results/portable-fixed/repos_install_and_dns/profile"
+      ],
+      "prd_exit": 1,
+      "exit": 10,
+      "error": [
+        "@E:unknown The content update failed. The session log contains both file and connection error details."
+      ],
+      "attempts": 3,
+      "sleeps": [
+        "5",
+        "10"
+      ],
+      "seconds": 0.47978591600000087,
+      "assertions": {
+        "exit": true,
+        "error_code": true,
+        "attempts": true,
+        "full_diagnostics_preserved": true,
+        "one_error_or_success": true,
+        "completion_only_on_success": true,
+        "backoff": true,
+        "temporary_capture_removed": true,
+        "no_invented_connection_cause": true
+      },
+      "passed": true
+    },
+    {
+      "name": "repos_rename_denied",
+      "command": [
+        "/bin/bash",
+        "<EVIDENCE_ROOT>/packaging/download-content.sh",
+        "--writedir",
+        "<EVIDENCE_ROOT>/results/portable-fixed/repos_rename_denied/profile"
+      ],
+      "prd_exit": 1,
+      "exit": 9,
+      "error": [
+        "@E:filesystem Could not access or update local game files. Failed to rename /test/profile/rapid/host/repos.gz.tmp to /test/profile/rapid/host/repos.gz: Operation not permitted"
+      ],
+      "attempts": 1,
+      "sleeps": [],
+      "seconds": 0.2869156249999989,
+      "assertions": {
+        "exit": true,
+        "error_code": true,
+        "attempts": true,
+        "full_diagnostics_preserved": true,
+        "one_error_or_success": true,
+        "completion_only_on_success": true,
+        "backoff": true,
+        "temporary_capture_removed": true,
+        "message_keeps_primary_reason": true
+      },
+      "passed": true
+    },
+    {
+      "name": "success_with_optional_write_error",
+      "command": [
+        "/bin/bash",
+        "<EVIDENCE_ROOT>/packaging/download-content.sh",
+        "--writedir",
+        "<EVIDENCE_ROOT>/results/portable-fixed/success_with_optional_write_error/profile"
+      ],
+      "prd_exit": 0,
+      "exit": 0,
+      "error": [],
+      "attempts": 1,
+      "sleeps": [],
+      "seconds": 0.28279829100000065,
+      "assertions": {
+        "exit": true,
+        "error_code": true,
+        "attempts": true,
+        "full_diagnostics_preserved": true,
+        "one_error_or_success": true,
+        "completion_only_on_success": true,
+        "backoff": true,
+        "temporary_capture_removed": true
+      },
+      "passed": true
+    },
+    {
+      "name": "tag_missing",
+      "command": [
+        "/bin/bash",
+        "<EVIDENCE_ROOT>/packaging/download-content.sh",
+        "--writedir",
+        "<EVIDENCE_ROOT>/results/portable-fixed/tag_missing/profile"
+      ],
+      "prd_exit": 1,
+      "exit": 6,
+      "error": [
+        "@E:tag The content server does not list: byar:test. This build may be pointed at a package name the server no longer publishes \u2014 please check for an updated game version."
+      ],
+      "attempts": 1,
+      "sleeps": [],
+      "seconds": 0.29713020900000053,
+      "assertions": {
+        "exit": true,
+        "error_code": true,
+        "attempts": true,
+        "full_diagnostics_preserved": true,
+        "one_error_or_success": true,
+        "completion_only_on_success": true,
+        "backoff": true,
+        "temporary_capture_removed": true
+      },
+      "passed": true
+    },
+    {
+      "name": "success",
+      "command": [
+        "/bin/bash",
+        "<EVIDENCE_ROOT>/packaging/download-content.sh",
+        "--writedir",
+        "<EVIDENCE_ROOT>/results/portable-fixed/success/profile"
+      ],
+      "prd_exit": 0,
+      "exit": 0,
+      "error": [],
+      "attempts": 1,
+      "sleeps": [],
+      "seconds": 0.2830401670000011,
+      "assertions": {
+        "exit": true,
+        "error_code": true,
+        "attempts": true,
+        "full_diagnostics_preserved": true,
+        "one_error_or_success": true,
+        "completion_only_on_success": true,
+        "backoff": true,
+        "temporary_capture_removed": true
+      },
+      "passed": true
+    }
+  ]
+}

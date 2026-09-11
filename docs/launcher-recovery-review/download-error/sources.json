@@ -1,0 +1,56 @@
+{
+  "repository": "Vandomas/RecoilEngine-AppleSilicon",
+  "default_branch": "main",
+  "commit": "562fe461f8b045f863089815edac7f2d6559e178",
+  "submodule": {
+    "repo": "ExaDev/pr-downloader",
+    "commit": "e6510b3dd062d08675041401632b401831ce79d0",
+    "url": "https://github.com/ExaDev/pr-downloader/tree/e6510b3dd062d08675041401632b401831ce79d0"
+  },
+  "files": [
+    {
+      "path": "original/packaging/download-content.sh",
+      "url": "https://raw.githubusercontent.com/Vandomas/RecoilEngine-AppleSilicon/562fe461f8b045f863089815edac7f2d6559e178/packaging/download-content.sh",
+      "sha256": "74081944d53d128fa29693f5d6b6655b4fe5aee68e3f7b50ade3ac359b18598a",
+      "bytes": 15322
+    },
+    {
+      "path": "references/packaging/launcher.sh",
+      "url": "https://raw.githubusercontent.com/Vandomas/RecoilEngine-AppleSilicon/562fe461f8b045f863089815edac7f2d6559e178/packaging/launcher.sh",
+      "sha256": "261b5bc123d4a468a944f52de236010b4d285c307203e782f96fdc766142a133",
+      "bytes": 29215
+    },
+    {
+      "path": "references/packaging/error-dialog.swift",
+      "url": "https://raw.githubusercontent.com/Vandomas/RecoilEngine-AppleSilicon/562fe461f8b045f863089815edac7f2d6559e178/packaging/error-dialog.swift",
+      "sha256": "dea4d40a7f12b232d3fa02e26729077fbf7e31e17cff3e94c42fda2b6736f15b",
+      "bytes": 5876
+    },
+    {
+      "path": "references/tools/pr-downloader/src/Downloader/Http/HttpDownloader.cpp",
+      "url": "https://raw.githubusercontent.com/ExaDev/pr-downloader/e6510b3dd062d08675041401632b401831ce79d0/src/Downloader/Http/HttpDownloader.cpp",
+      "sha256": "12c8cfac32c95da17cd8ea27919dc217670aac07bc443360f173acc90b70ab3f",
+      "bytes": 23783
+    },
+    {
+      "path": "references/tools/pr-downloader/src/FileSystem/File.cpp",
+      "url": "https://raw.githubusercontent.com/ExaDev/pr-downloader/e6510b3dd062d08675041401632b401831ce79d0/src/FileSystem/File.cpp",
+      "sha256": "857ce49c20a08ea495e035e6559adedc0d32c5b3b8c11cf68372e145be4f20c7",
+      "bytes": 1509
+    },
+    {
+      "path": "references/tools/pr-downloader/src/FileSystem/FileSystem.cpp",
+      "url": "https://raw.githubusercontent.com/ExaDev/pr-downloader/e6510b3dd062d08675041401632b401831ce79d0/src/FileSystem/FileSystem.cpp",
+      "sha256": "818b3ece4247fc36292d676a7069ef42cf90754ab6a4bdc828f674655beb37b3",
+      "bytes": 19749
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ExaDev/pr-downloader/e6510b3dd062d08675041401632b401831ce79d0/src/Downloader/Rapid/Sdp.cpp",
+      "path": "references/tools/pr-downloader/src/Downloader/Rapid/Sdp.cpp",
+      "sha256": "069011a5fb9f944b5e1cf0712be18a9b65183f60d93a60051087a847ec5a92be",
+      "bytes": 13231
+    }
+  ],
+  "v0151_download_content_equal": true,
+  "checked_utc": "2026-09-10T19:21:46.835192+00:00"
+}

@@ -1,0 +1,573 @@
+{
+  "passed": true,
+  "version": "original",
+  "source_sha256": "261b5bc123d4a468a944f52de236010b4d285c307203e782f96fdc766142a133",
+  "test_sha256": "cd38422019dec87bef9c33443c09da8b5e6afc56f50958b12816d3a8e97b87cc",
+  "cases": 3,
+  "runs": 4,
+  "scenarios": [
+    {
+      "name": "rm-failure-false-success",
+      "provenance": {
+        "source_sha256": "261b5bc123d4a468a944f52de236010b4d285c307203e782f96fdc766142a133",
+        "integrity_sha256": "7b10e047e16b6b7440262839c63e1418f163542f0df93d477971bd2cf38c3e1c",
+        "outcome_sha256": "0afa91582a0dac84086e83fc1e82198d03a284aa4eb41acae080c9dc225a9e30",
+        "extracted_sha256": "766aaece9ad7d78325493c6c3f7f9c2b6252b1b278efd7af59130d4940bdba78"
+      },
+      "runs": [
+        {
+          "exit": 0,
+          "outcome": "failure",
+          "fault": {
+            "command": "rm",
+            "tail": [
+              "rapid"
+            ],
+            "phase": "startup",
+            "partial": false
+          },
+          "prepare_only": true,
+          "log": "rapid metadata restored \u2014 pre-update version prevails\n",
+          "dialog": "",
+          "boundaries": [
+            "prepare-complete"
+          ],
+          "operations": [
+            {
+              "command": "rm",
+              "args": [
+                "-rf",
+                "<EVIDENCE_ROOT>/results/portable-original/rm-failure-false-success/profile/rapid"
+              ],
+              "phase": "startup",
+              "injected": true,
+              "exit": 1
+            },
+            {
+              "command": "mv",
+              "args": [
+                "<EVIDENCE_ROOT>/results/portable-original/rm-failure-false-success/profile/rapid.pre-update",
+                "<EVIDENCE_ROOT>/results/portable-original/rm-failure-false-success/profile/rapid"
+              ],
+              "phase": "startup",
+              "injected": false,
+              "exit": 0
+            },
+            {
+              "command": "rm",
+              "args": [
+                "-rf",
+                "<EVIDENCE_ROOT>/results/portable-original/rm-failure-false-success/profile/rapid.pre-update"
+              ],
+              "phase": "startup",
+              "injected": false,
+              "exit": 0
+            },
+            {
+              "command": "cp",
+              "args": [
+                "-R",
+                "<EVIDENCE_ROOT>/results/portable-original/rm-failure-false-success/profile/rapid",
+                "<EVIDENCE_ROOT>/results/portable-original/rm-failure-false-success/profile/rapid.pre-update"
+              ],
+              "phase": "startup",
+              "injected": false,
+              "exit": 0
+            }
+          ],
+          "before": {
+            ".": {
+              "directory": true
+            },
+            ".lobby-installed": {
+              "sha256": "c706c0fb99e578e99281601fb2ab9ef13ba7680b496c92ba8d5dbad4ea1bd4bf",
+              "size": 22
+            },
+            "rapid": {
+              "directory": true
+            },
+            "rapid/host": {
+              "directory": true
+            },
+            "rapid/host/repos.gz": {
+              "sha256": "4a98bc68d463f4dbe1ce9f385b69380e92c86908f9258273ce8375652b04e7ed",
+              "size": 17
+            },
+            "rapid/host/versions.gz": {
+              "sha256": "6182ea97863749815b785969718c5ea5457c9c4032acde86d6d74a326930bd85",
+              "size": 13
+            },
+            "rapid.pre-update": {
+              "directory": true
+            },
+            "rapid.pre-update/host": {
+              "directory": true
+            },
+            "rapid.pre-update/host/repos.gz": {
+              "sha256": "4a98bc68d463f4dbe1ce9f385b69380e92c86908f9258273ce8375652b04e7ed",
+              "size": 17
+            },
+            "rapid.pre-update/host/versions.gz": {
+              "sha256": "6182ea97863749815b785969718c5ea5457c9c4032acde86d6d74a326930bd85",
+              "size": 13
+            }
+          },
+          "after": {
+            ".": {
+              "directory": true
+            },
+            ".lobby-installed": {
+              "sha256": "c706c0fb99e578e99281601fb2ab9ef13ba7680b496c92ba8d5dbad4ea1bd4bf",
+              "size": 22
+            },
+            "first-run-download.log": {
+              "sha256": "8078b8a86d74b77f054d45ff646414f8fcf14df0d7d03e8d8861262d6a05ad6b",
+              "size": 56
+            },
+            "rapid": {
+              "directory": true
+            },
+            "rapid/host": {
+              "directory": true
+            },
+            "rapid/host/repos.gz": {
+              "sha256": "4a98bc68d463f4dbe1ce9f385b69380e92c86908f9258273ce8375652b04e7ed",
+              "size": 17
+            },
+            "rapid/host/versions.gz": {
+              "sha256": "6182ea97863749815b785969718c5ea5457c9c4032acde86d6d74a326930bd85",
+              "size": 13
+            },
+            "rapid/rapid.pre-update": {
+              "directory": true
+            },
+            "rapid/rapid.pre-update/host": {
+              "directory": true
+            },
+            "rapid/rapid.pre-update/host/repos.gz": {
+              "sha256": "4a98bc68d463f4dbe1ce9f385b69380e92c86908f9258273ce8375652b04e7ed",
+              "size": 17
+            },
+            "rapid/rapid.pre-update/host/versions.gz": {
+              "sha256": "6182ea97863749815b785969718c5ea5457c9c4032acde86d6d74a326930bd85",
+              "size": 13
+            },
+            "rapid.pre-update": {
+              "directory": true
+            },
+            "rapid.pre-update/host": {
+              "directory": true
+            },
+            "rapid.pre-update/host/repos.gz": {
+              "sha256": "4a98bc68d463f4dbe1ce9f385b69380e92c86908f9258273ce8375652b04e7ed",
+              "size": 17
+            },
+            "rapid.pre-update/host/versions.gz": {
+              "sha256": "6182ea97863749815b785969718c5ea5457c9c4032acde86d6d74a326930bd85",
+              "size": 13
+            },
+            "rapid.pre-update/rapid.pre-update": {
+              "directory": true
+            },
+            "rapid.pre-update/rapid.pre-update/host": {
+              "directory": true
+            },
+            "rapid.pre-update/rapid.pre-update/host/repos.gz": {
+              "sha256": "4a98bc68d463f4dbe1ce9f385b69380e92c86908f9258273ce8375652b04e7ed",
+              "size": 17
+            },
+            "rapid.pre-update/rapid.pre-update/host/versions.gz": {
+              "sha256": "6182ea97863749815b785969718c5ea5457c9c4032acde86d6d74a326930bd85",
+              "size": 13
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "partial-copy-used-as-backup",
+      "provenance": {
+        "source_sha256": "261b5bc123d4a468a944f52de236010b4d285c307203e782f96fdc766142a133",
+        "integrity_sha256": "7b10e047e16b6b7440262839c63e1418f163542f0df93d477971bd2cf38c3e1c",
+        "outcome_sha256": "0afa91582a0dac84086e83fc1e82198d03a284aa4eb41acae080c9dc225a9e30",
+        "extracted_sha256": "766aaece9ad7d78325493c6c3f7f9c2b6252b1b278efd7af59130d4940bdba78"
+      },
+      "runs": [
+        {
+          "exit": 0,
+          "outcome": "failure",
+          "fault": {
+            "command": "cp",
+            "tail": [
+              "rapid",
+              "rapid.pre-update"
+            ],
+            "phase": "startup",
+            "partial": true
+          },
+          "prepare_only": false,
+          "log": "rapid metadata restored \u2014 pre-update version prevails\nupdate check failed (code 1 unknown) \u2014 continuing on existing content\n",
+          "dialog": "",
+          "boundaries": [
+            "prepare-complete",
+            "downloader-called",
+            "game-allowed"
+          ],
+          "operations": [
+            {
+              "command": "rm",
+              "args": [
+                "-rf",
+                "<EVIDENCE_ROOT>/results/portable-original/partial-copy-used-as-backup/profile/rapid.pre-update"
+              ],
+              "phase": "startup",
+              "injected": false,
+              "exit": 0
+            },
+            {
+              "command": "cp",
+              "args": [
+                "-R",
+                "<EVIDENCE_ROOT>/results/portable-original/partial-copy-used-as-backup/profile/rapid",
+                "<EVIDENCE_ROOT>/results/portable-original/partial-copy-used-as-backup/profile/rapid.pre-update"
+              ],
+              "phase": "startup",
+              "injected": true,
+              "exit": 1
+            },
+            {
+              "command": "rm",
+              "args": [
+                "-rf",
+                "<EVIDENCE_ROOT>/results/portable-original/partial-copy-used-as-backup/profile/rapid"
+              ],
+              "phase": "outcome",
+              "injected": false,
+              "exit": 0
+            },
+            {
+              "command": "mv",
+              "args": [
+                "<EVIDENCE_ROOT>/results/portable-original/partial-copy-used-as-backup/profile/rapid.pre-update",
+                "<EVIDENCE_ROOT>/results/portable-original/partial-copy-used-as-backup/profile/rapid"
+              ],
+              "phase": "outcome",
+              "injected": false,
+              "exit": 0
+            }
+          ],
+          "before": {
+            ".": {
+              "directory": true
+            },
+            ".lobby-installed": {
+              "sha256": "c706c0fb99e578e99281601fb2ab9ef13ba7680b496c92ba8d5dbad4ea1bd4bf",
+              "size": 22
+            },
+            "rapid": {
+              "directory": true
+            },
+            "rapid/host": {
+              "directory": true
+            },
+            "rapid/host/repos.gz": {
+              "sha256": "4a98bc68d463f4dbe1ce9f385b69380e92c86908f9258273ce8375652b04e7ed",
+              "size": 17
+            },
+            "rapid/host/versions.gz": {
+              "sha256": "6182ea97863749815b785969718c5ea5457c9c4032acde86d6d74a326930bd85",
+              "size": 13
+            }
+          },
+          "after": {
+            ".": {
+              "directory": true
+            },
+            ".lobby-installed": {
+              "sha256": "c706c0fb99e578e99281601fb2ab9ef13ba7680b496c92ba8d5dbad4ea1bd4bf",
+              "size": 22
+            },
+            "first-run-download.log": {
+              "sha256": "1001cf746b262c5abe1786e105205a146d5c556aa404cdd3da81c05963cf2ef9",
+              "size": 128
+            },
+            "rapid": {
+              "directory": true
+            },
+            "rapid/host": {
+              "directory": true
+            },
+            "rapid/host/repos.gz": {
+              "sha256": "4a98bc68d463f4dbe1ce9f385b69380e92c86908f9258273ce8375652b04e7ed",
+              "size": 17
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "failed-cleanup-rolls-back-success",
+      "provenance": {
+        "source_sha256": "261b5bc123d4a468a944f52de236010b4d285c307203e782f96fdc766142a133",
+        "integrity_sha256": "7b10e047e16b6b7440262839c63e1418f163542f0df93d477971bd2cf38c3e1c",
+        "outcome_sha256": "0afa91582a0dac84086e83fc1e82198d03a284aa4eb41acae080c9dc225a9e30",
+        "extracted_sha256": "766aaece9ad7d78325493c6c3f7f9c2b6252b1b278efd7af59130d4940bdba78"
+      },
+      "runs": [
+        {
+          "exit": 0,
+          "outcome": "success",
+          "fault": {
+            "command": "rm",
+            "tail": [
+              "rapid.pre-update"
+            ],
+            "phase": "outcome",
+            "partial": false
+          },
+          "prepare_only": false,
+          "log": "",
+          "dialog": "",
+          "boundaries": [
+            "prepare-complete",
+            "downloader-called",
+            "game-allowed"
+          ],
+          "operations": [
+            {
+              "command": "rm",
+              "args": [
+                "-rf",
+                "<EVIDENCE_ROOT>/results/portable-original/failed-cleanup-rolls-back-success/profile/rapid.pre-update"
+              ],
+              "phase": "startup",
+              "injected": false,
+              "exit": 0
+            },
+            {
+              "command": "cp",
+              "args": [
+                "-R",
+                "<EVIDENCE_ROOT>/results/portable-original/failed-cleanup-rolls-back-success/profile/rapid",
+                "<EVIDENCE_ROOT>/results/portable-original/failed-cleanup-rolls-back-success/profile/rapid.pre-update"
+              ],
+              "phase": "startup",
+              "injected": false,
+              "exit": 0
+            },
+            {
+              "command": "rm",
+              "args": [
+                "-rf",
+                "<EVIDENCE_ROOT>/results/portable-original/failed-cleanup-rolls-back-success/profile/rapid.pre-update"
+              ],
+              "phase": "outcome",
+              "injected": true,
+              "exit": 1
+            }
+          ],
+          "before": {
+            ".": {
+              "directory": true
+            },
+            ".lobby-installed": {
+              "sha256": "c706c0fb99e578e99281601fb2ab9ef13ba7680b496c92ba8d5dbad4ea1bd4bf",
+              "size": 22
+            },
+            "rapid": {
+              "directory": true
+            },
+            "rapid/host": {
+              "directory": true
+            },
+            "rapid/host/repos.gz": {
+              "sha256": "4a98bc68d463f4dbe1ce9f385b69380e92c86908f9258273ce8375652b04e7ed",
+              "size": 17
+            },
+            "rapid/host/versions.gz": {
+              "sha256": "6182ea97863749815b785969718c5ea5457c9c4032acde86d6d74a326930bd85",
+              "size": 13
+            }
+          },
+          "after": {
+            ".": {
+              "directory": true
+            },
+            ".lobby-installed": {
+              "sha256": "61e8dec2f11146c1720fb17cb1438610777d5d779f5a477121e9c6029b94e09d",
+              "size": 22
+            },
+            "first-run-download.log": {
+              "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "size": 0
+            },
+            "rapid": {
+              "directory": true
+            },
+            "rapid/host": {
+              "directory": true
+            },
+            "rapid/host/repos.gz": {
+              "sha256": "fb7a7e8c5d25e2ec9c88eacdc725385e101a055078db2b0a399b7e0c6d69e994",
+              "size": 17
+            },
+            "rapid/host/versions.gz": {
+              "sha256": "f36573ae2cfc51dc9aec0d7855df939ee7b09905b0b462e0015dcd07970d5255",
+              "size": 13
+            },
+            "rapid.pre-update": {
+              "directory": true
+            },
+            "rapid.pre-update/host": {
+              "directory": true
+            },
+            "rapid.pre-update/host/repos.gz": {
+              "sha256": "4a98bc68d463f4dbe1ce9f385b69380e92c86908f9258273ce8375652b04e7ed",
+              "size": 17
+            },
+            "rapid.pre-update/host/versions.gz": {
+              "sha256": "6182ea97863749815b785969718c5ea5457c9c4032acde86d6d74a326930bd85",
+              "size": 13
+            }
+          }
+        },
+        {
+          "exit": 0,
+          "outcome": "failure",
+          "fault": null,
+          "prepare_only": true,
+          "log": "rapid metadata restored \u2014 pre-update version prevails\n",
+          "dialog": "",
+          "boundaries": [
+            "prepare-complete"
+          ],
+          "operations": [
+            {
+              "command": "rm",
+              "args": [
+                "-rf",
+                "<EVIDENCE_ROOT>/results/portable-original/failed-cleanup-rolls-back-success/profile/rapid"
+              ],
+              "phase": "startup",
+              "injected": false,
+              "exit": 0
+            },
+            {
+              "command": "mv",
+              "args": [
+                "<EVIDENCE_ROOT>/results/portable-original/failed-cleanup-rolls-back-success/profile/rapid.pre-update",
+                "<EVIDENCE_ROOT>/results/portable-original/failed-cleanup-rolls-back-success/profile/rapid"
+              ],
+              "phase": "startup",
+              "injected": false,
+              "exit": 0
+            },
+            {
+              "command": "rm",
+              "args": [
+                "-rf",
+                "<EVIDENCE_ROOT>/results/portable-original/failed-cleanup-rolls-back-success/profile/rapid.pre-update"
+              ],
+              "phase": "startup",
+              "injected": false,
+              "exit": 0
+            },
+            {
+              "command": "cp",
+              "args": [
+                "-R",
+                "<EVIDENCE_ROOT>/results/portable-original/failed-cleanup-rolls-back-success/profile/rapid",
+                "<EVIDENCE_ROOT>/results/portable-original/failed-cleanup-rolls-back-success/profile/rapid.pre-update"
+              ],
+              "phase": "startup",
+              "injected": false,
+              "exit": 0
+            }
+          ],
+          "before": {
+            ".": {
+              "directory": true
+            },
+            ".lobby-installed": {
+              "sha256": "61e8dec2f11146c1720fb17cb1438610777d5d779f5a477121e9c6029b94e09d",
+              "size": 22
+            },
+            "first-run-download.log": {
+              "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "size": 0
+            },
+            "rapid": {
+              "directory": true
+            },
+            "rapid/host": {
+              "directory": true
+            },
+            "rapid/host/repos.gz": {
+              "sha256": "fb7a7e8c5d25e2ec9c88eacdc725385e101a055078db2b0a399b7e0c6d69e994",
+              "size": 17
+            },
+            "rapid/host/versions.gz": {
+              "sha256": "f36573ae2cfc51dc9aec0d7855df939ee7b09905b0b462e0015dcd07970d5255",
+              "size": 13
+            },
+            "rapid.pre-update": {
+              "directory": true
+            },
+            "rapid.pre-update/host": {
+              "directory": true
+            },
+            "rapid.pre-update/host/repos.gz": {
+              "sha256": "4a98bc68d463f4dbe1ce9f385b69380e92c86908f9258273ce8375652b04e7ed",
+              "size": 17
+            },
+            "rapid.pre-update/host/versions.gz": {
+              "sha256": "6182ea97863749815b785969718c5ea5457c9c4032acde86d6d74a326930bd85",
+              "size": 13
+            }
+          },
+          "after": {
+            ".": {
+              "directory": true
+            },
+            ".lobby-installed": {
+              "sha256": "61e8dec2f11146c1720fb17cb1438610777d5d779f5a477121e9c6029b94e09d",
+              "size": 22
+            },
+            "first-run-download.log": {
+              "sha256": "8078b8a86d74b77f054d45ff646414f8fcf14df0d7d03e8d8861262d6a05ad6b",
+              "size": 56
+            },
+            "rapid": {
+              "directory": true
+            },
+            "rapid/host": {
+              "directory": true
+            },
+            "rapid/host/repos.gz": {
+              "sha256": "4a98bc68d463f4dbe1ce9f385b69380e92c86908f9258273ce8375652b04e7ed",
+              "size": 17
+            },
+            "rapid/host/versions.gz": {
+              "sha256": "6182ea97863749815b785969718c5ea5457c9c4032acde86d6d74a326930bd85",
+              "size": 13
+            },
+            "rapid.pre-update": {
+              "directory": true
+            },
+            "rapid.pre-update/host": {
+              "directory": true
+            },
+            "rapid.pre-update/host/repos.gz": {
+              "sha256": "4a98bc68d463f4dbe1ce9f385b69380e92c86908f9258273ce8375652b04e7ed",
+              "size": 17
+            },
+            "rapid.pre-update/host/versions.gz": {
+              "sha256": "6182ea97863749815b785969718c5ea5457c9c4032acde86d6d74a326930bd85",
+              "size": 13
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

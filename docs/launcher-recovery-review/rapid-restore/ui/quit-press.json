@@ -1,0 +1,17 @@
+{
+  "axError" : -25204,
+  "elementIndex" : 9,
+  "executablePathVerified" : true,
+  "mode" : "quit",
+  "needsExitVerification" : true,
+  "ok" : false,
+  "pid" : 14220,
+  "pressAccepted" : false,
+  "pressAttempted" : true,
+  "sessionBeforePress" : {
+    "lockFlag" : "absent",
+    "loginDone" : true,
+    "onConsole" : true
+  },
+  "windowIndex" : 0
+}

@@ -1,0 +1,15 @@
+@S Checking free disk space
+@S Contacting content servers…
+@D Server: repos-cdn.beyondallreason.dev
+@I
+@D Package lists fetched: 1
+=== download attempt 1 rc=1 (server=0) ===
+pr-downloader v0.15.0-4-g8ab9474 (macos_arm64)
+[Info] tools/pr-downloader/src/FileSystem/FileSystem.cpp:203:setWritePath():Using filesystem-writepath: /test/profile
+[Info] tools/pr-downloader/src/pr-downloader.cpp:202:DownloadSetConfig():Free disk space: 5594851 MB
+[Info] tools/pr-downloader/src/Downloader/CurlWrapper.cpp:32:DumpVersion():libcurl 8.7.1 SecureTransport (LibreSSL/3.3.6)
+[Info] tools/pr-downloader/src/Downloader/CurlWrapper.cpp:81:ConfigureCertificates():CURLOPT_CAINFO is nullptr (can be overriden by PRD_SSL_CERT_FILE env variable)
+[Info] tools/pr-downloader/src/Downloader/CurlWrapper.cpp:83:ConfigureCertificates():CURLOPT_CAPATH is nullptr (can be overriden by PRD_SSL_CERT_DIR env variable)
+[Progress] 100% [==============================] 1/1 
+[Error] tools/pr-downloader/src/FileSystem/FileSystem.cpp:496:removeFile():Couldn't delete file /test/profile/rapid/repos-cdn.beyondallreason.dev/repos.gz: Operation not permitted
+@E:filesystem Could not access or update local game files. Couldn't delete file /test/profile/rapid/repos-cdn.beyondallreason.dev/repos.gz: Operation not permitted
