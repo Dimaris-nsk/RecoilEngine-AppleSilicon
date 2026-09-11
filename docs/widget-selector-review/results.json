@@ -1,0 +1,511 @@
+{
+  "scope": "Selected evidence for removal of one unused font include. Real offline BAR with private component packages; not full fork distribution.",
+  "product": {
+    "repository": "https://github.com/Vandomas/Beyond-All-Reason",
+    "base_commit": "fa05768ed652db1466490f36085dbca646e25341",
+    "path": "luaui/Widgets/widget_selector.lua",
+    "change": "Delete only include(\"fonts.lua\")",
+    "original_sha256": "5420528e0bedfa568a19164d7fb8e946271a51d0cade3fc6183202955affb264",
+    "candidate_sha256": "9f4ae1cd2ccb8145838718d68964cc18603c0d6be21f05c0c7b606e7a8017044"
+  },
+  "source_verification": {
+    "prepared_sha256": "b8ddd96ba060f0e2d532089847d224f28ffb619b0864cee5d285c2c35ec9f45e",
+    "independent_review_sha256": "a5948b8eaeac4d5387098a13e9e3a563da0e2543badc0091f3777dc35ba47b47",
+    "engine_release": "v0.15.1",
+    "engine_sha256": "c4abfd6a016ebab6cfb2acd8aed8435d3c01c012587bf284c47c43ad1719040c",
+    "game": "test-31251-0ceadc7",
+    "base_game_sdp": "838abf2e964eeb261260c95f5a731e57",
+    "base_game_sdp_sha256": "326921c04a6736b9d55d59ee489398321ae31505528394c59f5e0e822bf7e06b",
+    "descriptor_entries_each": 18469,
+    "changed_entries": [
+      "luaui/widgets/widget_selector.lua"
+    ],
+    "unchanged_entries": 18468,
+    "private_SDPS_and_pool_payloads_read_and_compared": true
+  },
+  "source_paths": "Logical relative paths within each named private raw run. Full logs/profiles omitted; hashes identify retained originals.",
+  "raw_sources": {
+    "original": {
+      "run_id": "run-607ae9449a0b4268a342a9f0c4953e3a",
+      "files": {
+        "selector-input.json": {
+          "sha256": "170aa32fc35efa19e19501c1a837c4dccfda22e00a962b09f110df0cc497591b",
+          "bytes": 1453
+        },
+        "selector-state.json": {
+          "sha256": "779117725b9b356a8f8a5068888fe5f342d90d034dc4f733e3f993507daef7f4",
+          "bytes": 2625
+        },
+        "selector-summary.json": {
+          "sha256": "627bb33f30227b156f44be9d6a17c3f051534fe4b9996ce4c909c9b4866d45ce",
+          "bytes": 4295
+        },
+        "result.json": {
+          "sha256": "2d1140ca5aa777e52a70f188e928366a8743c420645fe22d4e9d2a01eb3df369",
+          "bytes": 172
+        },
+        "report.json": {
+          "sha256": "e0eeeaf68c228c5548c1334b16e7f8b6fdd95254b24501421ca9fb7b1ae8b521",
+          "bytes": 18103
+        },
+        "root-visual-review.json": {
+          "sha256": "539f6fff491ad5dbbed6743f88c4ce0560023b8a6be409f1d574bcbcaae52888",
+          "bytes": 634
+        },
+        "infolog.txt": {
+          "sha256": "63a52feb604124ebef87ea2113893d0c50cf3b7b0d943cacfb483d5ccdaf8853",
+          "bytes": 167139
+        },
+        "process.log": {
+          "sha256": "51c554cbeb0ac5418971b05b694c9efbbf9c1c8114d86fffe1757bc8f205b140",
+          "bytes": 167622
+        },
+        "engine-stderr.log": {
+          "sha256": "25c91e2df50e9f627d5e7b0c7e2e5ccaab6e284ac7f5aa1be9ed5f69dde2426b",
+          "bytes": 1923
+        }
+      }
+    },
+    "fixed": {
+      "run_id": "run-3032ec7a82a54c94bbc1271454b7de66",
+      "files": {
+        "selector-input.json": {
+          "sha256": "1ae0c8a3c57f57c54641b885ab12247fb3e06e0308c7865a75c32fbbe55b4b23",
+          "bytes": 1447
+        },
+        "selector-state.json": {
+          "sha256": "73f9bcb0350f53171c3b22ba14259d3b9acf345274f38458a70dc125edbfb5ea",
+          "bytes": 16524
+        },
+        "selector-summary.json": {
+          "sha256": "8b7fd5582db9230c291f3534d0759dc3b790d1fd642cd7fbb02419a0ff43f689",
+          "bytes": 24213
+        },
+        "result.json": {
+          "sha256": "9f254c5684b3c50f56f36a01dbbc52eec047ed07de7c9ca19ea937675573ce1c",
+          "bytes": 169
+        },
+        "report.json": {
+          "sha256": "5f16112dadcc8f24a8f9608360dbe7c7cd025bdc403adb217aff0a6c3b096102",
+          "bytes": 18081
+        },
+        "root-visual-review.json": {
+          "sha256": "bf544863ce44f73995dd8a96ec31fc4b93215e9c418fd9ad8291f8be8a958f36",
+          "bytes": 3981
+        },
+        "infolog.txt": {
+          "sha256": "eaf56cba02b3aade1b3c3517c8f1053ad9a7920539b96316cf4de609943f9c76",
+          "bytes": 224169
+        },
+        "process.log": {
+          "sha256": "59b64b3f6b5b00641c96156dbc0ab385e7f2861635d3ed06b5b77f160e4545f7",
+          "bytes": 224755
+        },
+        "engine-stderr.log": {
+          "sha256": "72b34c6c8b89529cb715b910587df69d4d7a41e6d198fe7aae4817291b1dcb89",
+          "bytes": 1984
+        },
+        "screenshots/opened.png": {
+          "sha256": "710a15021488b6f7a8e9b183608c81edf87bef03550335128ade85f3d47797b8",
+          "bytes": 4247485
+        },
+        "screenshots/search.png": {
+          "sha256": "272d5de2c685a516b281ac6cf9cc878ab7ae95b3a9962dccad3414d83cae3ef9",
+          "bytes": 4482900
+        },
+        "screenshots/toggled.png": {
+          "sha256": "6784a6611b5a455ac385a80c1fbcb8011a606f37f24cd29beae0cf88765cf209",
+          "bytes": 4431786
+        },
+        "screenshots/reopened.png": {
+          "sha256": "4af5eecac200874733e263552db0cc3689ecb8cbd1bada81831c4e42519fbcf2",
+          "bytes": 4354360
+        }
+      }
+    }
+  },
+  "phases": {
+    "original": {
+      "run_id": "run-607ae9449a0b4268a342a9f0c4953e3a",
+      "identity": {
+        "private_package_id": "60bfa2cb714199afa42868919fd6b9b7",
+        "private_sdp_sha256": "5fed3cc8c5679316762fe9e0f9afdccf8fbe78334df38f64d6e633b24f9f526f",
+        "selector_sha256": "5420528e0bedfa568a19164d7fb8e946271a51d0cade3fc6183202955affb264",
+        "selector_sha512": "49c617c45863220baa8bf898d37c9aa387647d142cfa61ca9c115e5236e9dc720091e21e17e4ed03948861d15a645aa406c085aa3b46a2ad9b9576b1846f26e2",
+        "selector_bytes": 41442
+      },
+      "all_snapshots": {
+        "count": 2,
+        "archive": "Beyond All Reason test-31251-0ceadc7",
+        "expected_private_archive_path_verified": true,
+        "payload_SHA512_verified": true,
+        "raw_selector": false,
+        "selector_known_active_enabled": false,
+        "selector_instances": 0,
+        "WG_API_present": false,
+        "widgetselector_config": 1
+      },
+      "snapshots": [
+        {
+          "stage": "baseline",
+          "generation": 1,
+          "frame": 93,
+          "selector_visible": false,
+          "build_eta": {
+            "active": true,
+            "enabled": true,
+            "instances": 1
+          },
+          "camera_position": [
+            1400,
+            167.536926,
+            1400
+          ],
+          "camera_distance": 5000,
+          "camera_ry": 0,
+          "camera_dx": 0
+        },
+        {
+          "stage": "original-failure",
+          "generation": 1,
+          "frame": 3670,
+          "selector_visible": false,
+          "build_eta": {
+            "active": true,
+            "enabled": true,
+            "instances": 1
+          },
+          "camera_position": [
+            1400,
+            167.536926,
+            1400
+          ],
+          "camera_distance": 5000,
+          "camera_ry": 0,
+          "camera_dx": 0
+        }
+      ],
+      "native_missing_fonts_failure": true,
+      "selector_load_failures": [
+        "[t=00:00:10.240538][f=-000001] Failed to load: widget_selector.lua  ([LuaVFS::Include(synced=false)][loadvfs] file=LuaUI/fonts.lua status=-1 cenv=true vfsmode=rMmeb File not seen by VFS (missing or in different VFS mode))"
+      ],
+      "exit": {
+        "kind": "normal",
+        "engine_code": 0,
+        "elapsed_seconds_monotonic": 175.796563,
+        "lifetime_EOF": true,
+        "remaining_group": [],
+        "emergency_used": false,
+        "pauses": []
+      },
+      "visual_review": {
+        "reviewer": "OpenAI Codex root agent; not human review",
+        "source_sha256": "539f6fff491ad5dbbed6743f88c4ce0560023b8a6be409f1d574bcbcaae52888",
+        "verdict": "Actual game terrain, commander and HUD rendered; complete window visible. No Selector instance/API, native fonts.lua load failure. F11 fallback not used.",
+        "native_images_viewed": 2,
+        "physical_images_viewed": 1
+      }
+    },
+    "fixed": {
+      "run_id": "run-3032ec7a82a54c94bbc1271454b7de66",
+      "identity": {
+        "private_package_id": "72b6d4b0567b00a69eb045ab79d7d84c",
+        "private_sdp_sha256": "8b4cd8fc178fe67df6bd13db8bfb86299c3a7376d7ea7f2c2d95f809d047bcc2",
+        "selector_sha256": "9f4ae1cd2ccb8145838718d68964cc18603c0d6be21f05c0c7b606e7a8017044",
+        "selector_sha512": "a92c881282ed8e722e2cef399fc9c7efa4f15bd9e5c93ac40f0e17c06dfe5320b29a35878206c197145a0d7a8c7cfc5eb0138ffd7e6b1b90e91f5fe7521f6847",
+        "selector_bytes": 41421
+      },
+      "all_snapshots": {
+        "count": 13,
+        "archive": "Beyond All Reason test-31251-0ceadc7",
+        "expected_private_archive_path_verified": true,
+        "payload_SHA512_verified": true,
+        "raw_selector": false,
+        "selector_known_active_enabled": true,
+        "selector_instances": 1,
+        "WG_API_present": true,
+        "widgetselector_config": 1
+      },
+      "snapshots": [
+        {
+          "stage": "baseline",
+          "generation": 1,
+          "frame": 94,
+          "selector_visible": false,
+          "build_eta": {
+            "active": true,
+            "enabled": true,
+            "instances": 1
+          },
+          "camera_position": [
+            1400,
+            167.536926,
+            1400
+          ],
+          "camera_distance": 5000,
+          "camera_ry": 0,
+          "camera_dx": 0
+        },
+        {
+          "stage": "opened",
+          "generation": 1,
+          "frame": 1327,
+          "selector_visible": true,
+          "build_eta": {
+            "active": true,
+            "enabled": true,
+            "instances": 1
+          },
+          "camera_position": [
+            1400,
+            167.536926,
+            1400
+          ],
+          "camera_distance": 5000,
+          "camera_ry": 0,
+          "camera_dx": 0
+        },
+        {
+          "stage": "search",
+          "generation": 1,
+          "frame": 2268,
+          "selector_visible": true,
+          "build_eta": {
+            "active": true,
+            "enabled": true,
+            "instances": 1
+          },
+          "camera_position": [
+            1400,
+            167.536926,
+            1400
+          ],
+          "camera_distance": 5000,
+          "camera_ry": 0,
+          "camera_dx": 0
+        },
+        {
+          "stage": "cleared",
+          "generation": 1,
+          "frame": 2661,
+          "selector_visible": true,
+          "build_eta": {
+            "active": true,
+            "enabled": true,
+            "instances": 1
+          },
+          "camera_position": [
+            1400,
+            167.536926,
+            1400
+          ],
+          "camera_distance": 5000,
+          "camera_ry": 0,
+          "camera_dx": 0
+        },
+        {
+          "stage": "toggled",
+          "generation": 1,
+          "frame": 4582,
+          "selector_visible": true,
+          "build_eta": {
+            "active": false,
+            "enabled": false,
+            "instances": 0
+          },
+          "camera_position": [
+            1400,
+            167.536926,
+            1400
+          ],
+          "camera_distance": 5000,
+          "camera_ry": 0,
+          "camera_dx": 0
+        },
+        {
+          "stage": "restored",
+          "generation": 1,
+          "frame": 5382,
+          "selector_visible": true,
+          "build_eta": {
+            "active": true,
+            "enabled": true,
+            "instances": 1
+          },
+          "camera_position": [
+            1400,
+            167.536926,
+            1400
+          ],
+          "camera_distance": 5000,
+          "camera_ry": 0,
+          "camera_dx": 0
+        },
+        {
+          "stage": "closed",
+          "generation": 1,
+          "frame": 5941,
+          "selector_visible": false,
+          "build_eta": {
+            "active": true,
+            "enabled": true,
+            "instances": 1
+          },
+          "camera_position": [
+            1400,
+            167.536926,
+            1400
+          ],
+          "camera_distance": 5000,
+          "camera_ry": 0,
+          "camera_dx": 0
+        },
+        {
+          "stage": "input",
+          "generation": 1,
+          "frame": 6813,
+          "selector_visible": false,
+          "build_eta": {
+            "active": true,
+            "enabled": true,
+            "instances": 1
+          },
+          "camera_position": [
+            1913.97412,
+            203.657547,
+            1400
+          ],
+          "camera_distance": 5000,
+          "camera_ry": 0,
+          "camera_dx": 0
+        },
+        {
+          "stage": "before-reload",
+          "generation": 1,
+          "frame": 7431,
+          "selector_visible": false,
+          "build_eta": {
+            "active": true,
+            "enabled": true,
+            "instances": 1
+          },
+          "camera_position": [
+            1913.97412,
+            203.657547,
+            1400
+          ],
+          "camera_distance": 5000,
+          "camera_ry": 0,
+          "camera_dx": 0
+        },
+        {
+          "stage": "after-reload",
+          "generation": 2,
+          "frame": 11108,
+          "selector_visible": false,
+          "build_eta": {
+            "active": true,
+            "enabled": true,
+            "instances": 1
+          },
+          "camera_position": [
+            1913.97412,
+            203.657547,
+            1400
+          ],
+          "camera_distance": 5000,
+          "camera_ry": 0.47123894,
+          "camera_dx": 2e-08
+        },
+        {
+          "stage": "reopened",
+          "generation": 2,
+          "frame": 12009,
+          "selector_visible": true,
+          "build_eta": {
+            "active": true,
+            "enabled": true,
+            "instances": 1
+          },
+          "camera_position": [
+            1913.97412,
+            203.657547,
+            1400
+          ],
+          "camera_distance": 5000,
+          "camera_ry": 0.47123894,
+          "camera_dx": 2e-08
+        },
+        {
+          "stage": "reclosed",
+          "generation": 2,
+          "frame": 12737,
+          "selector_visible": false,
+          "build_eta": {
+            "active": true,
+            "enabled": true,
+            "instances": 1
+          },
+          "camera_position": [
+            1913.97412,
+            203.657547,
+            1400
+          ],
+          "camera_distance": 5000,
+          "camera_ry": 0.47123894,
+          "camera_dx": 2e-08
+        },
+        {
+          "stage": "input-after-reload",
+          "generation": 2,
+          "frame": 13597,
+          "selector_visible": false,
+          "build_eta": {
+            "active": true,
+            "enabled": true,
+            "instances": 1
+          },
+          "camera_position": [
+            1370.79016,
+            167.015533,
+            1400
+          ],
+          "camera_distance": 5000,
+          "camera_ry": 0.47123894,
+          "camera_dx": 2e-08
+        }
+      ],
+      "native_missing_fonts_failure": false,
+      "selector_load_failures": [],
+      "exit": {
+        "kind": "normal",
+        "engine_code": 0,
+        "elapsed_seconds_monotonic": 515.433411,
+        "lifetime_EOF": true,
+        "remaining_group": [],
+        "emergency_used": false,
+        "pauses": []
+      },
+      "visual_review": {
+        "reviewer": "OpenAI Codex root agent; not human review",
+        "source_sha256": "bf544863ce44f73995dd8a96ec31fc4b93215e9c418fd9ad8291f8be8a958f36",
+        "verdict": "Accepted for this selector scenario: readable opening, full BuildETA query, Escape clearing, off/on restoration, close, ordinary camera input, native LuaUI reload to generation2, reopen/close and camera input again.",
+        "native_images_viewed": 11,
+        "physical_images_viewed": 5
+      }
+    }
+  },
+  "interpretation": {
+    "original_passed": "Means the expected missing-font failure was reproduced; the original selector did not initialize.",
+    "visual_review_pending": "Raw observer flag remains true; separate later root-visual-review records actual agent visual inspection.",
+    "camera": "Position/dist persisted across reload, but orientation fields changed; full camera-state identity is not claimed. Camera px changed after closing the selector in both generations.",
+    "widget_order": "Numeric ordering changed during reload; enabled/active state and exactly one instance were restored, not a byte-identical whole profile."
+  },
+  "limitations": [
+    "Short private offline scenario; no full fork distribution, Finder flow or online match.",
+    "The observer recorded states and images; root performed real UI actions and inspected 11 native plus 5 physical fixed captures. These are checkpoints, not continuous presentation proof.",
+    "Known game/driver warnings remain. A 2793 ms draw gap occurred during LuaUI reload (fixed infolog line2110), then simulation and input continued. No broad rendering/performance or clean-log claim.",
+    "BuildETA toggling and instance restoration were checked, not a broad test of construction ETA calculations.",
+    "Codex authored the change/checks and performed agent review; human review is requested through the PR."
+  ]
+}

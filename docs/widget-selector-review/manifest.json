@@ -1,0 +1,194 @@
+{
+  "status": "local evidence only; not published",
+  "path_semantics": "source_path is relative to source_root, never an owner filesystem path",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 3759,
+      "sha256": "f4d2d9bea80748fbc6c4e7e473954e791c90fb1e5ad3d5f119026b590390d4dd",
+      "provenance": {
+        "kind": "new English explanation of the recorded bounded native comparison",
+        "source_hashes": "results.json raw_sources and source_verification"
+      }
+    },
+    {
+      "path": "fixed-infolog-excerpt.log",
+      "bytes": 3091,
+      "sha256": "b41af14bc4bedb6740df3faae2f22f584fde00cedbd7a27d4d0a991686cccd00",
+      "provenance": {
+        "kind": "selected verbatim lines with added source/range headers; no line redactions",
+        "source_root": "private raw runs retained locally",
+        "source_path": "run-3032ec7a82a54c94bbc1271454b7de66/infolog.txt",
+        "source_sha256": "eaf56cba02b3aade1b3c3517c8f1053ad9a7920539b96316cf4de609943f9c76",
+        "line_ranges_1based": [
+          [
+            1157,
+            1158
+          ],
+          [
+            1219,
+            1219
+          ],
+          [
+            1510,
+            1510
+          ],
+          [
+            1545,
+            1546
+          ],
+          [
+            1549,
+            1551
+          ],
+          [
+            1554,
+            1558
+          ],
+          [
+            1560,
+            1563
+          ],
+          [
+            1565,
+            1565
+          ],
+          [
+            1763,
+            1764
+          ],
+          [
+            1823,
+            1823
+          ],
+          [
+            2102,
+            2102
+          ],
+          [
+            2110,
+            2113
+          ],
+          [
+            2115,
+            2116
+          ],
+          [
+            2127,
+            2127
+          ],
+          [
+            2223,
+            2223
+          ]
+        ]
+      }
+    },
+    {
+      "path": "opened.png",
+      "bytes": 4247485,
+      "sha256": "710a15021488b6f7a8e9b183608c81edf87bef03550335128ade85f3d47797b8",
+      "provenance": {
+        "kind": "unchanged native framebuffer PNG, personally viewed by root and package-preparation Codex agents",
+        "source_root": "private fixed raw run retained locally",
+        "source_path": "run-3032ec7a82a54c94bbc1271454b7de66/screenshots/opened.png",
+        "source_sha256": "710a15021488b6f7a8e9b183608c81edf87bef03550335128ade85f3d47797b8"
+      }
+    },
+    {
+      "path": "original-infolog-excerpt.log",
+      "bytes": 1341,
+      "sha256": "a1984e90806e5f5ad78944737f6b57cddf8980a80e98ae115b16edd77f7baf83",
+      "provenance": {
+        "kind": "selected verbatim lines with added source/range headers; no line redactions",
+        "source_root": "private raw runs retained locally",
+        "source_path": "run-607ae9449a0b4268a342a9f0c4953e3a/infolog.txt",
+        "source_sha256": "63a52feb604124ebef87ea2113893d0c50cf3b7b0d943cacfb483d5ccdaf8853",
+        "line_ranges_1based": [
+          [
+            1130,
+            1130
+          ],
+          [
+            1154,
+            1155
+          ],
+          [
+            1217,
+            1217
+          ],
+          [
+            1542,
+            1543
+          ],
+          [
+            1547,
+            1547
+          ],
+          [
+            1550,
+            1550
+          ],
+          [
+            1562,
+            1562
+          ],
+          [
+            1657,
+            1657
+          ]
+        ]
+      }
+    },
+    {
+      "path": "reopened.png",
+      "bytes": 4354360,
+      "sha256": "4af5eecac200874733e263552db0cc3689ecb8cbd1bada81831c4e42519fbcf2",
+      "provenance": {
+        "kind": "unchanged native framebuffer PNG, personally viewed by root and package-preparation Codex agents",
+        "source_root": "private fixed raw run retained locally",
+        "source_path": "run-3032ec7a82a54c94bbc1271454b7de66/screenshots/reopened.png",
+        "source_sha256": "4af5eecac200874733e263552db0cc3689ecb8cbd1bada81831c4e42519fbcf2"
+      }
+    },
+    {
+      "path": "results.json",
+      "bytes": 17167,
+      "sha256": "a0895d7eb08a03847d0fbb9defb2ff5c04a2309e8bcd652bf7b11daae39f52ec",
+      "provenance": {
+        "kind": "explicit selected-field projection; no full raw file copied",
+        "source_hashes": "raw_sources in this file",
+        "independent_review_sha256": "a5948b8eaeac4d5387098a13e9e3a563da0e2543badc0091f3777dc35ba47b47"
+      }
+    },
+    {
+      "path": "search.png",
+      "bytes": 4482900,
+      "sha256": "272d5de2c685a516b281ac6cf9cc878ab7ae95b3a9962dccad3414d83cae3ef9",
+      "provenance": {
+        "kind": "unchanged native framebuffer PNG, personally viewed by root and package-preparation Codex agents",
+        "source_root": "private fixed raw run retained locally",
+        "source_path": "run-3032ec7a82a54c94bbc1271454b7de66/screenshots/search.png",
+        "source_sha256": "272d5de2c685a516b281ac6cf9cc878ab7ae95b3a9962dccad3414d83cae3ef9"
+      }
+    },
+    {
+      "path": "toggled.png",
+      "bytes": 4431786,
+      "sha256": "6784a6611b5a455ac385a80c1fbcb8011a606f37f24cd29beae0cf88765cf209",
+      "provenance": {
+        "kind": "unchanged native framebuffer PNG, personally viewed by root and package-preparation Codex agents",
+        "source_root": "private fixed raw run retained locally",
+        "source_path": "run-3032ec7a82a54c94bbc1271454b7de66/screenshots/toggled.png",
+        "source_sha256": "6784a6611b5a455ac385a80c1fbcb8011a606f37f24cd29beae0cf88765cf209"
+      }
+    }
+  ],
+  "human_review": "requested through PR; not represented as completed",
+  "file_count_excluding_manifest": 8,
+  "privacy_review": {
+    "text": "No owner filesystem paths, user/account names or credentials found in all included text files. Relative source identifiers and raw-file hashes retained.",
+    "images": "All four personally viewed; original bytes, local SelectorReview and AI names only. Metadata inspected: DevIL generator, empty Author and Description. No physical desktop images included.",
+    "transformation": "JSON is an explicit field selection; log excerpts preserve selected source lines verbatim with added headers. No source log lines were rewritten."
+  }
+}

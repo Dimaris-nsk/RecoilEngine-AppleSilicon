@@ -1,0 +1,64 @@
+# Selected verbatim source lines; omitted lines are not reproduced.
+# Source: run-3032ec7a82a54c94bbc1271454b7de66/infolog.txt
+# Raw SHA256: eaf56cba02b3aade1b3c3517c8f1053ad9a7920539b96316cf4de609943f9c76
+
+# Source lines 1157-1158
+[t=00:00:10.314577][f=-000001] Loading widget from user:  BAR selector review observer  <dbg_bar_widget_selector.lua> ...
+[t=00:00:10.314881][f=-000001] [selector-probe] initialized, 1, fixed
+
+# Source lines 1219-1219
+[t=00:00:10.689490][f=-000001] Loading widget from mod:   BuildETA            <gui_build_eta.lua> ...
+
+# Source lines 1510-1510
+[t=00:00:11.127624][f=-000001] Loading widget from mod:   Widget Selector     <widget_selector.lua> ...
+
+# Source lines 1545-1546
+[t=00:00:16.233449][f=0000094] [selector-probe] ready, 94, true
+[t=00:00:16.233476][f=0000094] [selector-probe] snapshot, baseline, 1, true
+
+# Source lines 1549-1551
+[t=00:00:58.063174][f=0001327] [selector-probe] snapshot, opened, 1, true
+[t=00:01:29.407442][f=0002268] [selector-probe] snapshot, search, 1, true
+[t=00:01:42.544546][f=0002661] [selector-probe] snapshot, cleared, 1, true
+
+# Source lines 1554-1558
+[t=00:02:45.674380][f=0004576] Removed:  LuaUI/Widgets/gui_build_eta.lua
+[t=00:02:45.741424][f=0004578] Input grabbing is enabled!
+[t=00:02:46.454859][f=0004582] [selector-probe] snapshot, toggled, 1, true
+[t=00:03:12.309580][f=0005375] Loading:  LuaUI/Widgets/gui_build_eta.lua
+[t=00:03:13.122081][f=0005382] [selector-probe] snapshot, restored, 1, true
+
+# Source lines 1560-1563
+[t=00:03:31.742375][f=0005941] [selector-probe] snapshot, closed, 1, true
+[t=00:03:35.144419][f=0006060] [log] previous line repeated 100 more time(s) [section: ]
+[t=00:04:00.791563][f=0006813] [selector-probe] snapshot, input, 1, true
+[t=00:04:21.425666][f=0007431] [selector-probe] snapshot, before-reload, 1, true
+
+# Source lines 1565-1565
+[t=00:06:03.548633][f=0010512] [selector-probe] shutdown, 1, false
+
+# Source lines 1763-1764
+[t=00:06:04.261408][f=0010512] Loading widget from user:  BAR selector review observer  <dbg_bar_widget_selector.lua> ...
+[t=00:06:04.262228][f=0010512] [selector-probe] initialized, 2, fixed
+
+# Source lines 1823-1823
+[t=00:06:04.569047][f=0010512] Loading widget from mod:   BuildETA            <gui_build_eta.lua> ...
+
+# Source lines 2102-2102
+[t=00:06:04.794249][f=0010512] Loading widget from mod:   Widget Selector     <widget_selector.lua> ...
+
+# Source lines 2110-2113
+[t=00:06:06.337067][f=0010512] Warning: [stall] draw gap 2793ms (drawFrame=180939, stalls=26)
+[t=00:06:25.769185][f=0011108] [selector-probe] snapshot, after-reload, 2, true
+[t=00:06:55.847581][f=0012009] [selector-probe] snapshot, reopened, 2, true
+[t=00:07:20.103467][f=0012737] [selector-probe] snapshot, reclosed, 2, true
+
+# Source lines 2115-2116
+[t=00:07:48.758852][f=0013597] [selector-probe] snapshot, input-after-reload, 2, true
+[t=00:08:31.880204][f=0014908] [selector-probe] quit, manual-finish, 14908, 0
+
+# Source lines 2127-2127
+[t=00:08:31.920449][f=0014908] [selector-probe] shutdown, 2, true
+
+# Source lines 2223-2223
+[t=00:08:34.026242] [SpringApp::Kill][8]

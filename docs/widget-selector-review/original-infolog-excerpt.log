@@ -1,0 +1,29 @@
+# Selected verbatim source lines; omitted lines are not reproduced.
+# Source: run-607ae9449a0b4268a342a9f0c4953e3a/infolog.txt
+# Raw SHA256: 63a52feb604124ebef87ea2113893d0c50cf3b7b0d943cacfb483d5ccdaf8853
+
+# Source lines 1130-1130
+[t=00:00:10.240538][f=-000001] Failed to load: widget_selector.lua  ([LuaVFS::Include(synced=false)][loadvfs] file=LuaUI/fonts.lua status=-1 cenv=true vfsmode=rMmeb File not seen by VFS (missing or in different VFS mode))
+
+# Source lines 1154-1155
+[t=00:00:10.263874][f=-000001] Loading widget from user:  BAR selector review observer  <dbg_bar_widget_selector.lua> ...
+[t=00:00:10.264146][f=-000001] [selector-probe] initialized, 1, original
+
+# Source lines 1217-1217
+[t=00:00:10.623128][f=-000001] Loading widget from mod:   BuildETA            <gui_build_eta.lua> ...
+
+# Source lines 1542-1543
+[t=00:00:16.068554][f=0000093] [selector-probe] ready, 93, true
+[t=00:00:16.068576][f=0000093] [selector-probe] snapshot, baseline, 1, true
+
+# Source lines 1547-1547
+[t=00:02:16.059764][f=0003670] [selector-probe] snapshot, original-failure, 1, true
+
+# Source lines 1550-1550
+[t=00:02:52.347164][f=0004777] [selector-probe] quit, manual-finish, 4777, 0
+
+# Source lines 1562-1562
+[t=00:02:52.383564][f=0004777] [selector-probe] shutdown, 1, true
+
+# Source lines 1657-1657
+[t=00:02:54.486501] [SpringApp::Kill][8]
